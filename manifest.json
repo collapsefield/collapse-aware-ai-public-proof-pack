@@ -1,0 +1,48 @@
+{
+  "project": "Collapse Aware AI — Public Proof Pack",
+  "version": "v0.1",
+  "maintainer": "Inappropriate Media Limited (t/a Collapse Aware AI)",
+  "contact_email": "thecollapseawareai@gmail.com",
+  "release_date": "2025-10-11",
+  "description": "Manifest file for the public-proof documentation of Collapse Aware AI (CAAI). Contains synthetic run metadata and hash placeholders for transparency verification. No proprietary code or parameters are included.",
+  "repository_visibility": "public (documentation only)",
+  "license": "MIT (for documentation only)",
+  "synthetic_runs": [
+    {
+      "run_id": "r-001",
+      "bias_enabled": false,
+      "seed": 101,
+      "log_file": "sample_logs/bias_off_example.json",
+      "sha256_hash": "sha256-0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "run_id": "r-002",
+      "bias_enabled": true,
+      "seed": 101,
+      "log_file": "sample_logs/bias_on_example.json",
+      "sha256_hash": "sha256-1111111111111111111111111111111111111111111111111111111111111111"
+    },
+    {
+      "run_id": "r-003",
+      "bias_enabled": true,
+      "seed": 101,
+      "note": "memory wiped control run",
+      "log_file": "sample_logs/memory_wipe_control.json",
+      "sha256_hash": "sha256-2222222222222222222222222222222222222222222222222222222222222222"
+    }
+  ],
+  "metrics_tracked": [
+    "state_entropy_window (H)",
+    "policy_kl_delta (KL)",
+    "reencounter_flag (ΔP)",
+    "unique_encounter_rate (U)"
+  ],
+  "controls_included": [
+    "seed_parity",
+    "memory_wipe",
+    "decoy_cues",
+    "hash_signed_logs"
+  ],
+  "integrity_note": "All hashes above are illustrative placeholders. Full verification manifests for production builds are stored privately by Inappropriate Media Limited.",
+  "copyright": "© 2025 Inappropriate Media Limited. All rights reserved. Protected under Verrell–Solace Sovereignty Protocol."
+}
