@@ -40,7 +40,7 @@ The full middleware build is proprietary and licensed separately.
 
 - **Project title:** Collapse Aware AI — Public Proof Pack  
 - **Maintainer:** Inappropriate Media Limited (t/a Collapse Aware AI)  
-- **Contact:** thecollapseawareai@gmail.com  
+- **Contact:** collapseawareai@gmail.com  
 - **Release:** v0.1 (October 2025)  
 - **Visibility:** Public documentation only — no source or algorithm code.  
 - **License:** MIT (for this documentation only)
