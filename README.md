@@ -36,7 +36,7 @@ Minimal Architecture (High-Level Only)
    [Logging & Telemetry]        (run_id, seed, bias_flag, metrics)
 
 
-The internals of the Bias Modulator are private; everything else is safe to disclose.
+The internals of the Bias Modulator are private.
 
 Public Evidence Included Here
 
@@ -48,7 +48,6 @@ C. Sample Runs (Synthetic) — illustrative, non-reverse-engineerable examples.
 
 D. Metrics to Inspect — what to measure and why it matters.
 
-E. FAQ & Anti-“Hard-Coded” Controls — how we rule out trivial conditionals.
 
 When the partner demo is published, this repo will add real logs, short videos/GIFs, and a signed case study using this schema.
 
