@@ -83,3 +83,7 @@ If you reference this repo, cite:
 Changelog
 
 2025-10-11: Initial public release (v0.1)
+
+See also → Verrell’s Law – Core Theory
+ • Einstein Informational Tensor Extension
+ • CollapseAware AI Applications
