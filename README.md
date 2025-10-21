@@ -87,3 +87,18 @@ Changelog
 See also → Verrell’s Law – Core Theory
  • Einstein Informational Tensor Extension
  • CollapseAware AI Applications
+
+ ### 🌐 Citation & Open Science Record
+
+This framework has been formally accepted into the [Open Science Community-Lab (OSC-L)](https://zenodo.org/communities/open-science-community-lab) collection on Zenodo.
+
+**DOI:** [10.5281/zenodo.17392582](https://doi.org/10.5281/zenodo.17392582)  
+**Title:** *Collapse-Aware AI: Middleware for Resonance-Biased Emergence in Neural Architectures (Verrell’s Law Ψμν Framework)*  
+**Author:** M.R. (Inappropriate Media Ltd.)  
+**Status:** Community-curated and indexed via OpenAIRE / Google Scholar.
+
+This record establishes the theoretical foundation (Ψμν informational tensor) that underpins the
+Collapse-Aware AI bias engine and middleware.  
+For replication, refer to `/docs/Psi_Tensor_Framework_VerrellsLaw_v1.0.md` and the algorithmic
+specifications in `/core/`.
+
