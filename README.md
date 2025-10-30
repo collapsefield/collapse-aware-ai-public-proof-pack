@@ -96,7 +96,7 @@ See also → Verrell’s Law – Core Theory
 
  ### 🌐 Citation & Open Science Record
 
-This framework has been formally accepted into the [Open Science Community-Lab (OSC-L)](https://zenodo.org/communities/open-science-community-lab) collection on Zenodo.
+This framework has been formally accepted into the [Open Science Community-Lab (OSC-L] collection on Zenodo. https://zenodo.org/communities/osc-l/records?q=&l=list&p=1&s=10&sort=newest
 
 **DOI:** [10.5281/zenodo.17392582](https://doi.org/10.5281/zenodo.17392582)  
 **Title:** *Collapse-Aware AI: Middleware for Resonance-Biased Emergence in Neural Architectures (Verrell’s Law Ψμν Framework)*  
