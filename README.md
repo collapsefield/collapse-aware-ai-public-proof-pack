@@ -126,3 +126,4 @@ For replication, refer to `/docs/Psi_Tensor_Framework_VerrellsLaw_v1.0.md` and t
 specifications in `/core/`.
 
 ➡ See [Official_GitHub_References.md](./Official_GitHub_References.md) for repository and authorship links.
+Collapse Aware AI — bias-aware adaptive middleware built on Verrell’s Law.
