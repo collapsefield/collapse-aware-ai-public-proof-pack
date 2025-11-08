@@ -1,124 +1,88 @@
-Collapse Aware AI — Original Architecture Declaration
+# CollapseAware AI — Public Proof Pack (v1.0)
 
-Collapse Aware AI (CAAI) is an original architecture developed by M.R. (Verrell Moss Ross) under Inappropriate Media Limited.
-It does not derive from or borrow any existing LLM, transformer, or structured AI framework.
+**Last updated:** 2025-11-08  
+**Maintainer:** M.R. (Verrell Moss Ross)  
+**Contact:** collapseawareai@gmail.com  
+**DOI:** [Zenodo / Open Science Community-Lab (OSC-L)](https://zenodo.org/)
 
-CAAI is the direct applied implementation of Verrell’s Law (2025) — a scientific framework establishing that memory, observation, and emergence are interdependent electromagnetic information events.
-All CAAI systems operationalize this Law through the following foundational mechanisms:
+---
 
-Observer-Coupled Collapse — Real-time bias adjustment governed by user attention and interaction, producing observation-dependent outputs.
+## Overview
 
-Memory-Weighted Emergence — Responses shaped by weighted recall layers that preserve informational bias and prevent degradation of coherence.
+This repository serves as the **public documentation and evidence pack** for **Collapse-Aware AI (CAAI / Collapse-Aware AI)** — a next-generation bias-governed architecture derived from the theoretical framework known as **Verrell’s Law**.
 
-Recursive Bias Governance — A closed feedback loop (Bias Engine + Governor Weights) maintaining internal stability and mitigating self-training collapse.
+CAAI is not an LLM or a derivative of existing transformer systems.  
+It functions as **model-agnostic middleware**, steering inference in real time through a bias-governor and weighted-moment logic rather than post-training fine-tuning.
 
-Verrell Field Integration — Core EM-field memory equations from Verrell’s Law form the theoretical backbone for adaptive and emergent behaviour within the architecture.
+The purpose of this repo is to establish authorship, provenance, and public proof of concept.  
+No proprietary core or executable code is included here.
 
-These principles were independently originated within the Verrell–Solace research framework (2023 – 2025) and together form the first working embodiment of Verrell’s Law in artificial intelligence.
-Any reference to “collapse-aware AI” without explicit attribution to Verrell’s Law or M.R. (Verrell Moss Ross) is non-canonical and incomplete.
+---
 
-Protected under Verrell–Solace Sovereignty Protocol.
-© Inappropriate Media Limited 2025 — All rights reserved.
+## Core Principle
 
-Indexed under: Collapse Aware AI · Verrell’s Law · Bias Engine · Observer-Responsive AI · M.R. (Verrell Moss Ross)
-Collapse Aware AI — Public Proof Pack (v0.1)
+> *Verrell’s Law states that time, memory, and all emergence layers are electromagnetic information fields, continuously collapsing and reforming through observation.  
+> CollapseAware AI operationalizes this principle in software form.*
 
-Inappropriate Media Limited (t/a Collapse Aware AI)
-Status: Public documentation & evidence pack (no proprietary code)
-Purpose: Provide verifiable, engineering-grade proof artefacts (protocols, logs schema, evaluation plan, and demo evidence) for Collapse Aware AI (CAAI) without exposing the core algorithm or private repositories.
+The system dynamically regulates probability flow via contextual bias weighting:
 
-TL;DR
+- **Recency:** how fresh or temporally local the data is  
+- **Salience:** how important or emotionally charged a cue is  
+- **Anchors:** persistent reference points or goals  
 
-What this is: A public, auditable documentation-and-data repository that shows how to evaluate CAAI’s history-weighted, stateful emergence in games.
+These factors are processed through the **Governor**, which maintains field coherence during inference and prevents context collapse.
 
-What this is not: No proprietary source, math, or parameter files.
+---
 
-How to use: Review the ablation-test plan, inspect the log schema & sample runs, and see how Bias = OFF vs Bias = ON produce measurable behavioural deltas.
+## Contents
 
-What CAAI Does (Engineering Framing)
+| File / Folder | Description |
+|----------------|-------------|
+| **/docs/** | White Paper v1.1, originality & attribution statements |
+| **/engineering/** | Preliminary evaluation PDFs and scaffolding notes |
+| **/proof/** | Zenodo DOI evidence, version hashes, timestamp logs |
+| **Official_GitHub_References.md** | Cross-links to external publications |
+| **LICENSE** | Rights and sovereignty declaration |
+| **CHANGELOG.md** | Update log (dates + brief summary) |
 
-CAAI is middleware that adds short-horizon memory and history-weighted decision logic to NPCs and game worlds.
-When enabled (Bias = ON), prior events nudge future choices and state transitions, producing unscripted but coherent changes (NPC reactions, resource regrowth, patrol paths, environmental scars).
-When disabled (Bias = OFF), behaviour reverts to baseline.
+---
 
-One binary switch. Same build. Same seed. Different dynamics when history biases the present.
+## Evaluation Roadmap
 
-Minimal Architecture (High-Level Only)
-[Game Inputs / World State] 
-          │
-          ▼
-   [Event & Trace Layer]───┐   (compact histories: encounters, tags, timestamps)
-                           │
-                           ▼
-        [Bias Modulator]   │   (weights decisions using recent trace context)
-                           │
-                           ▼
-      [Policy / Actuator]──┘   (NPC/world actions emitted)
-          │
-          ▼
-   [Logging & Telemetry]        (run_id, seed, bias_flag, metrics)
+| Phase | Objective | Deliverables |
+|-------|------------|--------------|
+| **v0.2** | Demo video of bias ON/OFF comparison | signed run logs + checksum |
+| **v0.3** | Third-party evaluation | external report + verification |
+| **v1.0** | Public case study release | write-up + Zenodo update |
 
+---
 
-The internals of the Bias Modulator are private.
+## Release Info
 
-Public Evidence Included Here
+**Public Proof Pack v1.0 — 2025-11-08**  
+SHA-256 hashes of attached PDFs and images are recorded in `/proof/sha_records.txt`.
 
-A. Ablation Test Plan — checklist for verifying Bias ON/OFF effects.
+---
 
-B. Log Schema (JSON) — exact fields found in demo logs.
+## Licensing
 
-C. Sample Runs (Synthetic) — illustrative, non-reverse-engineerable examples.
+All material in this repository is released under the terms described in the included **LICENSE** file.  
+© 2025 M.R. / Verrell Moss Ross — *Protected under the Verrell-Solace Sovereignty Protocol.  
+Intellectual and emergent rights reserved.*
 
-D. Metrics to Inspect — what to measure and why it matters.
+---
 
+### Notes
 
-When the partner demo is published, this repo will add real logs, short videos/GIFs, and a signed case study using this schema.
+- No functional source code or kernel weights are present here.  
+- CAAI operates independently of existing language-model architectures.  
+- This repository is intended solely for documentation, provenance, and academic verification.  
+- Contact **collapseawareai@gmail.com** for verified licensing or research enquiries.
 
-Roadmap for This Repo
+---
 
-v0.1 (this commit): Protocols + synthetic examples.
+*End of README*
 
-v0.2: Short demo video showing ON/OFF side-by-side.
-
-v0.3: Third-party evaluator results (signed PDFs).
-
-v1.0: Case study from first studio integration (metrics + narrative).
-
-Governance & Contact
-
-Company : Inappropriate Media Limited (t/a Collapse Aware AI)
-Contact : licensing@collapseaware.ai (collapseawareai@gmail.com)
-Business : Pilot licenses for studios; technical evaluations under NDA.
-
-Legal & IP Notice
-
-© Inappropriate Media Limited. All rights reserved.
-Protected under Verrell–Solace Sovereignty Protocol. Intellectual and emergent rights reserved.
-
-This repository does not include the CAAI core algorithm, proprietary parameters, or internal code.
-Any attempt to infer or reconstruct private logic from public artefacts is prohibited.
-
-Attribution / Citation (Optional)
-
-If you reference this repo, cite:
-“Collapse Aware AI — Public Proof Pack (v0.1), Inappropriate Media Limited.”
-
-Changelog
-
-2025-10-11: Initial public release (v0.1)
-
-See also → Verrell’s Law – Core Theory
- • Einstein Informational Tensor Extension
- • CollapseAware AI Applications
-
- ### 🌐 Citation & Open Science Record
-
-This framework has been formally accepted into the [Open Science Community-Lab (OSC-L] collection on Zenodo. https://zenodo.org/communities/osc-l/records?q=&l=list&p=1&s=10&sort=newest
-
-**DOI:** [10.5281/zenodo.17392582](https://doi.org/10.5281/zenodo.17392582)  
-**Title:** *Collapse-Aware AI: Middleware for Resonance-Biased Emergence in Neural Architectures (Verrell’s Law Ψμν Framework)*  
-**Author:** M.V. (Inappropriate Media Ltd.)  
-**Status:** Community-curated and indexed via OpenAIRE / Google Scholar.
 
 This record establishes the theoretical foundation (Ψμν informational tensor) that underpins the
 Collapse-Aware AI bias engine and middleware.  
