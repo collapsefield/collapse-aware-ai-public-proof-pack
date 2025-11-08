@@ -4,6 +4,7 @@
 **Maintainer:** M.R. (Verrell Moss Ross)  
 **Contact:** collapseawareai@gmail.com  
 **DOI:** [Zenodo / Open Science Community-Lab (OSC-L)](https://zenodo.org/)
+https://doi.org/10.5281/zenodo.17416435
 
 ---
 
