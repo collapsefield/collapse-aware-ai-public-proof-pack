@@ -117,7 +117,7 @@ This framework has been formally accepted into the [Open Science Community-Lab (
 
 **DOI:** [10.5281/zenodo.17392582](https://doi.org/10.5281/zenodo.17392582)  
 **Title:** *Collapse-Aware AI: Middleware for Resonance-Biased Emergence in Neural Architectures (Verrell’s Law Ψμν Framework)*  
-**Author:** M.R. (Inappropriate Media Ltd.)  
+**Author:** M.V. (Inappropriate Media Ltd.)  
 **Status:** Community-curated and indexed via OpenAIRE / Google Scholar.
 
 This record establishes the theoretical foundation (Ψμν informational tensor) that underpins the
