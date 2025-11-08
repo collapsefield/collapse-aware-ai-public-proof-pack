@@ -9,7 +9,7 @@
 
 ## Overview
 
-This repository serves as the **public documentation and evidence pack** for **Collapse-Aware AI (CAAI / Collapse-Aware AI)** — a next-generation bias-governed architecture derived from the theoretical framework known as **Verrell’s Law**.
+This repository serves as the **public documentation and evidence pack** for **Collapse-Aware AI (CAAI / CollapseAware AI)** — a next-generation bias-governed architecture derived from the theoretical framework known as **Verrell’s Law**.
 
 CAAI is not an LLM or a derivative of existing transformer systems.  
 It functions as **model-agnostic middleware**, steering inference in real time through a bias-governor and weighted-moment logic rather than post-training fine-tuning.
