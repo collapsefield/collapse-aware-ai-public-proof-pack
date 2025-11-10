@@ -1,4 +1,4 @@
-# CollapseAware AI — Public Proof Pack (v1.0)
+# Collapse-Aware AI — Public Proof Pack (v1.0)
 
 **Last updated:** 2025-11-08  
 **Maintainer:** M.R. (Verrell Moss Ross)  
