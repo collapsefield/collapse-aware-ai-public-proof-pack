@@ -1,7 +1,23 @@
-# Collapse Aware AI — Public Technical Overview (v1.0, Revised)
+# Collapse Aware AI — Public Technical Overview (v1.0, Final)
 **Inappropriate Media Limited**  
-**Collapse Aware AI – Public Architecture Document**  
+**Collapse Aware AI – Behavioural Architecture Overview**  
 **This file contains high-level conceptual descriptions only. No proprietary algorithms, kernel logic, or implementation details are shared.**
+
+---
+
+# Executive Summary
+
+Collapse Aware AI (CAAI) introduces a new **behavioural-first paradigm** for intelligent systems.  
+Unlike conventional AI models that treat context as static, CAAI dynamically **collapses** multiple possible interpretations into stable outputs, guided by memory bias, salience, and behavioural modulation.
+
+This approach enables:
+- long-term conversational continuity  
+- realistic, stable behaviour in interactive systems  
+- ambiguity resolution  
+- tone-aware responsiveness  
+- drift reduction over extended interactions  
+
+CAAI is built as licensable middleware designed for studios, enterprises, and researchers seeking to integrate collapse-aware intelligence into their systems—without exposing proprietary kernel logic.
 
 ---
 
@@ -112,7 +128,7 @@ The Governor provides behavioural regulation and stability, ensuring:
 - Reduced drift  
 - Interpretation sanity-checks  
 
-**Relationship with THB:**  
+**THB Integration:**  
 The Truth–Hedge Bias (THB) signal feeds into the Governor as a behavioural stability indicator, allowing it to detect uncertainty or hedging before approving a final collapse direction.
 
 All internal rules and thresholds remain confidential.
@@ -142,13 +158,19 @@ Emotional Superposition models user emotional states as multiple possibilities b
 A message like *“I’m fine”* may initially register as potentially happy, neutral, or frustrated.  
 Additional context, prior anchors, and interaction history then drive the collapse toward one dominant interpretation, rather than treating the phrase as flat text.
 
+---
+
 ### **7.2 Context Ledger**
 
 Tracks which contextual facts appear stable, revoked, or updated.
 
+---
+
 ### **7.3 User Tone Profile Echo**
 
 Recognises tone shifts (humour, seriousness, sarcasm) to stabilise conversational flow.
+
+---
 
 ### **7.4 Autobiographical Echo**
 
@@ -158,23 +180,26 @@ No internal architecture, data structures, or collapse mechanics are included.
 
 ---
 
-## 8. Example Use Cases (Non-sensitive, Non-numeric)
+## 8. Expanded Use Cases (Non-sensitive)
 
-These examples illustrate potential behavioural advantages without revealing any internal mechanisms:
+### **1. Gaming + NPC Systems**
+- NPCs maintain continuity across long quests  
+- Tone-aware responses (anger, humour, tension)  
+- Collapse dynamics prevent erratic behaviour or context loss  
+- Strong Memory Anchors enable long-term relationship arcs  
 
-- **Continuity:**  
-CAAI maintains consistent topic interpretation across long multi-turn conversations.
+### **2. Conversational Agents**
+- Reduced drift in long conversations  
+- Stable interpretations of ambiguous user intent  
+- Improved human-likeness through emotional superposition  
+- Safer behavioural gating via Governor + THB  
 
-- **Ambiguity Resolution:**  
-When user intent is unclear, the system evaluates competing interpretations before collapsing to one.
+### **3. Research + Analysis Assistants**
+- Maintains topic fidelity across complex multi-step reasoning  
+- Better disambiguation when multiple interpretations are possible  
+- More stable collapse choices in multi-branch enquiries  
 
-- **Reduced Drift:**  
-Context Ledger + THB help the system remain grounded and avoid drifting into irrelevant output.
-
-- **Tone-Adaptive Behaviour:**  
-The Tone Profile Echo module detects humour, sarcasm, and emotional cues for more natural conversation.
-
-These claims are conceptual only and not performance guarantees.
+These examples do not disclose any implementation details.
 
 ---
 
@@ -207,9 +232,39 @@ and form the protected IP of Collapse Aware AI.
 
 This overview is provided publicly to support understanding of **CAAI’s behavioural-first architecture**, which prioritises continuity and context-aware decision-making, while maintaining strict protection over all proprietary implementation details.
 
-This document is public to support AI research transparency and informed discussion, while protecting commercial implementation details.
+**Why public?**  
+To support AI research transparency and informed discussion, while protecting commercial implementation details.
 
-For licensing inquiries:  
-**Inappropriate Media Limited (t/a Collapse Aware AI)**
+**Commercial Note:**  
+Collapse Aware AI is available for licensing as a behavioural middleware layer, enabling studios and enterprises to integrate collapse-aware intelligence into their systems without exposing proprietary kernel logic.
+
+For licensing inquiries: 
 Email: collapseawareai@gmail.com
+**Inappropriate Media Limited (t/a Collapse Aware AI)**
+
+---
+
+# Glossary (Non-technical)
+
+**Weighted Moments:**  
+Signals that highlight meaningful conversational events (based on recency, salience, repetition).
+
+**Strong Memory Anchors:**  
+High-value contextual markers that influence future interpretation.
+
+**Collapse Dynamics:**  
+The process of selecting one final interpretation from multiple internal possibilities.
+
+**Emotional Superposition:**  
+Temporary multi-state emotional interpretation before collapse.
+
+**Truth–Hedge Bias (THB):**  
+A behavioural stability indicator that detects hedging or uncertainty.
+
+**Context Ledger:**  
+Tracks which contextual facts are stable, revoked, or updated.
+
+**Governor:**  
+Behavioural regulator ensuring stability, coherence and safe collapse direction.
+
 ---
