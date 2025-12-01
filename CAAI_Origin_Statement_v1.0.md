@@ -102,7 +102,7 @@ This document exists to ensure historical and technical accuracy as the field ev
 If future researchers or labs reference or build upon collapse-aware systems,  
 the appropriate citation is:
 
-**Ross, M.R. (2025). Collapse Aware AI: Bias-Weighted Collapse Architecture and the Bias Engine.  
+**Verrell Moss Ross, M.R. (2025). Collapse Aware AI: Bias-Weighted Collapse Architecture and the Bias Engine.  
 Inappropriate Media Limited.**
 
 ---
