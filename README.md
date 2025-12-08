@@ -1,6 +1,6 @@
 # Collapse-Aware AI — Public Proof Pack (v1.0)
 
-**Last updated:** 2025-11-28  
+**Last updated:** 2025-12-08  
 **Maintainer:** Marcos Verrell Moss Ross (M.R.)  
 **Contact:** collapseawareai@gmail.com  
 **DOI:** https://doi.org/10.5281/zenodo.17416435
