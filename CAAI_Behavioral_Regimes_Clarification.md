@@ -56,7 +56,7 @@ It exists to prevent breakdown, not to generate novelty.
 ## Important Clarifications
 
 - Regime detection is **multi-signal**, not based on a single metric
-- No public equation fully describes the internal process
+- No public equation fully describes the internal process, as the governing mathematics are implemented privately and intentionally not disclosed in full.
 - Mathematical analogies are **conceptual**, not literal implementations
 - Detailed mechanics remain proprietary by design
 
