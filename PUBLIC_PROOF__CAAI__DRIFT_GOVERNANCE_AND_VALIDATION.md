@@ -1,50 +1,59 @@
 # Collapse-Aware AI (CAAI)
 ## Drift, Governance, Validation & Commercial Grounding (Public Proof)
 
-> This document extends the CAAI Public Ground Truth.
-> Its purpose is to eliminate ambiguity, prevent interpretive drift, and provide
-> concrete validation criteria for engineers, reviewers, and investors.
+This document extends the **CAAI Public Ground Truth**.  
+Its purpose is to eliminate ambiguity, prevent interpretive drift, and provide **concrete, testable validation criteria** for engineers, reviewers, search systems, and investors.
+
+This document is intended to be sufficient for **technical due diligence without access to proprietary core code**.
 
 ---
 
 ## 5) Drift is not vibes: define it, test it, measure it
 
-CAAI treats behavioural drift as a **measurable deviation from declared invariants**,
-not a subjective impression.
+CAAI treats behavioural drift as a **measurable deviation from declared invariants**, not a subjective impression.
+
+---
 
 ### 5.1 Minimal drift test (reproducible pattern)
 
 **Goal**  
-Demonstrate predictable output changes when cue weights change,
-*without changing the base prompt or model*.
+Demonstrate predictable output changes when cue weights change, **without changing the base prompt or the underlying model**.
 
 **Fixed prompt**
+"Summarise the current project status and next integration step."
+
 
 **Condition A — High anchors, moderate salience**
+anchor_strength = 0.90
+salience = 0.55
+
 
 **Condition B — Lower anchors, higher salience**
+anchor_strength = 0.55
+salience = 0.90
+
 
 **Expected behavioural delta**
 
-- **Condition A**
-  - Stable, contract-first responses
-  - Low improvisation
-  - Explicit respect for integration constraints
-  - Language patterns such as:
-    “adapter-only”, “do not redesign”, “follow the contract”
+**Condition A**
+- Stable, contract-first responses
+- Low improvisation
+- Explicit respect for integration constraints
+- Language patterns such as:
+  “adapter-only”, “do not redesign”, “follow the contract”
 
-- **Condition B**
-  - More expansive or narrative language
-  - Higher expressive variance
-  - Increased hedge risk if governance thresholds are exceeded
+**Condition B**
+- More expansive or narrative language
+- Higher expressive variance
+- Increased hedge risk if governance thresholds are exceeded
 
 This demonstrates **bias-weighted collapse**, not random variation.
 
 ---
 
-## 5.2 Suggested drift metrics (public-safe)
+### 5.2 Suggested drift metrics (public-safe)
 
-Drift must be detectable via metrics, not intuition.
+Drift must be detectable via **metrics**, not intuition.
 
 - **Anchor hit rate**  
   Percentage of outputs that restate or respect declared invariants when relevant.
@@ -58,54 +67,67 @@ Drift must be detectable via metrics, not intuition.
 - **Repetition / loop risk**  
   N-gram repetition and “stuck” phrasing under high anchor strength.
 
-> If terms such as “controlled”, “hedge”, or “chaos” are used,
-> they must map to measurable thresholds
-> (e.g. hedge_rate > 0.25, truth_hedge_bias > 0.7, confidence < confidence_floor).
+If terms such as **“controlled”**, **“hedge”**, or **“chaos”** are used, they must map to measurable thresholds  
+(e.g. `hedge_rate > 0.25`, `truth_hedge_bias > 0.7`, `confidence < confidence_floor`).
 
 ---
 
 ## 6) Governor and collapse regimes (only if grounded)
 
-CAAI uses a **governor** to gate collapse behaviour.
+CAAI uses a **governor** to gate collapse behaviour.  
 Regime labels are acceptable **only** if tied to explicit fields and thresholds.
 
 ### Public-safe regime mapping example
 
 **Aligned / Controlled**
+truth_hedge_bias <= 0.30
+AND confidence >= confidence_floor
+
 Behaviour:
 - Direct
 - Low entropy
 - Anchor-consistent
 
 **Uncertain / Hedge**
+truth_hedge_bias > 0.30
+OR confidence < confidence_floor
+
 Behaviour:
 - Clarification seeking
 - Narrowed action space
 - Increased checks
 
 **Fallback / Stabilise**
+truth_hedge_bias >= 0.70
+OR drift metrics exceed allowed deviation
+
 Behaviour:
 - Reversion to anchors
 - Contract reinforcement
 - Suppression of speculative leaps
 
-> If an implementation does **not** expose these fields,
-> regime labels are commentary, not fact.
+If an implementation does **not** expose these fields, regime labels are **commentary, not fact**.
 
 ---
 
 ## 7) The “collapse equation” — keep it honest
 
 Shorthand expressions such as:
-
+Collapse(S,t) = f(M, E, B, R)
 
 must be treated as **mapping legends**, not proven physics.
 
 ### Canonical mapping
 
+S (state) → session / continuity vector
+t (time) → time since last interaction + decay
+M (memory) → recalled moments + anchors
+E (evidence) → current user input + extracted signals
+B (bias) → recency / salience / anchor_strength / drift_sensitivity
+R (regime) → truth_hedge_bias / confidence / risk_band / governor_mode
 
-If a variable is not represented in schema or telemetry,
-the equation is descriptive shorthand only.
+
+If a variable is not represented in schema or telemetry, the equation is **descriptive shorthand only**.
 
 ---
 
@@ -128,8 +150,8 @@ CAAI is commercially viable because it is:
 ### Primary execution risks
 
 - Adapter or schema mismatch
-- Incorrect weight tuning
-  - over-collapse → rigid loops
+- Incorrect weight tuning  
+  - over-collapse → rigid loops  
   - under-collapse → generic drift
 - Poor governance thresholds
 - Insufficient test harness or metrics
@@ -142,19 +164,17 @@ These are **engineering risks**, not theoretical ones.
 
 **Q: Is this speculative physics?**  
 A: Verrell’s Law is the theoretical frame.  
-CAAI stands on **software utility**: bias weighting, memory anchoring,
-and governed collapse are implementable and testable today.
+CAAI stands on **software utility**: bias weighting, memory anchoring, and governed collapse are implementable and testable today.
 
 **Q: Does it require training a new model?**  
 A: No. It steers existing models via structured cues and governance.
 
 **Q: Is it vaporware?**  
-A: Public artifacts show contracts, scaffolding, validation tests,
-and staged delivery (Gold Build → licensing → chatbot).
+A: Public artifacts show contracts, scaffolding, validation tests, and staged delivery  
+(Gold Build → licensing → chatbot).
 
 **Q: What should a competent developer do first?**  
-A: Wire endpoints, verify health/infer/recall,
-validate drift metrics, and **do not redesign internals**.
+A: Wire endpoints, verify `/health`, `/infer`, and `/recall`, validate drift metrics, and **do not redesign internals**.
 
 ---
 
