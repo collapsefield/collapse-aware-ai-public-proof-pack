@@ -1,150 +1,184 @@
-# Collapse-Aware AI — Public Proof Pack (v1.0)
+# Collapse-Aware AI — Public Proof Pack
 
-**Last updated:** 2026-03-04  
-**Maintainer:** Marcos Verrell Moss Ross (M.R.)  
-**Contact:** collapseawareai@gmail.com  
-**DOI:** https://doi.org/10.5281/zenodo.17674143
-
----
-
-## Overview
-
-This repository is the **public documentation and evidence pack** for **Collapse-Aware AI (CAAI / CollapseAware AI)** — a bias-governed, continuity-aware AI middleware architecture derived from **Verrell’s Law**.
-
-CAAI is **not** a large language model and **not** a derivative transformer architecture.  
-It operates as **model-agnostic middleware**, steering inference in real time via:
-
-- a bias governor  
-- weighted-moment logic  
-- collapse-aware routing  
-
-rather than post-training fine-tuning or weight modification.
-
-The purpose of this repository is to establish:
-
-- authorship and provenance  
-- public proof-of-model  
-- architectural credibility  
-- reproducible, non-speculative framing  
-
-No proprietary core, kernel, or executable implementation code is included.
+Last updated: 2026-03-04  
+Maintainer: Marcos Verrell Moss Ross (M.R.)  
+Contact: collapseawareai@gmail.com  
+DOI: https://doi.org/10.5281/zenodo.17674143
 
 ---
 
-## Core Principle
+# Overview
 
-**Verrell’s Law** states that time, memory, and emergent behaviour arise from **memory-weighted informational collapse**, rather than from stateless computation alone.
+This repository serves as the **public documentation and provenance record** for Collapse-Aware AI (CAAI).
 
-Collapse-Aware AI operationalises this principle in software by regulating probability flow during inference using three canonical factors:
+Collapse-Aware AI is a **model-agnostic behavioural middleware architecture** derived from Verrell’s Law.  
+Rather than modifying model weights or relying solely on prompt context, CAAI regulates inference behaviour through structured bias signals and governance mechanisms applied during output selection.
 
-- **Recency** — how temporally fresh or local a signal is  
-- **Salience** — how important, relevant, or contextually charged a cue is  
-- **Anchors** — persistent reference points, objectives, or identity invariants  
+The system operates as middleware between a host runtime and an underlying model or decision engine.
 
-These factors are mediated by a **Governor**, which maintains coherence, limits drift, and prevents uncontrolled context collapse.
+Core behavioural regulation occurs through:
 
----
+• weighted behavioural memory  
+• bias-conditioned candidate selection  
+• governed collapse control  
 
-## What This Repository Is (and Is Not)
-
-### This repository **is**:
-- A public proof pack and technical grounding layer  
-- A documentation and validation resource for engineers, reviewers, and investors  
-- A provenance and authorship record (with DOI support)  
-- A non-speculative description of a working architecture and its governance model  
-
-### This repository **is not**:
-- An open-source implementation  
-- A release of proprietary core logic or kernel code  
-- A runnable system or SDK  
-- A replacement for licensed builds or private demonstrations  
+No proprietary kernel implementation or executable code is included in this repository.
 
 ---
 
-## Repository Structure (What’s Inside)
+# Development Stage
 
-This repository contains the following categories of material:
+CAAI development currently follows a staged architecture progression:
 
-### Core Public Proof Documents
-- **PUBLIC_PROOF__CAAI_VERRELLS_LAW__GROUND_TRUTH.md**  
-  Non-speculative grounding document defining what CAAI is, what exists publicly, and what remains private.
-- **PUBLIC_PROOF__CAAI__DRIFT_GOVERNANCE_AND_VALIDATION.md**  
-  Drift definition, governance logic, validation criteria, and commercial grounding.
+Phase-1 — Gold Build Prototype  
+Initial demonstration of bias-weighted behavioural continuity and governed collapse selection.
 
-### Architecture & Technical Overviews
-- `01_CANONICAL_OVERVIEW__Collapse_Aware_AI.md`
-- `CAAI_Architecture_Overview_Public_Proof_v1.0.md`
-- `CAAI_Public_Technical_Overview_v1.0.md`
-- `collapse_aware_ai_overview.md`
+Phase-1.5 — Integration Build (current stage)  
+Stabilised architecture separating the Crown behavioural engine from the host runtime and preparing the system for integration testing and licensing demonstrations.
 
-### Governance, Safety & Regimes
-- `CAAI_Health_Safety_and_Governance_v1.0.md`
-- `CAAI_Behavioral_Regimes_Clarification.md`
+Phase-2 — Expanded Behavioural Architecture (research stage)  
+Future modules including probabilistic modelling, emotional state influence, and advanced behavioural stability systems.
 
-### Research, Whitepapers & Corroboration
-- `CollapseAwareAI_Whitepaper_v1.1.pdf`
-- `Verrell_Hypothesis_v1.4_Zenodo_Edition.pdf`
-- `CAAI_v1_5_research_partial.pdf`
-- `CAAI_v1_5_research_part2.pdf`
-- `REFEREE_RESPONSE_v1.2_VERRELLS_LAW_PATHB.pdf`
-- `/docs/corroborations/` (external mapping and reference material)
-
-### Provenance, Attribution & Metadata
-- `CollapseAwareAI_Originality_Statement.md`
-- `CollapseAwareAI_Originality_and_Attribution.md`
-- `Official_GitHub_References.md`
-- `PROJECT_TAGS_AND_METADATA.md`
-- `PUBLIC_PROOF_CONTENT.md`
-- `manifest.json`
-
-### Licensing
-- `LICENSE` — copyright, usage, and sovereignty terms
-
-> **Note:**  
-> This public proof pack intentionally contains **no `/core/` directory**, no model weights, and no proprietary implementation files.
+This repository documents the **Phase-1 foundation and the Phase-1.5 integration architecture**.
 
 ---
 
-## Evaluation & Verification Roadmap
+# Core Principle
+
+Verrell’s Law proposes that time, memory, and emergent behaviour arise from **memory-weighted informational collapse**, rather than purely stateless computation.
+
+Collapse-Aware AI operationalises this concept through three canonical bias signals:
+
+Recency  
+Temporal proximity of behavioural signals.
+
+Salience  
+Contextual importance or behavioural significance of events.
+
+Anchors  
+Persistent behavioural reference points that stabilise identity and long-term system objectives.
+
+These signals are regulated by a **Governor layer** that maintains behavioural coherence, limits uncontrolled drift, and enforces operational constraints.
+
+---
+
+# What This Repository Is (and Is Not)
+
+## This repository is
+
+• A public documentation and technical reference archive  
+• A proof-of-origin and provenance record for CAAI architecture  
+• A conceptual explanation of the system’s behavioural model  
+• A supporting resource for technical evaluation and verification  
+
+## This repository is not
+
+• An open-source implementation of Collapse-Aware AI  
+• A release of proprietary Crown kernel logic  
+• A runnable SDK or model distribution  
+• A substitute for licensed builds or controlled demonstrations
+
+---
+
+# Repository Structure
+
+The repository contains several categories of documentation.
+
+## Core Public Proof Documents
+
+PUBLIC_PROOF__CAAI_VERRELLS_LAW__GROUND_TRUTH.md  
+Defines the conceptual grounding of CAAI and its relationship to Verrell’s Law.
+
+PUBLIC_PROOF__CAAI__DRIFT_GOVERNANCE_AND_VALIDATION.md  
+Explains behavioural drift detection, governance logic, and validation approach.
+
+## Architecture & Technical Overviews
+
+01_CANONICAL_OVERVIEW__Collapse_Aware_AI.md  
+CAAI_Architecture_Overview_Public_Proof_v1.0.md  
+CAAI_Public_Technical_Overview_v1.0.md  
+collapse_aware_ai_overview.md  
+
+These files describe the architecture and behavioural middleware model.
+
+## Governance, Safety & Behavioural Regimes
+
+CAAI_Health_Safety_and_Governance_v1.0.md  
+CAAI_Behavioral_Regimes_Clarification.md  
+
+These documents explain behavioural regime control and system stability governance.
+
+## Research, Whitepapers & Supporting Material
+
+CollapseAwareAI_Whitepaper_v1.1.pdf  
+Verrell_Hypothesis_v1.4_Zenodo_Edition.pdf  
+CAAI_v1_5_research_partial.pdf  
+CAAI_v1_5_research_part2.pdf  
+REFEREE_RESPONSE_v1.2_VERRELLS_LAW_PATHB.pdf  
+
+Additional corroborating materials are located in:
+
+/docs/corroborations/
+
+## Provenance, Attribution & Metadata
+
+CollapseAwareAI_Originality_Statement.md  
+CollapseAwareAI_Originality_and_Attribution.md  
+Official_GitHub_References.md  
+PROJECT_TAGS_AND_METADATA.md  
+PUBLIC_PROOF_CONTENT.md  
+manifest.json
+
+## Licensing
+
+LICENSE — copyright and usage terms.
+
+---
+
+# Evaluation & Verification Roadmap
 
 | Phase | Objective | Deliverables |
-|------|----------|-------------|
-| v0.2 | Bias ON/OFF demo comparison | Signed run logs + checksums |
-| v0.3 | Third-party technical evaluation | External verification report |
-| v1.0 | Public case study release | Write-up + Zenodo update |
+|------|-----------|--------------|
+| v0.2 | Bias ON/OFF behavioural comparison | Signed run logs + checksums |
+| v0.3 | Third-party technical evaluation | Independent verification report |
+| v1.0 | Public case study release | Technical write-up + Zenodo update |
 
-SHA-256 hashes of all published PDFs and images are recorded in the proof logs where applicable.
+Where applicable, SHA-256 hashes of published materials are recorded in proof logs.
 
 ---
 
-## Licensing & Rights
+# Licensing & Rights
 
-All materials in this repository are released under the terms defined in the included **LICENSE** file.
+All materials in this repository are released under the terms defined in the included LICENSE file.
 
-© 2025–2026 **Marcos Verrell Moss Ross (M.R.)**  
-Protected under the **Verrell-Solace Sovereignty Protocol**.  
+© 2025–2026 Marcos Verrell Moss Ross (M.R.)
+
+Protected under the Verrell-Solace Sovereignty Protocol.  
 Intellectual and emergent rights reserved.
 
 ---
 
-## Important Notes
+# Important Notes
 
-- No functional source code, kernel weights, or proprietary algorithms are present.
-- CAAI operates independently of existing language-model architectures.
-- This repository exists solely for documentation, provenance, and technical verification.
-- For licensing, partnerships, or verified research enquiries, contact: **collapseawareai@gmail.com**
+No functional source code, kernel weights, or proprietary behavioural algorithms are included.
 
----
+Collapse-Aware AI is implemented as a middleware architecture and is licensed separately from this documentation repository.
 
-## Further Reading & References
+For licensing enquiries, research collaboration, or partnership discussions:
 
-This record establishes the theoretical foundation (Ψμν informational tensor) underpinning the Collapse-Aware AI bias engine and middleware.
-
-For deeper study, see:
-- `/docs/Psi_Tensor_Framework_VerrellsLaw_v1.0.md` *(private specifications not included)*  
-- `Official_GitHub_References.md` for cross-repository and authorship links  
+collapseawareai@gmail.com
 
 ---
 
-**Collapse-Aware AI**  
-Bias-aware, continuity-driven middleware built on Verrell’s Law.
+# Further Reading
+
+The theoretical foundation of the architecture is described in the Ψμν informational tensor framework associated with Verrell’s Law.
+
+For additional references see:
+
+Official_GitHub_References.md
+
+---
+
+Collapse-Aware AI  
+Bias-aware, continuity-driven behavioural middleware architecture.
