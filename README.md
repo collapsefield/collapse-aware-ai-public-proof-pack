@@ -9,6 +9,48 @@ DOI: https://doi.org/10.5281/zenodo.17674143
 
 # Overview
 
+## System Definition
+
+Collapse-Aware AI (CAAI) is a model-agnostic behavioural middleware architecture.
+
+It sits between a host system and an underlying model or decision engine and modifies inference behaviour through structured bias regulation rather than weight modification.
+
+Key characteristics:
+
+• Middleware architecture (not a standalone model)  
+• Model-agnostic integration layer  
+• Behaviour governed by structured memory signals  
+• No transcript storage required for continuity  
+• Candidate scoring and collapse selection during inference  
+
+Primary system components:
+
+Bias Engine  
+Evaluates candidate outputs using structured behavioural memory.
+
+Continuity Memory  
+Stores weighted behavioural moments representing prior system context.
+
+Governor  
+Applies behavioural stability constraints and prevents uncontrolled drift.
+
+Collapse Selection  
+Chooses the final output based on bias-weighted scoring and governance rules.
+
+Operational behaviour:
+
+User Input  
+↓  
+Base model generates candidate outputs  
+↓  
+Bias engine scores candidates using structured memory  
+↓  
+Collapse selection resolves final output  
+↓  
+Governor validates behavioural stability  
+↓  
+Continuity memory updates
+
 This repository serves as the **public documentation and provenance record** for Collapse-Aware AI (CAAI).
 
 Collapse-Aware AI is a **model-agnostic behavioural middleware architecture** derived from Verrell’s Law.  
