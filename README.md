@@ -1,6 +1,6 @@
 # Collapse-Aware AI — Public Proof Pack
 
-Last updated: 2026-03-12  
+Last updated: 2026-03-20  
 Maintainer: Marcos Verrell Moss Ross (M.R.)  
 Contact: collapseawareai@gmail.com  
 DOI: https://doi.org/10.5281/zenodo.17674143
