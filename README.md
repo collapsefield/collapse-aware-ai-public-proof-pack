@@ -195,8 +195,8 @@ All materials in this repository are released under the terms defined in the inc
 
 © 2025–2026 Marcos Verrell Moss Ross (M.R.)
 
-Protected under the Verrell-Solace Sovereignty Protocol.  
-Intellectual and emergent rights reserved.
+All rights reserved.
+Use, reproduction, modification, distribution, or commercial exploitation of repository contents is prohibited except with prior written permission from the rights holder.
 
 ---
 
