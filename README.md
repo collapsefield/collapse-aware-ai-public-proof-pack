@@ -119,7 +119,6 @@ These signals are regulated by a **Governor layer** that maintains behavioural c
 • An open-source implementation of Collapse-Aware AI  
 • A release of proprietary Crown kernel logic  
 • A runnable SDK or model distribution  
-• A substitute for licensed builds or controlled demonstrations
 
 ---
 
