@@ -226,5 +226,4 @@ Official_GitHub_References.md
 
 ---
 
-Collapse-Aware AI  
-Bias-aware, continuity-driven behavioural middleware architecture.
+Others may be exploring continuity or evolving persona. Collapse Aware AI is distinguished by a formal middleware architecture, memory-weighted behavioural selection, governor-controlled shaping, and a broader theoretical framework under Verrell’s Law.
