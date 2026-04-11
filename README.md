@@ -2,7 +2,7 @@
 
 Collapse Aware AI is a middleware architecture for continuity-aware behavioural selection, combining memory-weighted bias, governor-controlled shaping, and persistent state logic to steer behaviour over time without rewriting base model weights.
 
-Last updated: 2026-04-08  
+Last updated: 2026-04-11  
 Maintainer: Marcos Verrell Moss Ross (M.R.)  
 
 Contact: collapseawareai@gmail.com  
