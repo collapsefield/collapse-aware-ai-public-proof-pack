@@ -1,4 +1,4 @@
-# Collapse-Aware AI — Public Proof Pack
+# Collapse-Aware AI (CAAI) — Public Proof Pack
 
 Collapse Aware AI is a middleware architecture for continuity-aware behavioural selection, combining memory-weighted bias, governor-controlled shaping, and persistent state logic to steer behaviour over time without rewriting base model weights.
 
@@ -17,7 +17,7 @@ DOI  https://doi.org/10.5281/zenodo.19135340
 
 ## System Definition
 
-Collapse-Aware AI (CAAI) is a model-agnostic behavioural middleware architecture.
+CAAI is a model-agnostic behavioural middleware architecture.
 
 It sits between a host system and an underlying model or decision engine and modifies inference behaviour through structured bias regulation rather than weight modification.
 
