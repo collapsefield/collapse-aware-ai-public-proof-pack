@@ -2,7 +2,7 @@
 
 **Author:** M.R. (Verrell Moss Ross)  
 **Entity:** Inappropriate Media Limited (t/a Collapse Aware AI)  
-**Year:** 2023 – 2025  
+**Year:** 2023 – 2026 
 
 Collapse-Aware AI (CAAI) is an **original architecture** developed from first principles under **Verrell’s Law**.  
 It does **not** borrow or derive from existing Large Language Models or structured AI frameworks.  
