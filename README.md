@@ -87,7 +87,7 @@ Stabilised architecture separating the Crown behavioural engine from the host ru
 Phase-2 — Expanded Behavioural Architecture (research stage)  
 Future modules including probabilistic modelling, emotional state influence, and advanced behavioural stability systems.
 
-This repository documents the **Phase-1 foundation and the Phase-1.5 integration architecture**.
+This repository documents the Phase-1 foundation and Phase-1.5 integration architecture, with selected Phase-2 research notes included for continuity.
 
 ---
 
