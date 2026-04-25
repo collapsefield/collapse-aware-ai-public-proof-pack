@@ -238,24 +238,27 @@ Crown behavioural engine
 Governed output
 ↓
 Host system
+```
 
 The system should be integrated through stable interfaces, not by rewriting the proprietary core.
 
 Core rule:
 
-Integrate by contract.
-Do not redesign the Crown.
+> Integrate by contract.  
+> Do not redesign the Crown.
 
-11. Public-Safe Endpoint Concepts
+---
+
+## 11. Public-Safe Endpoint Concepts
 
 Public materials may refer to endpoint concepts such as:
 
-/core/health
-/core/infer
-/core/recall
-/core/ingest
-/flag
-governor or telemetry endpoints
+- `/core/health`
+- `/core/infer`
+- `/core/recall`
+- `/core/ingest`
+- `/flag`
+- governor or telemetry endpoints
 
 These endpoint references are public-safe architectural descriptions.
 
@@ -263,12 +266,15 @@ They should not be treated as full disclosure of implementation logic.
 
 The important point is the contract shape:
 
-receive input and context
-retrieve relevant continuity state
-score candidate behaviours
-apply governor constraints
-return selected output with traceable metadata
-12. Behavioural Drift
+- receive input and context
+- retrieve relevant continuity state
+- score candidate behaviours
+- apply governor constraints
+- return selected output with traceable metadata
+
+---
+
+## 12. Behavioural Drift
 
 CAAI treats drift as an engineering problem.
 
@@ -276,40 +282,42 @@ Drift means measurable deviation from intended behavioural invariants.
 
 Examples include:
 
-loss of character or role consistency
-contradiction of known anchors
-excessive improvisation
-unstable topic movement
-repetitive loops
-over-hedging
-loss of task focus
+- loss of character or role consistency
+- contradiction of known anchors
+- excessive improvisation
+- unstable topic movement
+- repetitive loops
+- over-hedging
+- loss of task focus
 
 Public-safe drift metrics may include:
 
-anchor hit rate
-hedge rate
-topic coherence
-contradiction frequency
-loop/repetition risk
-confidence floor failures
-deviation from continuity profile
+- anchor hit rate
+- hedge rate
+- topic coherence
+- contradiction frequency
+- loop/repetition risk
+- confidence floor failures
+- deviation from continuity profile
 
 Drift should not be described as “vibes.”
 
 It should be measured.
 
-13. Governor Logic
+---
+
+## 13. Governor Logic
 
 The Governor is the behavioural control layer.
 
 Its job is to:
 
-constrain unstable behaviour
-reduce drift
-enforce operating rules
-dampen risky output paths
-preserve continuity
-route uncertain behaviour into safer regimes
+- constrain unstable behaviour
+- reduce drift
+- enforce operating rules
+- dampen risky output paths
+- preserve continuity
+- route uncertain behaviour into safer regimes
 
 The Governor does not need to be mystical or over-described.
 
@@ -317,79 +325,99 @@ It is best understood as a control layer around behavioural selection.
 
 Public-safe wording:
 
-The Governor constrains collapse selection so that memory influence improves continuity without allowing uncontrolled drift.
+> The Governor constrains collapse selection so that memory influence improves continuity without allowing uncontrolled drift.
 
-14. Commercial Position
+---
+
+## 14. Commercial Position
 
 Collapse Aware AI is intended as licensable middleware.
 
 The commercial value is:
 
-same base model or runtime
-better behavioural continuity
-less drift
-bounded memory influence
-clearer integration contracts
-no need to retrain a foundation model
-proprietary core remains protected
+- same base model or runtime
+- better behavioural continuity
+- less drift
+- bounded memory influence
+- clearer integration contracts
+- no need to retrain a foundation model
+- proprietary core remains protected
 
 Primary target areas include:
 
-game NPCs
-simulation agents
-long-running interactive agents
-workflow agents
-future chatbot continuity systems
+- game NPCs
+- simulation agents
+- long-running interactive agents
+- workflow agents
+- future chatbot continuity systems
 
 This repository supports licensing conversations by showing public architecture, authorship, and development continuity without disclosing the sealed implementation.
 
-15. What a Technical Reviewer Should Look For
+---
+
+## 15. What a Technical Reviewer Should Look For
 
 A serious reviewer should focus on:
 
-whether CAAI is correctly framed as middleware
-whether the contract boundaries are clear
-whether drift metrics are measurable
-whether memory influence is separated from simple prompt context
-whether the Crown remains sealed
-whether public claims are tied to artifacts, schemas, or tests
-whether the system can be evaluated without exposing proprietary internals
+- whether CAAI is correctly framed as middleware
+- whether the contract boundaries are clear
+- whether drift metrics are measurable
+- whether memory influence is separated from simple prompt context
+- whether the Crown remains sealed
+- whether public claims are tied to artifacts, schemas, or tests
+- whether the system can be evaluated without exposing proprietary internals
 
 A serious reviewer should not expect this repository to contain the production Crown code.
 
 That is intentionally private.
 
-16. Suggested Reading Order
+---
+
+## 16. Suggested Reading Order
 
 New readers should start here, then read:
 
-README.md
-Main repository overview.
-01_CANONICAL_OVERVIEW__Collapse_Aware_AI.md
-Clean public description of CAAI as middleware.
-PUBLIC_PROOF__CAAI_VERRELLS_LAW__GROUND_TRUTH.md
-Public grounding layer for what is observable, implementable, and verifiable.
-PUBLIC_PROOF__CAAI__DRIFT_GOVERNANCE_AND_VALIDATION.md
-Drift, governance, validation, and technical due-diligence framing.
-CAAI_Behavioral_Regimes_Clarification.md
-Behavioural regime and operating-mode clarification.
-CAAI_Health_Safety_and_Governance_v1.0.md
-Public safety and governance framing.
-CollapseAwareAI_Originality_and_Attribution.md
-Authorship and originality declaration.
-Official_GitHub_References.md
-Reference index for related public repositories.
-17. Clean One-Paragraph Summary
+1. `README.md`  
+   Main repository overview.
+
+2. `01_CANONICAL_OVERVIEW__Collapse_Aware_AI.md`  
+   Clean public description of CAAI as middleware.
+
+3. `PUBLIC_PROOF__CAAI_VERRELLS_LAW__GROUND_TRUTH.md`  
+   Public grounding layer for what is observable, implementable, and verifiable.
+
+4. `PUBLIC_PROOF__CAAI__DRIFT_GOVERNANCE_AND_VALIDATION.md`  
+   Drift, governance, validation, and technical due-diligence framing.
+
+5. `CAAI_Behavioral_Regimes_Clarification.md`  
+   Behavioural regime and operating-mode clarification.
+
+6. `CAAI_Health_Safety_and_Governance_v1.0.md`  
+   Public safety and governance framing.
+
+7. `CollapseAwareAI_Originality_and_Attribution.md`  
+   Authorship and originality declaration.
+
+8. `Official_GitHub_References.md`  
+   Reference index for related public repositories.
+
+---
+
+## 17. Clean One-Paragraph Summary
 
 Collapse Aware AI (CAAI) is proprietary middleware for governed, memory-weighted behavioural selection. It sits between a host system and an underlying model or decision engine, using recency, salience, anchors, continuity memory, and Governor logic to reduce behavioural drift and improve long-term coherence without retraining the base model. This repository is a public proof-of-origin and architecture record; it does not disclose the sealed Crown kernel or proprietary implementation.
 
-18. Canonical Short Description
+---
+
+## 18. Canonical Short Description
 
 Use this when a short public description is needed:
 
-Collapse Aware AI is a proprietary middleware layer that gives AI agents and NPCs memory-weighted behavioural continuity, governor-controlled drift prevention, and contract-first integration without modifying base model weights.
+> Collapse Aware AI is a proprietary middleware layer that gives AI agents and NPCs memory-weighted behavioural continuity, governor-controlled drift prevention, and contract-first integration without modifying base model weights.
 
-19. Rights and Licensing
+---
+
+## 19. Rights and Licensing
 
 This repository is public for documentation, provenance, and review.
 
@@ -401,32 +429,36 @@ All executable code, proprietary algorithms, Crown kernel logic, implementation 
 
 No permission is granted to commercially exploit, clone, repackage, or derive a competing implementation from this public proof pack.
 
-20. Attribution
+---
+
+## 20. Attribution
 
 Author and originator:
 
-Marcos Verrell Moss Ross (M.R.)
+**Marcos Verrell Moss Ross (M.R.)**
 
 Maintained by:
 
-Inappropriate Media Limited (t/a Collapse Aware AI)
+**Inappropriate Media Limited (t/a Collapse Aware AI)**
 
 Associated theoretical framework:
 
-Verrell’s Law
+**Verrell’s Law**
 
 Project:
 
-Collapse Aware AI
+**Collapse Aware AI**
 
-21. Final Reader Note
+---
+
+## 21. Final Reader Note
 
 This repository should be read as a public proof and explanation layer.
 
 The correct interpretation is:
 
-The architecture is public.
-The provenance is public.
-The Crown is private.
-The product is licensable.
-The implementation is not open-source.
+> The architecture is public.  
+> The provenance is public.  
+> The Crown is private.  
+> The product is licensable.  
+> The implementation is not open-source.
