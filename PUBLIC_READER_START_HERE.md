@@ -430,13 +430,3 @@ The provenance is public.
 The Crown is private.
 The product is licensable.
 The implementation is not open-source.
-
-
-Then in the proof-pack `README.md`, put this directly after the opening DOI/contact block and before `# Overview`:
-
-```markdown
-## New Readers
-
-Start here first: [`PUBLIC_READER_START_HERE.md`](PUBLIC_READER_START_HERE.md)
-
-This short orientation note explains what Collapse Aware AI is, what this proof pack proves, what remains private, and how the Crown/licensing boundary works.
