@@ -1,18 +1,27 @@
 {
   "title": "Collapse Aware AI — Public Proof Pack",
-  "version": "v1.0",
+  "version": "v1.1",
   "maintainer": "Inappropriate Media Limited (t/a Collapse Aware AI)",
-  "author": "M.R. (Verrell Moss Ross)",
+  "author": "Marcos Verrell Moss Ross (M.R.)",
   "contact": "collapseawareai@gmail.com",
-  "release_date": "2025-10-26",
-  "description": "Public documentation and proof-of-origin pack establishing authorship and provenance of Verrell’s Law and Collapse Aware AI. Contains reference papers, timestamped evidence, and non-executable demonstrations.",
-  "repository_visibility": "public (documentation only)",
-  "license": "CC BY-NC-ND 4.0",
-  "links": {
-    "whitepaper": "https://zenodo.org/doi/xxxxx",
-    "physics_appendix": "https://zenodo.org/doi/yyyyy",
-    "project_page": "https://collapseaware.ai"
+  "last_updated": "2026-04-25",
+  "description": "Public documentation and proof-of-origin pack establishing authorship, provenance, public architecture, and non-executable technical framing for Collapse Aware AI and its relationship to Verrell’s Law.",
+  "repository_visibility": "public documentation only",
+  "license": "CC BY-NC-ND 4.0 for public documentation; all executable code, Crown kernel logic, proprietary algorithms, commercial rights, trademarks, trade secrets, and unpublished materials are expressly reserved.",
+  "canonical_files": {
+    "start_here": "PUBLIC_READER_START_HERE.md",
+    "readme": "README.md",
+    "canonical_overview": "01_CANONICAL_OVERVIEW__Collapse_Aware_AI.md",
+    "ground_truth": "PUBLIC_PROOF__CAAI_VERRELLS_LAW__GROUND_TRUTH.md",
+    "drift_governance_validation": "PUBLIC_PROOF__CAAI__DRIFT_GOVERNANCE_AND_VALIDATION.md",
+    "license": "LICENSE"
   },
-  "integrity_note": "No proprietary code, parameters, or system endpoints are included. All operational builds and kernel materials remain private under Verrell–Solace Sovereignty Protocol.",
-  "copyright": "© 2025 Inappropriate Media Limited. All rights reserved."
+  "links": {
+    "primary_doi": "https://doi.org/10.5281/zenodo.17674143",
+    "related_doi": "https://doi.org/10.5281/zenodo.19135340",
+    "project_contact": "mailto:collapseawareai@gmail.com"
+  },
+  "public_claim_boundary": "This repository documents public architecture, provenance, and validation framing only. It is not an open-source implementation and does not disclose the sealed Crown kernel or private algorithmic implementation.",
+  "integrity_note": "No proprietary code, production parameters, Crown internals, sealed kernel materials, or complete commercial integration maps are included.",
+  "copyright": "© 2025–2026 Marcos Verrell Moss Ross (M.R.) / Inappropriate Media Limited (t/a Collapse Aware AI). All rights reserved."
 }
