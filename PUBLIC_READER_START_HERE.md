@@ -195,7 +195,7 @@ In CAAI:
 
 This makes CAAI an engineering instantiation of memory-weighted selection.
 
-It should not be presented as proof that the full theoretical or physical form of Verrell’s Law is scientifically confirmed.
+It should not be presented as proof that the full theoretical, or physical, form of Verrell’s Law has been scientifically confirmed yet.
 
 Better public wording:
 
