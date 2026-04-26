@@ -5,7 +5,7 @@
 **Maintainer:** Inappropriate Media Limited (t/a Collapse Aware AI)  
 **Status:** Public proof-of-origin and technical orientation record  
 **Repository role:** Documentation, provenance, and public-safe architecture explanation  
-**Last updated:** 2026-04-25
+**Last updated:** 2026-04-26
 
 ---
 
