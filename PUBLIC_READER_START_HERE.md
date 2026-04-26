@@ -403,7 +403,7 @@ New readers should start here, then read:
 
 ---
 
-## 17. Clean One-Paragraph Summary
+## 17. One-Paragraph Summary
 
 Collapse Aware AI (CAAI) is proprietary middleware for governed, memory-weighted behavioural selection. It sits between a host system and an underlying model or decision engine, using recency, salience, anchors, continuity memory, and Governor logic to reduce behavioural drift and improve long-term coherence without retraining the base model. This repository is a public proof-of-origin and architecture record; it does not disclose the sealed Crown kernel or proprietary implementation.
 
