@@ -1,6 +1,6 @@
 # Commentary note linking a live ArtificialSentience discussion on prompt-cycle consciousness to Collapse Aware AI Phase-2: continuity, weighted memory, governed behavioural collapse, and controlled bias shaping.
 **Date:** 27 April 2026  
-**Author:** M.R. / Marcos Verrell  
+**Author:** M.R. /  Marcos Verrell Moss Ross
 **Project:** Collapse Aware AI / Verrell’s Law Public Proof Pack  
 **Reference Thread:** https://www.reddit.com/r/ArtificialSentience/comments/1svw7kh/are_we_creating_consciousness_every_prompt_we_make/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
 
