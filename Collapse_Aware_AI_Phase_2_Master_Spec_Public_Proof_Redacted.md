@@ -1,4 +1,4 @@
-# Collapse Aware AI — Phase-2 Master Specification  
+# Collapse Aware AI — Phase-2 Master Specification
 ## Public Proof Edition (Redacted)
 
 | Field | Detail |
@@ -22,25 +22,25 @@ It is intended as a **proof-of-origin and high-level design record**, not as a c
 
 The internal Phase-2 specification defines a governed, memory-weighted behavioural system extending Phase-1 beyond simple behavioural influence into wider behavioural mediation across:
 
-- time,
-- memory,
-- ambiguity,
-- continuity,
-- salience,
-- interpretation,
-- uncertainty,
-- and behavioural drift.
+- time
+- memory
+- ambiguity
+- continuity
+- salience
+- interpretation
+- uncertainty
+- behavioural drift
 
 This public edition has been deliberately redacted to protect:
 
-- implementation-specific logic,
-- tuning details,
-- sequencing detail,
-- internal thresholds,
-- private scoring rules,
-- adapter logic,
-- memory-write conditions,
-- and other commercially sensitive material.
+- implementation-specific logic
+- tuning details
+- sequencing detail
+- internal thresholds
+- private scoring rules
+- adapter logic
+- memory-write conditions
+- other commercially sensitive material
 
 ---
 
@@ -48,32 +48,32 @@ This public edition has been deliberately redacted to protect:
 
 Collapse Aware AI is **not** intended to be:
 
-- a stateless wrapper,
-- a novelty chatbot,
-- a shallow memory layer,
-- or a generic “chat history with better recall” system.
+- a stateless wrapper
+- a novelty chatbot
+- a shallow memory layer
+- a generic “chat history with better recall” system
 
 The purpose of the wider architecture is to create a system that can:
 
-- carry forward **weighted behavioural relevance across time**,
-- preserve **continuity without becoming rigid or delusional**,
-- govern **behavioural drift**,
-- distinguish **weak signals from strong anchors**,
-- handle ambiguity without premature collapse,
-- and shape outputs through **controlled, inspectable selection** rather than raw one-shot generation.
+- carry forward **weighted behavioural relevance across time**
+- preserve **continuity without becoming rigid or delusional**
+- govern **behavioural drift**
+- distinguish **weak signals from strong anchors**
+- handle ambiguity without premature collapse
+- shape outputs through **controlled, inspectable selection** rather than raw one-shot generation
 
 The internal master specification records that Phase-2 is built around a behavioural spine including:
 
-- weighted memory,
-- strong anchors,
-- semantic weighting,
-- Bayesian biasing,
-- interpretation control,
-- time-interval awareness,
-- governor logic,
-- drift suppression,
-- corrective recall,
-- and continuity bootstrapping.
+- weighted memory
+- strong anchors
+- semantic weighting
+- Bayesian biasing
+- interpretation control
+- time-interval awareness
+- governor logic
+- drift suppression
+- corrective recall
+- continuity bootstrapping
 
 This public proof version discloses the **existence and structure** of those ideas while withholding the more executable parts.
 
@@ -116,6 +116,7 @@ Behavioural Selection
 Post-Output Memory Update
   ↓
 Session Boot Continuity
+```
 
 That is the core public claim:
 
@@ -170,9 +171,9 @@ The system is designed to distinguish between:
 - revoked or invalidated context
 - long-range continuity markers
 
-Some prior events decay quickly.
-Some persist.
-Some become stabilising anchors.
+Some prior events decay quickly.  
+Some persist.  
+Some become stabilising anchors.  
 Some are suppressed or revoked.
 
 #### Public-Safe Memory Decay Model
@@ -188,8 +189,8 @@ $$
 | $\lambda$ | Decay coefficient, varied by memory class |
 | $t_i$ | Timestamp of the original event |
 
-High-salience events resist decay.
-Anchors may be treated as asymptotic rather than fully disappearing.
+High-salience events resist decay.  
+Anchors may be treated as asymptotic rather than fully disappearing.  
 Ordinary events decay toward zero and may be pruned or compressed during refresh.
 
 ---
@@ -236,6 +237,8 @@ At a public-safe level, this means the system is designed to parse:
 - contradiction
 - relevance to known anchors
 
+The public distinction is simple:
+
 > **Phase-2 does not treat every sentence as equal text. It treats incoming context as weighted meaning.**
 
 ---
@@ -251,7 +254,12 @@ It uses governed bias to influence which future behaviour is selected.
 #### Public-Safe Bias-Weighted Selection Model
 
 $$
-P(b_j \mid w, c) = \frac{\exp\left(\beta_j + \sum_i w_i \alpha_{ij}\right)}{\sum_k \exp\left(\beta_k + \sum_i w_i \alpha_{ik}\right)}
+P(b_j \mid w, c) =
+\frac{
+\exp\left(\beta_j + \sum_i w_i \alpha_{ij}\right)
+}{
+\sum_k \exp\left(\beta_k + \sum_i w_i \alpha_{ik}\right)
+}
 $$
 
 | Symbol | Meaning |
@@ -261,6 +269,8 @@ $$
 | $w_i$ | Current weight of memory event $i$ |
 | $\alpha_{ij}$ | Alignment coefficient between memory $i$ and behaviour $j$ |
 | $c$ | Continuity state / conditioning context |
+
+This expresses the core Phase-2 concept:
 
 > **Past state does not merely sit in storage. It changes the probability landscape of future behaviour.**
 
@@ -297,6 +307,8 @@ $$
 | $T_t$ | Time / recency context |
 | $S_t$ | Salience context |
 
+Public-safe interpretation:
+
 > **The system does not always collapse instantly to one reading. It can preserve structured ambiguity until governed resolution.**
 
 ---
@@ -329,6 +341,8 @@ $$
 | $\mu$ | Time sensitivity coefficient |
 | $\Delta t_i$ | Time elapsed since event $i$ |
 
+This supports the Phase-2 claim that:
+
 > **The same memory does not always carry the same behavioural force after different time intervals.**
 
 ---
@@ -360,14 +374,36 @@ $$
 | $d_j$ | Drift contribution |
 | $q_j$ | Quality / coherence concern |
 
-This term is used to suppress unstable or misaligned behaviours before final output selection.
+This term can be used to suppress unstable or misaligned behaviours before final output selection.
 
 ---
 
 ## Combined Public-Safe Phase-2 Selection Form
 
+A public-safe combined form can be expressed as:
+
 $$
-P(b_j \mid X_t, M_t) = \frac{\exp\left(U(b_j; X_t) + \lambda M_j + \gamma C_j + \sigma S_j + \tau T_j - \delta G_j\right)}{\sum_k \exp\left(U(b_k; X_t) + \lambda M_k + \gamma C_k + \sigma S_k + \tau T_k - \delta G_k\right)}
+P(b_j \mid X_t, M_t) =
+\frac{
+\exp\left(
+U(b_j; X_t)
++ \lambda M_j
++ \gamma C_j
++ \sigma S_j
++ \tau T_j
+- \delta G_j
+\right)
+}{
+\sum_k
+\exp\left(
+U(b_k; X_t)
++ \lambda M_k
++ \gamma C_k
++ \sigma S_k
++ \tau T_k
+- \delta G_k
+\right)
+}
 $$
 
 | Symbol | Meaning |
@@ -383,15 +419,17 @@ $$
 | $G_j$ | Governor penalty |
 | $\lambda, \gamma, \sigma, \tau, \delta$ | Public-safe weighting coefficients |
 
+This expresses the public-safe technical claim:
+
 > **Phase-2 selects behaviour through a governed, memory-weighted probability structure rather than raw one-shot generation.**
 
 ---
 
 ## High-Level Stack Flow
 
-The internal Phase-2 specification records a stack flow of the following form:
+The internal Phase-2 specification records a stack flow of approximately the following form:
 
-```
+```text
 1.  Input received
 2.  Meaning extracted
 3.  Relevant prior state retrieved
@@ -404,13 +442,14 @@ The internal Phase-2 specification records a stack flow of the following form:
 10. Session continuity state refreshed
 ```
 
-This is the public-safe structural flow only. Executable detail remains redacted.
+This is the public-safe structural flow only.  
+Executable detail remains redacted.
 
 ---
 
 ## What Has Been Withheld
 
-This public proof edition does not disclose the following in actionable form:
+This public proof edition does **not** disclose the following in actionable form:
 
 - internal scoring logic
 - weighting thresholds
@@ -428,7 +467,9 @@ This public proof edition does not disclose the following in actionable form:
 - persistence schemas in executable form
 - any technical material that would materially reduce the work required for a third party to replicate the system
 
-The private master specification also includes implementation order and risk-handling language. This public edition confirms that those concerns were formally considered, while redacting the more build-relevant detail.
+The private master specification also includes implementation order and risk-handling language.
+
+This public edition confirms that those concerns were formally considered, while redacting the more build-relevant detail.
 
 ---
 
@@ -437,7 +478,7 @@ The private master specification also includes implementation order and risk-han
 This document is intended to prove the following:
 
 1. The named Phase-2 architecture existed in structured form prior to release.
-2. The system was already conceived as a governed, memory-weighted behavioural continuity architecture — not a generic chatbot memory feature.
+2. The system was already conceived as a governed, memory-weighted behavioural continuity architecture, not a generic chatbot memory feature.
 3. The project had already moved beyond vague ideas into a defined:
    - modular spine
    - memory-control logic
@@ -447,13 +488,13 @@ This document is intended to prove the following:
    - Bayesian biasing approach
    - drift/stability framework
 4. The public release of this redacted edition is part of a wider authorship and priority trail.
-5. The architecture connects directly to the broader Verrell's Law claim that retained structured memory can bias future selection.
+5. The architecture connects directly to the broader Verrell’s Law claim that retained structured memory can bias future selection.
 
 ---
 
 ## Public Positioning Note
 
-Collapse Aware AI does not claim:
+Collapse Aware AI does **not** claim:
 
 - magical omniscience
 - uncontrolled personality simulation
@@ -462,7 +503,7 @@ Collapse Aware AI does not claim:
 
 The intended claim is narrower and stronger:
 
-> The system accumulates weighted behavioural evidence across time and uses governed continuity logic to stabilise future interpretation and selection.
+> **The system accumulates weighted behavioural evidence across time and uses governed continuity logic to stabilise future interpretation and selection.**
 
 That is the correct public-safe framing.
 
@@ -497,13 +538,13 @@ This public proof edition exists to show that the architecture, naming, structur
 
 ## Authorship & Proof Footer
 
-**Marcos Verrell Moss Ross (M.R.)**
-Author of Verrell's Law
-Chief Architect, Collapse Aware AI
+**Marcos Verrell Moss Ross (M.R.)**  
+Author of Verrell’s Law  
+Chief Architect, Collapse Aware AI  
 Inappropriate Media Limited
 
 ---
 
-*Protected under Protocol VMR-Core*
-*Verrell–Solace Sovereignty Protocol*
-*Public Proof Edition — Redacted for authorship protection and controlled disclosure*
+**Protected under Protocol VMR-Core**  
+**Verrell–Solace Sovereignty Protocol**  
+**Public Proof Edition — Redacted for authorship protection and controlled disclosure**
