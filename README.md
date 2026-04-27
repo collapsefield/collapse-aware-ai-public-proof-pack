@@ -5,7 +5,7 @@
 **Maintainer:** Marcos Verrell Moss Ross (M.R.)  
 **Entity:** Inappropriate Media Limited (t/a Collapse Aware AI)  
 **Contact:** collapseawareai@gmail.com  
-**Last updated:** 2026-04-26 
+**Last updated:** 2026-04-27 
 
 **DOI:** https://doi.org/10.5281/zenodo.17674143  
 **Related DOI:** https://doi.org/10.5281/zenodo.19135340
