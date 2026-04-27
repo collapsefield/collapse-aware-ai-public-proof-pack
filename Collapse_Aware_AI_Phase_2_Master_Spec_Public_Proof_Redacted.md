@@ -507,8 +507,3 @@ Inappropriate Media Limited
 *Protected under Protocol VMR-Core*
 *Verrell–Solace Sovereignty Protocol*
 *Public Proof Edition — Redacted for authorship protection and controlled disclosure*
----
-
-**Protected under Protocol VMR-Core**  
-**Verrell–Solace Sovereignty Protocol**  
-**Public Proof Edition — Redacted for authorship protection and controlled disclosure**
