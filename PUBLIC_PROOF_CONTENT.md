@@ -1,23 +1,46 @@
-Collapse Aware AI — Public Proof Content (v0.1)
+# Collapse Aware AI — Public Proof Content (v0.2)
 
-Supplementary material for the “Public Proof Pack” repository
-(safe technical artefacts – no proprietary code)
+**Document type:** Supplementary public proof material  
+**Project:** Collapse Aware AI (CAAI)  
+**Author / origin:** Marcos Verrell Moss Ross (M.R.)  
+**Entity:** Inappropriate Media Limited (t/a Collapse Aware AI)  
+**Status:** Public-safe technical artefacts only  
+**Last updated:** 2026-04-28  
 
-A. Ablation Test Plan (Verifier Checklist)
+---
 
-Purpose: empirically confirm that enabling the Bias Layer produces reproducible, non-trivial behaviour deltas compared with identical Bias OFF runs.
+## Security / Authorship Notice
 
-Step	Description	Expected Outcome
-1	Same build & same RNG seed	Baseline reproducibility confirmed
-2	Run Bias = OFF → save logs	Control data
-3	Run Bias = ON → save logs	Altered state trajectories
-4	Compare entropy (H), policy KL divergence, ΔP(reaction	history)
-5	Clear memory.json → rerun ON	Effect vanishes (proves state-dependence)
-6	Insert decoy cues	Negligible effect (rules out heuristics)
-B. Log Schema (JSON)
+This file forms part of the public proof and authorship record for **Collapse Aware AI**.
 
-All logs use this public schema so any reviewer can parse them.
+No proprietary Crown kernel code, private scoring logic, internal thresholds, weighting formulas, or implementation-sensitive algorithms are disclosed here.
 
+**Protected under Verrell-Solace Sovereignty Protocol. Intellectual and emergent rights reserved.**
+
+© Marcos Verrell Moss Ross / Inappropriate Media Limited. All rights reserved.
+
+---
+
+## A. Ablation Test Plan — Verifier Checklist
+
+**Purpose:** empirically confirm that enabling the Bias Layer produces reproducible, non-trivial behaviour deltas compared with identical Bias OFF runs.
+
+| Step | Description | Expected outcome |
+|---:|---|---|
+| 1 | Same build and same RNG seed | Baseline reproducibility confirmed |
+| 2 | Run `bias_enabled = false` and save logs | Control data captured |
+| 3 | Run `bias_enabled = true` and save logs | Altered state trajectories captured |
+| 4 | Compare entropy, policy KL divergence, and memory-linked reaction deltas | Measurable difference visible |
+| 5 | Clear `memory.json` and rerun Bias ON | Effect vanishes or reduces, proving state-dependence |
+| 6 | Insert decoy cues | Negligible effect, reducing hard-coded heuristic risk |
+
+---
+
+## B. Public Log Schema
+
+All public verification logs should follow a parseable schema like the example below.
+
+```json
 {
   "run_id": "uuid",
   "seed": 101,
@@ -38,65 +61,127 @@ All logs use this public schema so any reviewer can parse them.
   },
   "hash": "sha256:..."
 }
+```
 
+No weights, model parameters, proprietary data, or private Crown internals are disclosed.
 
-No weights, model parameters, or proprietary data are disclosed.
+---
 
-C. Synthetic Sample Records (illustrative only)
+## C. Synthetic Sample Records
 
-Bias OFF
+These records are illustrative only. They show the type of behaviour delta expected from a public-safe verification run.
 
-{"run_id":"r-001","bias_enabled":false,"event":"encounter_wolf","action":"continue_path","metrics":{"state_entropy_window":2.11,"policy_kl_delta":0.03}}
+### Bias OFF
 
+```json
+{
+  "run_id": "r-001",
+  "bias_enabled": false,
+  "event": "encounter_wolf",
+  "action": "continue_path",
+  "metrics": {
+    "state_entropy_window": 2.11,
+    "policy_kl_delta": 0.03
+  }
+}
+```
 
-Bias ON
+### Bias ON
 
-{"run_id":"r-002","bias_enabled":true,"event":"encounter_wolf","action":"avoid_path","metrics":{"state_entropy_window":2.84,"policy_kl_delta":0.19}}
+```json
+{
+  "run_id": "r-002",
+  "bias_enabled": true,
+  "event": "encounter_wolf",
+  "action": "avoid_path",
+  "metrics": {
+    "state_entropy_window": 2.84,
+    "policy_kl_delta": 0.19
+  }
+}
+```
 
+### Memory Wipe Control
 
-Memory wipe control
+```json
+{
+  "run_id": "r-003",
+  "bias_enabled": true,
+  "event": "encounter_wolf",
+  "action": "continue_path",
+  "metrics": {
+    "state_entropy_window": 2.10,
+    "policy_kl_delta": 0.04
+  }
+}
+```
 
-{"run_id":"r-003","bias_enabled":true,"event":"encounter_wolf","action":"continue_path","metrics":{"state_entropy_window":2.10,"policy_kl_delta":0.04}}
+### Interpretation
 
+With identical seed and comparable setup:
 
-Interpretation: identical seed, altered output when trace exists; effect disappears after wipe.
+- Bias OFF provides baseline behaviour.
+- Bias ON changes the behavioural trajectory when relevant memory trace exists.
+- Memory wipe reduces or removes the effect.
+- Decoy cues should have little or no effect.
 
-D. Recommended Metrics for Review
-Metric	Symbol	Insight
-State-visitation entropy	H	Range/diversity of explored states
-Policy drift	KL	Adaptation rate of decision policy
-Re-encounter effect	ΔP	Memory influence on future reaction
-Unique encounter rate	U	Variation across runs
-E. Controls Against “Hard-Coded Bias”
+This supports the public claim that behaviour is influenced by stored trace state rather than simple hard-coded response branching.
 
-Single config flag bias_enabled.
+---
 
-Deterministic seed = identical start conditions.
+## D. Recommended Public Metrics
 
-Memory-wipe control.
+| Metric | Symbol | Insight |
+|---|---:|---|
+| State-visitation entropy | `H` | Range and diversity of explored states |
+| Policy drift | `KL` | Adaptation rate of decision policy |
+| Re-encounter effect | `ΔP` | Memory influence on future reaction |
+| Unique encounter rate | `U` | Variation across runs |
+| Bias divergence | `ΔB` | Difference between Bias OFF and Bias ON trajectories |
 
-Decoy cues (should ≈ 0 impact).
+---
 
-Hash-signed logs for tamper evidence.
+## E. Controls Against Hard-Coded Bias
 
-F. Reviewer Quick Checklist
+Recommended public controls:
 
- Verify identical seeds & configs.
+- Single config flag: `bias_enabled`
+- Deterministic seed for identical start conditions
+- Memory-wipe control
+- Decoy cues with near-zero expected impact
+- Hash-signed logs for tamper evidence
+- Repeated runs under the same scenario
+- Public checksum records where appropriate
 
- Confirm measurable Δ metrics when Bias = ON.
+---
 
- Confirm effect disappears after wipe.
+## F. Reviewer Quick Checklist
 
- Confirm decoy cue impact ≈ 0.
+A reviewer should be able to verify:
 
- Validate log hashes match manifest.
+- [ ] Identical seeds and configs were used.
+- [ ] Bias OFF and Bias ON runs were separated clearly.
+- [ ] Measurable metric deltas appear when Bias is ON.
+- [ ] The effect reduces or disappears after memory wipe.
+- [ ] Decoy cue impact is negligible.
+- [ ] Log hashes match the published manifest.
+- [ ] No proprietary kernel internals are exposed.
 
-G. Legal Notice
+---
 
-© Inappropriate Media Limited (t/a Collapse Aware AI). All rights reserved.
-Protected under Verrell–Solace Sovereignty Protocol.
-No reverse-engineering or derivative use permitted.
+## G. Legal Notice
 
-Changelog
+© Marcos Verrell Moss Ross / Inappropriate Media Limited (t/a Collapse Aware AI). All rights reserved.
 
-2025-10-11: Initial release (v0.1)
+Protected under Verrell-Solace Sovereignty Protocol. Intellectual and emergent rights reserved.
+
+No reverse-engineering, derivative commercial use, rebranding, or extraction of the architecture is permitted without explicit written consent.
+
+---
+
+## Changelog
+
+| Date | Version | Change |
+|---|---:|---|
+| 2025-10-11 | v0.1 | Initial release |
+| 2026-04-28 | v0.2 | Reformatted for GitHub readability; converted verifier steps and metrics into tables; cleaned JSON examples; strengthened authorship/security notice |
