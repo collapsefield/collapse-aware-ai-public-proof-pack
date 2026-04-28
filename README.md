@@ -5,7 +5,7 @@
 **Maintainer:** Marcos Verrell Moss Ross (M.R.)  
 **Entity:** Inappropriate Media Limited (t/a Collapse Aware AI)  
 **Contact:** collapseawareai@gmail.com  
-**Last updated:** 2026-04-27 
+**Last updated:** 2026-04-28 
 
 **DOI:** https://doi.org/10.5281/zenodo.17674143  
 **Related DOI:** https://doi.org/10.5281/zenodo.19135340
@@ -97,6 +97,22 @@ This proof pack documents the Phase-1 foundation and Phase-1.5 integration archi
 
 ---
 
+## Phase-2 Research and Architecture Notes
+
+Phase-2 extends Collapse Aware AI from game/NPC continuity into broader agent and chatbot continuity. The public notes below are conceptual and public-safe. They establish the active research direction without exposing Crown internals, weighting formulas, thresholds, or proprietary implementation logic.
+
+| File | Phase-2 relevance |
+|---|---|
+| [`PHASE2_EMOTIONAL_RESONANCE_GOVERNED_MEMORY.md`](PHASE2_EMOTIONAL_RESONANCE_GOVERNED_MEMORY.md) | Maps emotional resonance into governed memory, emotional gain, THB, Strong Memory Anchors, Governor damping, and Weighted Thread Stamps. |
+| [`CAAI_Architecture_Overview_Public_Proof_v1.0.md`](CAAI_Architecture_Overview_Public_Proof_v1.0.md) | Public architecture overview covering Phase-1 core and Phase-2 modules including Emotional Superposition, Bayes Bias, THB, MFIC, SBML, timing/recency weighting, and drift management. |
+| [`CAAI_Public_Technical_Overview_v1.0.md`](CAAI_Public_Technical_Overview_v1.0.md) | Public technical overview with safe Phase-2 concepts such as Emotional Superposition, Strong Memory Anchors, User Tone Profile Echo, Context Ledger, Autobiographical Echo, and THB. |
+
+Public-safe Phase-2 position:
+
+> Collapse Aware AI Phase-2 treats emotionally and contextually significant interaction history as governed behavioural state, not as flat sentiment decoration or raw transcript storage.
+
+---
+
 ## Core Public Documents
 
 | File | Purpose |
@@ -177,4 +193,4 @@ For licensing enquiries, research collaboration, or partnership discussions:
 
 ## Index Terms
 
-Collapse Aware AI · CAAI · behavioural middleware · memory-weighted selection · continuity memory · governor logic · drift prevention · Verrell’s Law · Crown kernel · AI agent stability
+Collapse Aware AI · CAAI · behavioural middleware · memory-weighted selection · continuity memory · governor logic · drift prevention · Verrell’s Law · Crown kernel · AI agent stability · Phase-2 agent continuity · governed emotional memory · emotional resonance damping
