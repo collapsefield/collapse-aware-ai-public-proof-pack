@@ -18,6 +18,8 @@ Start here first: [`PUBLIC_READER_START_HERE.md`](PUBLIC_READER_START_HERE.md)
 
 This short orientation note explains what Collapse Aware AI is, what this proof pack proves, what remains private, and how the Crown/licensing boundary works.
 
+For the public boundary between the wider Verrell’s Law theory and the applied middleware, read: [`SCIENTIFIC_STATUS_AND_ENGINEERING_SCOPE.md`](SCIENTIFIC_STATUS_AND_ENGINEERING_SCOPE.md)
+
 ---
 
 ## What This Repository Is
@@ -97,6 +99,28 @@ This proof pack documents the Phase-1 foundation and Phase-1.5 integration archi
 
 ---
 
+## Scientific Status and Engineering Scope
+
+Collapse Aware AI should be read as the applied software branch of the wider Verrell’s Law framework.
+
+Public-safe separation:
+
+```text
+Verrell’s Law = speculative theoretical framework.
+Collapse Aware AI Gold Build = practical middleware.
+Phase-1 = game/NPC continuity and governed behaviour.
+Phase-2 = later continuity-aware chatbot/agent architecture.
+Validation = staged, evidence-based, and ongoing.
+```
+
+CAAI can be evaluated through observable middleware behaviour: memory-weighted selection, continuity preservation, governed output stability, reduced behavioural drift, and repeatable runtime demonstrations.
+
+The broader physics, consciousness, electromagnetic memory, and field-interaction claims of Verrell’s Law are not presented as established scientific consensus.
+
+Full clarification: [`SCIENTIFIC_STATUS_AND_ENGINEERING_SCOPE.md`](SCIENTIFIC_STATUS_AND_ENGINEERING_SCOPE.md)
+
+---
+
 ## Phase-2 Public Architecture Notes
 
 Phase-2 extends Collapse Aware AI from game/NPC continuity into broader agent and chatbot continuity.
@@ -158,6 +182,7 @@ They are included to timestamp authorship, establish public technical direction,
 | File | Purpose |
 |---|---|
 | [`PUBLIC_READER_START_HERE.md`](PUBLIC_READER_START_HERE.md) | First-read orientation note and public framing guardrail. |
+| [`SCIENTIFIC_STATUS_AND_ENGINEERING_SCOPE.md`](SCIENTIFIC_STATUS_AND_ENGINEERING_SCOPE.md) | Clarifies the boundary between speculative theory and practical middleware, with public-safe validation framing. |
 | [`01_CANONICAL_OVERVIEW__Collapse_Aware_AI.md`](01_CANONICAL_OVERVIEW__Collapse_Aware_AI.md) | Canonical public description of CAAI as middleware for games, simulations, and agent continuity. |
 | [`PUBLIC_PROOF__CAAI_VERRELLS_LAW__GROUND_TRUTH.md`](PUBLIC_PROOF__CAAI_VERRELLS_LAW__GROUND_TRUTH.md) | Ground-truth layer for observable, implementable, and verifiable claims. |
 | [`PUBLIC_PROOF__CAAI__DRIFT_GOVERNANCE_AND_VALIDATION.md`](PUBLIC_PROOF__CAAI__DRIFT_GOVERNANCE_AND_VALIDATION.md) | Drift, governance, validation, and due-diligence framing. |
