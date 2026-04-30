@@ -5,7 +5,7 @@
 **Maintainer:** Marcos Verrell Moss Ross (M.R.)  
 **Entity:** Inappropriate Media Limited (t/a Collapse Aware AI)  
 **Contact:** collapseawareai@gmail.com  
-**Last updated:** 2026-04-28 
+**Last updated:** 2026-04-30
 
 **DOI:** https://doi.org/10.5281/zenodo.17674143  
 **Related DOI:** https://doi.org/10.5281/zenodo.19135340
@@ -91,25 +91,65 @@ CAAI development currently follows a staged progression:
 |---|---|
 | **Phase-1 — Gold Build Prototype** | Demonstrates memory-weighted behavioural selection, recall, continuity, and governor-controlled behaviour. |
 | **Phase-1.5 — Integration Build** | Current stage. Aligns Crown, scaffold, adapter, API, UI, and acceptance tests for licensing-safe demonstration. |
-| **Phase-2 — Expanded Behavioural Architecture** | Future chatbot and advanced continuity architecture, including richer memory, probabilistic modelling, and stronger behavioural stability systems. |
+| **Phase-2 — Expanded Behavioural Architecture** | Future chatbot and advanced continuity architecture, including richer memory, probabilistic modelling, governed recall, timing awareness, and stronger behavioural stability systems. |
 
 This proof pack documents the Phase-1 foundation and Phase-1.5 integration architecture, with selected Phase-2 notes included for continuity.
 
 ---
 
-## Phase-2 Research and Architecture Notes
+## Phase-2 Public Architecture Notes
 
-Phase-2 extends Collapse Aware AI from game/NPC continuity into broader agent and chatbot continuity. The public notes below are conceptual and public-safe. They establish the active research direction without exposing Crown internals, weighting formulas, thresholds, or proprietary implementation logic.
+Phase-2 extends Collapse Aware AI from game/NPC continuity into broader agent and chatbot continuity.
+
+The Phase-2 public notes are conceptual and public-safe. They establish the active research direction without exposing Crown internals, weighting thresholds, private schemas, timing rules, or proprietary implementation logic.
+
+### Phase-2 Public Position
+
+> Collapse Aware AI Phase-2 treats emotionally, contextually, and temporally significant interaction history as governed behavioural state, not as flat sentiment decoration or raw transcript storage.
+
+### Phase-2 Continuity Stack
+
+```text
+Interaction history
+↓
+Weighted Meaning Layer
+↓
+Weighted Moments / Strong Memory Anchors
+↓
+Continuity Memory
+↓
+Corrective Recall / Time-Interval Awareness
+↓
+Bayes Bias / MFIC
+↓
+Governor
+↓
+Governed output or follow-up
+```
+
+### Phase-2 Public Notes Index
 
 | File | Phase-2 relevance |
 |---|---|
 | [`PHASE2_EMOTIONAL_RESONANCE_GOVERNED_MEMORY.md`](PHASE2_EMOTIONAL_RESONANCE_GOVERNED_MEMORY.md) | Maps emotional resonance into governed memory, emotional gain, THB, Strong Memory Anchors, Governor damping, and Weighted Thread Stamps. |
+| [`PHASE2_FOLLOWUP_PRIORITY_RULE.md`](PHASE2_FOLLOWUP_PRIORITY_RULE.md) | Defines the public-safe rule that high user salience may increase governed follow-up priority, but must not increase factual certainty. |
 | [`CAAI_Architecture_Overview_Public_Proof_v1.0.md`](CAAI_Architecture_Overview_Public_Proof_v1.0.md) | Public architecture overview covering Phase-1 core and Phase-2 modules including Emotional Superposition, Bayes Bias, THB, MFIC, SBML, timing/recency weighting, and drift management. |
 | [`CAAI_Public_Technical_Overview_v1.0.md`](CAAI_Public_Technical_Overview_v1.0.md) | Public technical overview with safe Phase-2 concepts such as Emotional Superposition, Strong Memory Anchors, User Tone Profile Echo, Context Ledger, Autobiographical Echo, and THB. |
+| [`CAAI_Health_Safety_and_Governance_v1.0.md`](CAAI_Health_Safety_and_Governance_v1.0.md) | Safety and governance overview covering Phase-1 and Phase-2 boundaries, Governor control, logging, and future stability commitments. |
 
-Public-safe Phase-2 position:
+### Phase-2 Public Claim Boundary
 
-> Collapse Aware AI Phase-2 treats emotionally and contextually significant interaction history as governed behavioural state, not as flat sentiment decoration or raw transcript storage.
+The Phase-2 notes do **not** disclose:
+
+- Crown kernel internals
+- private weighting formulas
+- production schemas
+- scoring thresholds
+- exact Governor routing rules
+- timing parameters for future follow-up loops
+- commercial deployment instructions
+
+They are included to timestamp authorship, establish public technical direction, and define the safe conceptual boundary around future continuity-aware behaviour.
 
 ---
 
@@ -193,4 +233,4 @@ For licensing enquiries, research collaboration, or partnership discussions:
 
 ## Index Terms
 
-Collapse Aware AI · CAAI · behavioural middleware · memory-weighted selection · continuity memory · governor logic · drift prevention · Verrell’s Law · Crown kernel · AI agent stability · Phase-2 agent continuity · governed emotional memory · emotional resonance damping
+Collapse Aware AI · CAAI · behavioural middleware · memory-weighted selection · continuity memory · governor logic · drift prevention · Verrell’s Law · Crown kernel · AI agent stability · Phase-2 agent continuity · governed emotional memory · emotional resonance damping · governed follow-up priority · continuity-aware support
