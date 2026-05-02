@@ -34,7 +34,7 @@ It is not an open-source implementation.
 
 It does not disclose the sealed Crown kernel.
 
-The current build track is Phase-1 / Phase-1.5 integration: aligning Crown, scaffold, adapter, API, UI, runtime contracts, and acceptance evidence for a licensing-safe Gold Build demonstration.
+The current public stage is **Phase-1.5 testing and validation**: running controlled checks, acceptance tests, and demonstration evidence around the Gold Build before wider licensing conversations.
 
 ---
 
@@ -110,10 +110,10 @@ CAAI development currently follows a staged progression:
 | Stage | Public Meaning |
 |---|---|
 | **Phase-1 — Gold Build Prototype** | Demonstrates memory-weighted behavioural selection, recall, continuity, and governor-controlled behaviour. |
-| **Phase-1.5 — Integration Build** | Current stage. Aligns Crown, scaffold, adapter, API, UI, runtime contracts, and acceptance tests for licensing-safe demonstration. |
+| **Phase-1.5 — Testing and Validation Stage** | Current public stage. Runs controlled checks, acceptance tests, behaviour comparisons, and demonstration evidence around the Gold Build. |
 | **Phase-2 — Expanded Behavioural Architecture** | Future chatbot and advanced continuity architecture, including richer memory, probabilistic modelling, governed recall, timing awareness, and stronger behavioural stability systems. |
 
-This proof pack documents the Phase-1 foundation and Phase-1.5 integration architecture, with selected Phase-2 notes included for authorship continuity and public-safe technical direction.
+This proof pack documents the Phase-1 foundation and Phase-1.5 testing/validation stage, with selected Phase-2 notes included for authorship continuity and public-safe technical direction.
 
 ---
 
@@ -139,6 +139,7 @@ Public-safe separation:
 Verrell’s Law = speculative theoretical framework.
 Collapse Aware AI Gold Build = practical middleware.
 Phase-1 = game/NPC continuity and governed behaviour.
+Phase-1.5 = testing and validation stage.
 Phase-2 = later continuity-aware chatbot/agent architecture.
 Validation = staged, evidence-based, and ongoing.
 ```
@@ -292,4 +293,4 @@ For licensing enquiries, research collaboration, or partnership discussions:
 
 ## Index Terms
 
-Collapse Aware AI · CAAI · behavioural middleware · memory-weighted selection · continuity memory · governor logic · drift prevention · Verrell’s Law · Crown kernel · AI agent stability · Phase-1 Gold Build · Phase-1.5 integration · Phase-2 agent continuity · governed emotional memory · emotional resonance damping · governed follow-up priority · continuity-aware support · Corrective Recall · Time-Interval Awareness · Weighted Meaning Layer · Strong Memory Anchors · Truth-Hedge Bias · Multi-Factor Intention Cloud
+Collapse Aware AI · CAAI · behavioural middleware · memory-weighted selection · continuity memory · governor logic · drift prevention · Verrell’s Law · Crown kernel · AI agent stability · Phase-1 Gold Build · Phase-1.5 testing · Phase-1.5 validation · Phase-2 agent continuity · governed emotional memory · emotional resonance damping · governed follow-up priority · continuity-aware support · Corrective Recall · Time-Interval Awareness · Weighted Meaning Layer · Strong Memory Anchors · Truth-Hedge Bias · Multi-Factor Intention Cloud
