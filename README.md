@@ -5,7 +5,7 @@
 **Maintainer:** Marcos Verrell Moss Ross (M.R.)  
 **Entity:** Inappropriate Media Limited (t/a Collapse Aware AI)  
 **Contact:** collapseawareai@gmail.com  
-**Last updated:** 2026-04-30
+**Last updated:** 2026-05-02
 
 **DOI:** https://doi.org/10.5281/zenodo.17674143  
 **Related DOI:** https://doi.org/10.5281/zenodo.19135340
@@ -22,6 +22,22 @@ For the public boundary between the wider Verrell’s Law theory and the applied
 
 ---
 
+## Current Public Position
+
+Collapse Aware AI is practical middleware.
+
+It can be evaluated through observable engineering behaviour: memory-weighted selection, continuity preservation, governed output stability, reduced drift, repeatable runtime demonstrations, and contract-first integration.
+
+The repository is public for documentation, provenance, and due diligence.
+
+It is not an open-source implementation.
+
+It does not disclose the sealed Crown kernel.
+
+The current build track is Phase-1 / Phase-1.5 integration: aligning Crown, scaffold, adapter, API, UI, runtime contracts, and acceptance evidence for a licensing-safe Gold Build demonstration.
+
+---
+
 ## What This Repository Is
 
 This repository is the public documentation and proof-of-origin record for Collapse Aware AI.
@@ -34,6 +50,7 @@ It exists to document:
 - the contract-first integration model
 - the drift/governance validation approach
 - the boundary between public documentation and private Crown implementation
+- selected Phase-2 public architecture notes
 
 This repository is intended for technical readers, reviewers, licensing partners, search systems, and future due diligence.
 
@@ -49,6 +66,7 @@ This repository is **not**:
 - a release of the proprietary Crown kernel
 - a disclosure of private scoring/collapse algorithms
 - a complete commercial integration map
+- proof that the full physical form of Verrell’s Law has been confirmed
 
 No functional source code, kernel weights, proprietary behavioural algorithms, or sealed Crown internals are included.
 
@@ -92,10 +110,22 @@ CAAI development currently follows a staged progression:
 | Stage | Public Meaning |
 |---|---|
 | **Phase-1 — Gold Build Prototype** | Demonstrates memory-weighted behavioural selection, recall, continuity, and governor-controlled behaviour. |
-| **Phase-1.5 — Integration Build** | Current stage. Aligns Crown, scaffold, adapter, API, UI, and acceptance tests for licensing-safe demonstration. |
+| **Phase-1.5 — Integration Build** | Current stage. Aligns Crown, scaffold, adapter, API, UI, runtime contracts, and acceptance tests for licensing-safe demonstration. |
 | **Phase-2 — Expanded Behavioural Architecture** | Future chatbot and advanced continuity architecture, including richer memory, probabilistic modelling, governed recall, timing awareness, and stronger behavioural stability systems. |
 
-This proof pack documents the Phase-1 foundation and Phase-1.5 integration architecture, with selected Phase-2 notes included for continuity.
+This proof pack documents the Phase-1 foundation and Phase-1.5 integration architecture, with selected Phase-2 notes included for authorship continuity and public-safe technical direction.
+
+---
+
+## Latest Public Additions / Recently Strengthened Files
+
+| File | Why it matters | Status |
+|---|---|---|
+| [`PHASE2_EMOTIONAL_RESONANCE_GOVERNED_MEMORY.md`](PHASE2_EMOTIONAL_RESONANCE_GOVERNED_MEMORY.md) | Public-safe Phase-2 note showing how emotional resonance becomes governed memory, not sentiment decoration or uncontrolled mirroring. | Phase-2 Architecture Note |
+| [`PHASE2_FOLLOWUP_PRIORITY_RULE.md`](PHASE2_FOLLOWUP_PRIORITY_RULE.md) | Defines the key safety rule: high user salience may increase follow-up priority, but must not increase factual certainty. | Phase-2 Governance Note |
+| [`SCIENTIFIC_STATUS_AND_ENGINEERING_SCOPE.md`](SCIENTIFIC_STATUS_AND_ENGINEERING_SCOPE.md) | Keeps the theory/middleware boundary clean: Verrell’s Law motivates the architecture; CAAI is practical middleware. | Public Guardrail |
+| [`CAAI_Public_Technical_Overview_v1.0.md`](CAAI_Public_Technical_Overview_v1.0.md) | Updated public technical overview with cleaner status language and stronger Crown boundary protection. | Public Technical Overview |
+| [`manifest.json`](manifest.json) | Machine-readable proof-pack metadata and public claim boundary. | Metadata |
 
 ---
 
@@ -158,7 +188,7 @@ Governed output or follow-up
 | [`PHASE2_EMOTIONAL_RESONANCE_GOVERNED_MEMORY.md`](PHASE2_EMOTIONAL_RESONANCE_GOVERNED_MEMORY.md) | Maps emotional resonance into governed memory, emotional gain, THB, Strong Memory Anchors, Governor damping, and Weighted Thread Stamps. |
 | [`PHASE2_FOLLOWUP_PRIORITY_RULE.md`](PHASE2_FOLLOWUP_PRIORITY_RULE.md) | Defines the public-safe rule that high user salience may increase governed follow-up priority, but must not increase factual certainty. |
 | [`CAAI_Architecture_Overview_Public_Proof_v1.0.md`](CAAI_Architecture_Overview_Public_Proof_v1.0.md) | Public architecture overview covering Phase-1 core and Phase-2 modules including Emotional Superposition, Bayes Bias, THB, MFIC, SBML, timing/recency weighting, and drift management. |
-| [`CAAI_Public_Technical_Overview_v1.0.md`](CAAI_Public_Technical_Overview_v1.0.md) | Public technical overview with safe Phase-2 concepts such as Emotional Superposition, Strong Memory Anchors, User Tone Profile Echo, Context Ledger, Autobiographical Echo, and THB. |
+| [`CAAI_Public_Technical_Overview_v1.0.md`](CAAI_Public_Technical_Overview_v1.0.md) | Public technical overview with safe Phase-2 concepts such as Emotional Superposition, Strong Memory Anchors, User Tone Profile Echo, Context Ledger, Autobiographical Echo, Corrective Recall, and THB. |
 | [`CAAI_Health_Safety_and_Governance_v1.0.md`](CAAI_Health_Safety_and_Governance_v1.0.md) | Safety and governance overview covering Phase-1 and Phase-2 boundaries, Governor control, logging, and future stability commitments. |
 
 ### Phase-2 Public Claim Boundary
@@ -222,6 +252,10 @@ Public-safe wording:
 
 CAAI should not be presented as proof that the full theoretical or physical form of Verrell’s Law is scientifically confirmed.
 
+Related theory archive:
+
+[`collapsefield/collapsefield-verrells-law`](https://github.com/collapsefield/collapsefield-verrells-law)
+
 ---
 
 ## Evaluation and Verification Roadmap
@@ -258,4 +292,4 @@ For licensing enquiries, research collaboration, or partnership discussions:
 
 ## Index Terms
 
-Collapse Aware AI · CAAI · behavioural middleware · memory-weighted selection · continuity memory · governor logic · drift prevention · Verrell’s Law · Crown kernel · AI agent stability · Phase-2 agent continuity · governed emotional memory · emotional resonance damping · governed follow-up priority · continuity-aware support
+Collapse Aware AI · CAAI · behavioural middleware · memory-weighted selection · continuity memory · governor logic · drift prevention · Verrell’s Law · Crown kernel · AI agent stability · Phase-1 Gold Build · Phase-1.5 integration · Phase-2 agent continuity · governed emotional memory · emotional resonance damping · governed follow-up priority · continuity-aware support · Corrective Recall · Time-Interval Awareness · Weighted Meaning Layer · Strong Memory Anchors · Truth-Hedge Bias · Multi-Factor Intention Cloud
