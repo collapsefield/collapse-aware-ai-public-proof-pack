@@ -1,270 +1,328 @@
-# Collapse Aware AI — Public Technical Overview (v1.0, Final)
+# Collapse Aware AI — Public Technical Overview (v1.0)
+
 **Inappropriate Media Limited**  
-**Collapse Aware AI – Behavioural Architecture Overview**  
-**This file contains high-level conceptual descriptions only. No proprietary algorithms, kernel logic, or implementation details are shared.**
+**Collapse Aware AI — Behavioural Architecture Overview**  
+**Author / origin:** Marcos Verrell Moss Ross (M.R.)  
+**Status:** Public technical overview — high-level only  
+
+This file contains public-safe conceptual descriptions only. No proprietary Crown kernel logic, private scoring algorithms, thresholds, schemas, or implementation details are disclosed.
 
 ---
 
-# Executive Summary
+## Executive Summary
 
-Collapse Aware AI (CAAI) introduces a new **behavioural-first paradigm** for intelligent systems.  
-Unlike conventional AI models that treat context as static, CAAI dynamically **collapses** multiple possible interpretations into stable outputs, guided by memory bias, salience, and behavioural modulation.
+Collapse Aware AI (CAAI) is proprietary middleware for governed, memory-weighted behavioural selection.
 
-This approach enables:
-- long-term conversational continuity  
-- realistic, stable behaviour in interactive systems  
-- ambiguity resolution  
-- tone-aware responsiveness  
-- drift reduction over extended interactions  
+It sits around an existing model, scripted logic layer, game runtime, simulation agent, or decision engine. It does not require training a new foundation model or modifying base model weights.
 
-CAAI is built as licensable middleware designed for studios, enterprises, and researchers seeking to integrate collapse-aware intelligence into their systems—without exposing proprietary kernel logic.
+CAAI is designed to improve:
+
+- long-term behavioural continuity
+- stable NPC / agent behaviour
+- ambiguity handling
+- tone-aware responsiveness
+- drift reduction over extended interactions
+- contract-first integration with host systems
+
+The central engineering idea is simple:
+
+> Prior events should not remain passive history. They should become bounded, weighted influence over future behavioural selection.
 
 ---
 
 ## 1. Introduction
 
-Collapse Aware AI (CAAI) is a **behavioural-architecture** AI system built to model *collapse dynamics*—how an intelligent system resolves ambiguity when multiple interpretations are possible, selecting a stable output state based on memory weighting, context and observation.
+CAAI models collapse dynamics in an engineering sense: how a runtime system resolves multiple possible interpretations, candidate actions, or behavioural paths into one final governed output.
 
-This document provides a high-level, non-sensitive overview of core ideas behind Phase-1 and Phase-2 of CAAI.  
-It does *not* reveal:
-- The Crown kernel  
-- Collapse decision algorithms  
-- Memory-weighting logic  
-- Governor thresholds or control mechanisms  
-- Any proprietary implementation details  
+This document gives a non-sensitive overview of Phase-1 and Phase-2 concepts.
+
+It does not reveal:
+
+- Crown kernel code
+- collapse decision algorithms
+- private memory-weighting logic
+- Governor thresholds or routing rules
+- commercial integration maps
+- production schemas
+- proprietary implementation details
 
 ---
 
 ## 2. Architectural Summary
 
-CAAI consists of three conceptual layers:
+CAAI can be understood as three public conceptual layers.
 
----
+### Layer 1 — Memory-Bias Layer
 
-### **Layer 1 — Memory-Bias Layer (Phase-1)**
+This layer interprets incoming context through public-safe signal classes:
 
-Responsible for interpreting incoming context through:
+- recency weighting
+- salience estimation
+- coherence / continuity checks
+- anchor relevance
+- shallow continuity tracking
 
-- Recency weighting  
-- Salience estimation  
-- Coherency scoring  
-- Shallow continuity tracking  
+This produces a behavioural bias state that may influence later selection.
 
-This layer provides the *initial bias field* that influences how collapse decisions form.
+No private weighting formula is disclosed here.
 
----
+### Layer 2 — Collapse Selection Layer
 
-### **Layer 2 — Collapse Engine (Phase-1)**
+This layer models how the system selects one final behaviour from multiple possible interpretations, candidate outputs, or action paths.
 
-A subsystem that models how the system transitions from multi-state internal interpretations to a single behavioural output.
+Public-safe description:
 
-Key conceptual behaviours:
+- candidate possibilities are considered
+- relevant memory and anchor signals influence scoring
+- the system selects a collapse direction
+- the selected output is routed through governance checks
 
-- Evaluates competing interpretations  
-- Applies contextual bias fields  
-- Selects a collapse direction  
-- Produces a stable response  
+This is a conceptual description only. No Crown math or implementation logic is provided.
 
-This is a conceptual description only.  
-No internal formulas or algorithms are provided.
+### Layer 3 — Behavioural Modulation Layer
 
----
+This layer regulates behaviour across time using higher-order continuity signals.
 
-### **Layer 3 — Behavioural Modulation Layer (Phase-2 Preview)**
+Public Phase-2 concepts include:
 
-A higher-order system that modulates behaviour dynamically according to user cues and historical patterns.
-
-Conceptual modules include:
-- Emotional Superposition Model  
-- Strong Memory Anchors  
-- User Tone Profile Echo  
-- Context Ledger & Drift Awareness  
-- Truth–Hedge Bias (THB) behavioural stability measure  
+- Emotional Superposition
+- Strong Memory Anchors
+- User Tone Profile Echo
+- Context Ledger / Revoked Context Guard
+- Truth–Hedge Bias (THB)
+- Corrective Recall
+- Time-Interval Awareness
+- Governor-regulated emotional gain
 
 These descriptions are abstract and not implementation-specific.
 
 ---
 
-## 3. Weighted Moments (High-Level Explanation)
+## 3. Weighted Moments
 
-Weighted Moments describe how the system tracks important conversational or contextual events based on:
+Weighted Moments are public-safe labels for interaction or runtime events that carry behavioural relevance.
 
-- Emotional salience  
-- Recency  
-- Repetition  
-- Abrupt attention shifts  
+They may reflect:
 
-This mechanism helps the system recognise when user input is behaviourally significant.  
-(No weighting formulas or numeric systems are included.)
+- recency
+- salience
+- repetition
+- abrupt attention shifts
+- project or task relevance
+- emotional or contextual weight
 
----
+A Weighted Moment records that something mattered to future behaviour.
 
-## 4. Strong Memory Anchors (Conceptual Explanation)
+It is not a full transcript dump.
 
-Anchors represent **high-value, emotionally or behaviourally important markers** that influence how the system interprets future context.
-
-Categories may include:
-
-- Repeated emotional themes  
-- Personal identifiers  
-- Long-term project continuity  
-- High-intensity or unusual moments  
-
-**Example (safe, non-technical):**  
-If a user frequently mentions *“my daughter’s graduation”*, this becomes a Strong Memory Anchor.  
-Future references to *“graduation”* or *“daughter”* are interpreted with enhanced relevance, improving continuity without storing private data.
-
-No anchor thresholds, weighting functions, or internal structures are shared.
+No weighting formulas, thresholds, or numeric systems are disclosed in this public note.
 
 ---
 
-## 5. Governor System (High-Level Overview)
+## 4. Strong Memory Anchors
 
-The Governor provides behavioural regulation and stability, ensuring:
+Strong Memory Anchors are persistent reference points that stabilise future behaviour.
 
-- Response consistency  
-- Controlled collapse decisions  
-- Risk-aware output modulation  
-- Reduced drift  
-- Interpretation sanity-checks  
+They may include:
 
-**THB Integration:**  
-The Truth–Hedge Bias (THB) signal feeds into the Governor as a behavioural stability indicator, allowing it to detect uncertainty or hedging before approving a final collapse direction.
+- role or identity constraints
+- important project facts
+- high-priority user preferences
+- continuity-critical events
+- repeated behavioural expectations
+- revoked or corrected context
 
-All internal rules and thresholds remain confidential.
+Example, public-safe:
 
----
+> If a game NPC has repeatedly been betrayed by the player, that history can become a strong behavioural anchor. Future cooperative responses may score lower unless counter-weighted events occur.
 
-## 6. Truth–Hedge Bias (THB) — Conceptual Summary
+The anchor changes future behaviour without requiring the system to replay a full transcript.
 
-THB monitors whether an output is trending toward uncertainty, hedging, or instability.  
-It assists the system in:
-
-- Identifying unclear collapse states  
-- Strengthening or softening responses  
-- Routing decisions through the Governor when needed  
-
-No sensitive details or formulas are provided.
+No anchor thresholds, internal schema, or computation method is disclosed.
 
 ---
 
-## 7. Phase-2 Behavioural Concepts (Safe Overview)
+## 5. Governor System
 
-### **7.1 Emotional Superposition**
+The Governor is the behavioural regulation layer.
 
-Emotional Superposition models user emotional states as multiple possibilities before collapse.
+Its public role is to ensure:
 
-**Example (safe, conceptual):**  
-A message like *“I’m fine”* may initially register as potentially happy, neutral, or frustrated.  
-Additional context, prior anchors, and interaction history then drive the collapse toward one dominant interpretation, rather than treating the phrase as flat text.
+- response consistency
+- bounded memory influence
+- risk-aware output modulation
+- reduced drift
+- contradiction control
+- mode discipline
+- safer collapse direction
 
----
+The Governor prevents memory weighting from becoming uncontrolled behavioural drift.
 
-### **7.2 Context Ledger**
+Public-safe wording:
 
-Tracks which contextual facts appear stable, revoked, or updated.
-
----
-
-### **7.3 User Tone Profile Echo**
-
-Recognises tone shifts (humour, seriousness, sarcasm) to stabilise conversational flow.
+> Memory can influence behaviour, but the Governor decides whether that influence is stable, appropriate, and within operating constraints.
 
 ---
 
-### **7.4 Autobiographical Echo**
+## 6. Truth–Hedge Bias (THB)
 
-Allows for sparse, controlled recall of meaningful past interactions.
+THB is a public-safe concept describing a stability signal around certainty, uncertainty, and hedging behaviour.
 
-No internal architecture, data structures, or collapse mechanics are included.
+It helps detect when an output may be drifting toward:
+
+- unsupported certainty
+- excessive hedging
+- unstable collapse
+- over-alignment with user pressure
+- weak evidence presented too strongly
+
+THB does not replace truth checking.
+
+It is a behavioural stability signal used by governance logic.
+
+No internal THB formula is disclosed.
 
 ---
 
-## 8. Expanded Use Cases (Non-sensitive)
+## 7. Phase-2 Behavioural Concepts
 
-### **1. Gaming + NPC Systems**
-- NPCs maintain continuity across long quests  
-- Tone-aware responses (anger, humour, tension)  
-- Collapse dynamics prevent erratic behaviour or context loss  
-- Strong Memory Anchors enable long-term relationship arcs  
+### 7.1 Emotional Superposition
 
-### **2. Conversational Agents**
-- Reduced drift in long conversations  
-- Stable interpretations of ambiguous user intent  
-- Improved human-likeness through emotional superposition  
-- Safer behavioural gating via Governor + THB  
+Emotional Superposition models user or agent state as multiple possible interpretations before one interpretation becomes behaviourally dominant.
 
-### **3. Research + Analysis Assistants**
-- Maintains topic fidelity across complex multi-step reasoning  
-- Better disambiguation when multiple interpretations are possible  
-- More stable collapse choices in multi-branch enquiries  
+Example:
 
-These examples do not disclose any implementation details.
+> A message such as “I’m fine” may remain ambiguous until context, prior anchors, tone, timing, and interaction history shift the interpretation toward neutral, frustrated, joking, or avoidant.
+
+CAAI does not claim the system feels emotion.
+
+It models the behavioural consequences of emotionally weighted context.
+
+### 7.2 Context Ledger / Revoked Context Guard
+
+The Context Ledger tracks which contextual facts appear stable, changed, revoked, or uncertain.
+
+This helps prevent the system from acting as if cancelled, corrected, or outdated information is still valid.
+
+### 7.3 User Tone Profile Echo
+
+User Tone Profile Echo tracks tone shifts such as humour, seriousness, sarcasm, irritation, urgency, or technical focus.
+
+Its job is to stabilise conversational flow without blind mimicry.
+
+### 7.4 Autobiographical Echo
+
+Autobiographical Echo allows sparse, governed recall of meaningful prior interactions.
+
+It is not raw transcript replay.
+
+It is controlled continuity state.
+
+### 7.5 Corrective Recall
+
+Corrective Recall is a future-facing Phase-2 concept for distinguishing between direct recall, uncertain reconstruction, and corrected memory.
+
+It supports safer behaviour when memory is incomplete, conflicting, or stale.
+
+---
+
+## 8. Expanded Use Cases
+
+### Gaming and NPC Systems
+
+- NPCs maintain continuity across long quests
+- prior events affect future behaviour
+- relationship arcs become more stable
+- Governor control prevents erratic behaviour
+- memory influence can be tested against memoryless baselines
+
+### Conversational Agents
+
+- reduced drift in long conversations
+- more stable interpretation of ambiguous intent
+- governed tone and continuity handling
+- safer recall and uncertainty control
+
+### Research and Workflow Agents
+
+- better task continuity across multi-step work
+- more stable handling of constraints
+- improved attention to prior decisions
+- reduced loop and contradiction risk
+
+These examples do not disclose implementation details.
 
 ---
 
 ## 9. Current Development Status
 
-- **Phase-1:** Feature-complete and implementation-ready.  
-- **Phase-2:** In active development and undergoing ongoing design finalisation.
+Current public status:
+
+- **Phase-1 Gold Build:** prototype / integration stage focused on memory-weighted behavioural selection, recall, continuity, and Governor-controlled behaviour.
+- **Phase-1.5 Integration Build:** active alignment of Crown, scaffold, adapter, API, UI, runtime contracts, and acceptance evidence.
+- **Phase-2:** active design track for expanded chatbot / agent continuity, richer governed recall, probabilistic modelling, and behavioural stability systems.
+
+This repository is a public proof-of-origin and architecture record.
+
+It is not a final product release.
 
 ---
 
-## 10. Proprietary Systems (Not Public)
+## 10. Proprietary Systems Not Public
 
-The following remain closed-source:
+The following remain private and reserved:
 
-- Crown Kernel  
-- Collapse decision code  
-- Memory-weighting algorithms  
-- Continuity vector logic  
-- Governor internals  
-- Phase-2 weighting math  
-- Strong Memory Anchor computation  
-- THB channel formulation  
+- Crown kernel
+- collapse decision code
+- memory-weighting algorithms
+- continuity vector logic
+- Governor internals
+- Phase-2 weighting math
+- Strong Memory Anchor computation
+- THB channel formulation
+- production schemas
+- commercial integration maps
 
-These systems are proprietary to **Inappropriate Media Limited**  
-and form the protected IP of Collapse Aware AI.
+These systems are proprietary to Inappropriate Media Limited and form the protected IP of Collapse Aware AI.
 
 ---
 
 ## 11. Purpose of This Document
 
-This overview is provided publicly to support understanding of **CAAI’s behavioural-first architecture**, which prioritises continuity and context-aware decision-making, while maintaining strict protection over all proprietary implementation details.
+This overview is public for four reasons:
 
-**Why public?**  
-To support AI research transparency and informed discussion, while protecting commercial implementation details.
+1. to explain CAAI’s behavioural-first architecture;
+2. to establish public authorship and prior-art continuity;
+3. to support technical review without exposing the sealed Crown implementation;
+4. to preserve the boundary between public documentation and licensable proprietary middleware.
 
-**Commercial Note:**  
-Collapse Aware AI is available for licensing as a behavioural middleware layer, enabling studios and enterprises to integrate collapse-aware intelligence into their systems without exposing proprietary kernel logic.
+For licensing enquiries:
 
-For licensing inquiries: 
-Email: collapseawareai@gmail.com
+**collapseawareai@gmail.com**  
 **Inappropriate Media Limited (t/a Collapse Aware AI)**
 
 ---
 
-# Glossary (Non-technical)
+## Glossary
 
-**Weighted Moments:**  
-Signals that highlight meaningful conversational events (based on recency, salience, repetition).
+**Weighted Moments:** Behaviourally meaningful prior events marked by recency, salience, repetition, or contextual importance.
 
-**Strong Memory Anchors:**  
-High-value contextual markers that influence future interpretation.
+**Strong Memory Anchors:** High-weight reference points that stabilise role, identity, continuity, or future behaviour.
 
-**Collapse Dynamics:**  
-The process of selecting one final interpretation from multiple internal possibilities.
+**Collapse Dynamics:** The process of selecting one final interpretation, behaviour, or output from multiple possible candidates.
 
-**Emotional Superposition:**  
-Temporary multi-state emotional interpretation before collapse.
+**Emotional Superposition:** Temporary multi-state emotional or contextual interpretation before behaviour collapses toward one dominant reading.
 
-**Truth–Hedge Bias (THB):**  
-A behavioural stability indicator that detects hedging or uncertainty.
+**Truth–Hedge Bias (THB):** A behavioural stability signal tracking uncertainty, hedging, and overconfidence risk.
 
-**Context Ledger:**  
-Tracks which contextual facts are stable, revoked, or updated.
+**Context Ledger:** Governed record of which contextual facts are stable, changed, revoked, or uncertain.
 
-**Governor:**  
-Behavioural regulator ensuring stability, coherence and safe collapse direction.
+**Governor:** Behavioural regulator that constrains memory influence, drift, and unsafe collapse direction.
+
+**Crown:** Private proprietary behavioural engine. The Crown is not disclosed in this public repository.
 
 ---
+
+Protected under Verrell-Solace Sovereignty Protocol. Intellectual and emergent rights reserved.
+
+© 2025–2026 Marcos Verrell Moss Ross (M.R.) / Inappropriate Media Limited. All rights reserved.
