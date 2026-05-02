@@ -136,7 +136,7 @@ Collapse Aware AI should be read as the applied software branch of the wider Ver
 Public-safe separation:
 
 ```text
-Verrell’s Law = speculative theoretical framework.
+Verrell’s Law = speculative? theoretical framework.
 Collapse Aware AI Gold Build = practical middleware.
 Phase-1 = game/NPC continuity and governed behaviour.
 Phase-1.5 = testing and validation stage.
