@@ -27,7 +27,7 @@
     "related_theory_repository": "https://github.com/collapsefield/collapsefield-verrells-law"
   },
   "public_claim_boundary": "This repository documents public architecture, provenance, validation framing, and selected public-safe Phase-2 notes only. It is not an open-source implementation and does not disclose the sealed Crown kernel or private algorithmic implementation.",
-  "current_stage": "Phase-1 / Phase-1.5 integration track: aligning Crown, scaffold, adapter, API, UI, runtime contracts, and acceptance evidence for a licensing-safe Gold Build demonstration.",
+  "current_stage": "Phase-1.5 testing and validation stage: controlled checks, behaviour comparisons, acceptance testing, and demonstration evidence around the Gold Build before wider licensing conversations.",
   "integrity_note": "No proprietary code, production parameters, Crown internals, sealed kernel materials, private scoring thresholds, or complete commercial integration maps are included.",
   "copyright": "© 2025–2026 Marcos Verrell Moss Ross (M.R.) / Inappropriate Media Limited (t/a Collapse Aware AI). All rights reserved."
 }
