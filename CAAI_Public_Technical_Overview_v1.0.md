@@ -258,8 +258,8 @@ These examples do not disclose implementation details.
 
 Current public status:
 
-- **Phase-1 Gold Build:** prototype / integration stage focused on memory-weighted behavioural selection, recall, continuity, and Governor-controlled behaviour.
-- **Phase-1.5 Integration Build:** active alignment of Crown, scaffold, adapter, API, UI, runtime contracts, and acceptance evidence.
+- **Phase-1 Gold Build:** prototype focused on memory-weighted behavioural selection, recall, continuity, and Governor-controlled behaviour.
+- **Phase-1.5 Testing and Validation Stage:** current public stage focused on controlled checks, behaviour comparisons, acceptance testing, and demonstration evidence around the Gold Build.
 - **Phase-2:** active design track for expanded chatbot / agent continuity, richer governed recall, probabilistic modelling, and behavioural stability systems.
 
 This repository is a public proof-of-origin and architecture record.
