@@ -4,7 +4,7 @@
 **Author:** Marcos Verrell Moss Ross (M.R.)  
 **Maintainer:** Inappropriate Media Limited (t/a Collapse Aware AI)  
 **Status:** Public clarification / positioning guardrail  
-**Last updated:** 2026-04-30
+**Last updated:** 2026-05-03
 
 ---
 
@@ -14,23 +14,23 @@ This note clarifies the boundary between the wider theoretical framework of **Ve
 
 Short version:
 
-> **Verrell’s Law is the theoretical framework.**  
+> **Verrell’s Law is the testable theoretical framework.**  
 > **Collapse Aware AI is the practical engineering application.**  
-> **The middleware can be evaluated without accepting the full speculative scope of the theory.**
+> **The middleware can be evaluated without accepting the full physical scope of the theory.**
 
 ---
 
 ## Scientific Status
 
-Verrell’s Law is presented as an original speculative framework exploring how memory, observation, weighted history, and informational structure may bias future collapse or selection events.
+Verrell’s Law is presented as an original, testable theoretical framework exploring how memory, observation, weighted history, and informational structure may bias future collapse or selection events.
 
 Its broader claims relating to physics, consciousness, electromagnetic memory, field interaction, and large-scale emergence are **not presented as established scientific consensus**.
 
-They should be read as theoretical and exploratory unless independently validated through suitable experimental, peer-reviewed, or mainstream scientific processes.
+They should be read as theoretical, falsifiable, and under active validation unless independently confirmed through suitable experimental, peer-reviewed, or mainstream scientific processes.
 
 Recommended public wording:
 
-> Verrell’s Law is currently a speculative theoretical framework and research hypothesis. Its wider physics and consciousness claims are not established scientific consensus.
+> Verrell’s Law is currently a testable theoretical framework and research hypothesis. Its wider physics and consciousness claims are not yet established scientific consensus.
 
 ---
 
@@ -90,7 +90,7 @@ It is continuity-aware behavioural control.
 
 ## What CAAI Should Be Judged On
 
-CAAI should be judged on practical engineering outcomes, not on whether every speculative claim of Verrell’s Law is accepted.
+CAAI should be judged on practical engineering outcomes, not on whether every wider theoretical claim of Verrell’s Law is accepted.
 
 Relevant evaluation questions include:
 
@@ -108,12 +108,12 @@ These are engineering questions. They can be tested without settling the full th
 
 ## Public Validation Roadmap
 
-The project is currently early-stage and selectively public. The public goal is not mass adoption yet. The goal is to preserve authorship, demonstrate the architecture, protect the proprietary Crown boundary, and prepare for controlled licensing discussions.
+The project is currently in a selective public proof and validation stage. The public goal is not mass adoption yet. The goal is to preserve authorship, demonstrate the architecture, protect the proprietary Crown boundary, and prepare for controlled licensing discussions.
 
 A practical validation path is:
 
 1. Internal Gold Build runtime proof
-2. End-to-end scaffold-to-Crown integration evidence
+2. Phase-1.5 testing and validation evidence
 3. Repeatable behaviour tests
 4. Private developer review
 5. Controlled game-simulation demo
@@ -181,9 +181,10 @@ Preferred forward-facing author line:
 Clean public separation:
 
 ```text
-Verrell’s Law = speculative theoretical framework.
+Verrell’s Law = testable theoretical framework.
 Collapse Aware AI Gold Build = practical middleware.
 Phase-1 = game/NPC continuity and governed behaviour.
+Phase-1.5 = testing and validation stage.
 Phase-2 = later continuity-aware chatbot/agent architecture.
 Validation = staged, evidence-based, and ongoing.
 ```
