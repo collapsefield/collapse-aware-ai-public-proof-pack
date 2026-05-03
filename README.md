@@ -5,7 +5,7 @@
 **Maintainer:** Marcos Verrell Moss Ross (M.R.)  
 **Entity:** Inappropriate Media Limited (t/a Collapse Aware AI)  
 **Contact:** collapseawareai@gmail.com  
-**Last updated:** 2026-05-02
+**Last updated:** 2026-05-03
 
 **DOI:** https://doi.org/10.5281/zenodo.17674143  
 **Related DOI:** https://doi.org/10.5281/zenodo.19135340
@@ -136,7 +136,7 @@ Collapse Aware AI should be read as the applied software branch of the wider Ver
 Public-safe separation:
 
 ```text
-Verrell’s Law = speculative? theoretical framework.
+Verrell’s Law = testable theoretical framework.
 Collapse Aware AI Gold Build = practical middleware.
 Phase-1 = game/NPC continuity and governed behaviour.
 Phase-1.5 = testing and validation stage.
@@ -213,7 +213,7 @@ They are included to timestamp authorship, establish public technical direction,
 | File | Purpose |
 |---|---|
 | [`PUBLIC_READER_START_HERE.md`](PUBLIC_READER_START_HERE.md) | First-read orientation note and public framing guardrail. |
-| [`SCIENTIFIC_STATUS_AND_ENGINEERING_SCOPE.md`](SCIENTIFIC_STATUS_AND_ENGINEERING_SCOPE.md) | Clarifies the boundary between speculative theory and practical middleware, with public-safe validation framing. |
+| [`SCIENTIFIC_STATUS_AND_ENGINEERING_SCOPE.md`](SCIENTIFIC_STATUS_AND_ENGINEERING_SCOPE.md) | Clarifies the boundary between theoretical framework and practical middleware, with public-safe validation framing. |
 | [`01_CANONICAL_OVERVIEW__Collapse_Aware_AI.md`](01_CANONICAL_OVERVIEW__Collapse_Aware_AI.md) | Canonical public description of CAAI as middleware for games, simulations, and agent continuity. |
 | [`PUBLIC_PROOF__CAAI_VERRELLS_LAW__GROUND_TRUTH.md`](PUBLIC_PROOF__CAAI_VERRELLS_LAW__GROUND_TRUTH.md) | Ground-truth layer for observable, implementable, and verifiable claims. |
 | [`PUBLIC_PROOF__CAAI__DRIFT_GOVERNANCE_AND_VALIDATION.md`](PUBLIC_PROOF__CAAI__DRIFT_GOVERNANCE_AND_VALIDATION.md) | Drift, governance, validation, and due-diligence framing. |
