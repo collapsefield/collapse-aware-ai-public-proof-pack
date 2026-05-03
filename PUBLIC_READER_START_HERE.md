@@ -5,7 +5,7 @@
 **Maintainer:** Inappropriate Media Limited (t/a Collapse Aware AI)  
 **Status:** Public proof-of-origin and technical orientation record  
 **Repository role:** Documentation, provenance, and public-safe architecture explanation  
-**Last updated:** 2026-04-26
+**Last updated:** 2026-05-03
 
 ---
 
@@ -169,7 +169,7 @@ It does not disclose enough public information to clone the proprietary implemen
 
 It does not prove the full physical or scientific claims of Verrell’s Law.
 
-It does not replace the need for proper runtime testing, integration proof, or licensing due diligence.
+It does not replace the need for proper runtime testing, validation evidence, or licensing due diligence.
 
 The correct public framing is:
 
@@ -206,15 +206,15 @@ Better public wording:
 
 ## 9. Current Development Stage
 
-Collapse Aware AI is currently in the Phase-1 / Phase-1.5 integration stage.
+Collapse Aware AI is currently in **Phase-1.5 testing and validation**.
 
 The current public framing is:
 
 - **Phase-1 Gold Build** — proof of memory-weighted behavioural selection, continuity, recall, and governor-controlled behaviour
-- **Phase-1.5 Integration Build** — contract alignment between Crown, scaffold, adapter, API, and UI
+- **Phase-1.5 Testing and Validation Stage** — controlled checks, acceptance tests, behaviour comparisons, runtime evidence, and demonstration proof around the Gold Build
 - **Phase-2 Research Track** — future chatbot and expanded behavioural architecture, including richer memory, probabilistic modelling, and stronger continuity systems
 
-The public proof pack documents the foundation and provenance.
+The public proof pack documents the foundation, provenance, validation direction, and public-safe architecture.
 
 It is not a final product release.
 
@@ -240,7 +240,7 @@ Governed output
 Host system
 ```
 
-The system should be integrated through stable interfaces, not by rewriting the proprietary core.
+The system should be connected through stable interfaces, not by rewriting the proprietary core.
 
 Core rule:
 
@@ -383,22 +383,25 @@ New readers should start here, then read:
 2. `01_CANONICAL_OVERVIEW__Collapse_Aware_AI.md`  
    Clean public description of CAAI as middleware.
 
-3. `PUBLIC_PROOF__CAAI_VERRELLS_LAW__GROUND_TRUTH.md`  
+3. `SCIENTIFIC_STATUS_AND_ENGINEERING_SCOPE.md`  
+   Boundary between Verrell’s Law and practical middleware; Phase-1.5 public validation framing.
+
+4. `PUBLIC_PROOF__CAAI_VERRELLS_LAW__GROUND_TRUTH.md`  
    Public grounding layer for what is observable, implementable, and verifiable.
 
-4. `PUBLIC_PROOF__CAAI__DRIFT_GOVERNANCE_AND_VALIDATION.md`  
+5. `PUBLIC_PROOF__CAAI__DRIFT_GOVERNANCE_AND_VALIDATION.md`  
    Drift, governance, validation, and technical due-diligence framing.
 
-5. `CAAI_Behavioral_Regimes_Clarification.md`  
+6. `CAAI_Behavioral_Regimes_Clarification.md`  
    Behavioural regime and operating-mode clarification.
 
-6. `CAAI_Health_Safety_and_Governance_v1.0.md`  
+7. `CAAI_Health_Safety_and_Governance_v1.0.md`  
    Public safety and governance framing.
 
-7. `CollapseAwareAI_Originality_and_Attribution.md`  
+8. `CollapseAwareAI_Originality_and_Attribution.md`  
    Authorship and originality declaration.
 
-8. `Official_GitHub_References.md`  
+9. `Official_GitHub_References.md`  
    Reference index for related public repositories.
 
 ---
