@@ -8,7 +8,7 @@
 | **Company** | Inappropriate Media Limited |
 | **Status** | Public proof-of-origin release |
 | **Edition** | Redacted public version |
-| **Purpose** | Authorship evidence, architectural proof, and controlled public disclosure |
+| **Purpose** | Authorship evidence, architectural proof, public-safe WEL positioning, and controlled public disclosure |
 
 ---
 
@@ -16,7 +16,7 @@
 
 This document is the **public proof edition** of the **Collapse Aware AI Phase-2 Master Specification**.
 
-It exists to establish that the Phase-2 behavioural architecture — including its named modules, layered memory logic, governed continuity model, and drift-control structure — was already defined by the author prior to full public rollout or commercial release.
+It exists to establish that the Phase-2 behavioural architecture — including its named modules, layered memory logic, governed continuity model, Weighted Emergence Layering (WEL), and drift-control structure — was already defined by the author prior to full public rollout or commercial release.
 
 It is intended as a **proof-of-origin and high-level design record**, not as a complete implementation manual.
 
@@ -64,6 +64,7 @@ The purpose of the wider architecture is to create a system that can:
 
 The internal master specification records that Phase-2 is built around a behavioural spine including:
 
+- Weighted Emergence Layering (WEL)
 - weighted memory
 - strong anchors
 - semantic weighting
@@ -82,6 +83,8 @@ This public proof version discloses the **existence and structure** of those ide
 ## What Phase-2 Is — High-Level Definition
 
 Phase-2 is the intended expansion of Collapse Aware AI from a narrower behavioural influence layer into a fuller system for **stable mediated behaviour over time**.
+
+At a public-safe level, Phase-2 is organised around **Weighted Emergence Layering (WEL)**: the layered mechanism by which prior behavioural collapses are carried forward as governed weighted influence over future candidate selection.
 
 At a public-safe level, the design operates as follows:
 
@@ -105,6 +108,8 @@ Memory Interaction
   ↓
 Weighted Recall / Anchor Influence
   ↓
+Weighted Emergence Layering (WEL)
+  ↓
 Bias and Probability Shaping
   ↓
 Ambiguity / Interpretation Handling
@@ -124,6 +129,38 @@ That is the core public claim:
 
 ---
 
+## Weighted Emergence Layering (WEL)
+
+**Weighted Emergence Layering (WEL)** is the public-safe architectural term for the Phase-2 behavioural influence structure.
+
+WEL describes how prior events, retained context, anchors, salience, recency, timing, and continuity state are layered into a governed selection process.
+
+The purpose is not merely to retrieve memory.
+
+The purpose is to let prior behavioural history influence what the system is more or less likely to do next, while remaining subject to Governor control.
+
+Public-safe WEL flow:
+
+```text
+prior event
+  ↓
+stored behavioural weight
+  ↓
+continuity / salience / anchor influence
+  ↓
+candidate behaviour bias
+  ↓
+Governor-regulated collapse selection
+  ↓
+updated behavioural continuity
+```
+
+WEL is therefore the public label for the broader memory-weighted emergence mechanism running through the Phase-2 spine.
+
+This public proof edition does **not** disclose the private scoring rules, thresholds, schemas, route logic, Crown internals, or production implementation required to reproduce the full system.
+
+---
+
 ## Named Phase-2 Module Spine
 
 The private master specification defines a modular Phase-2 architecture.
@@ -132,6 +169,7 @@ This public proof edition confirms the existence of the named module spine witho
 
 | Module / Layer | Public-Safe Role |
 |---|---|
+| **Weighted Emergence Layering (WEL)** | Public-safe name for the layered memory-weighted behavioural influence structure that carries prior collapses into future governed selection. |
 | **Weighted Meaning Layer (WML)** | Converts incoming context into structured semantic meaning before behavioural selection. |
 | **Corrective Recall Layer (CRL)** | Distinguishes direct recall, reconstructed recall, weak recall, and correction-required recall. |
 | **Strong Memory Anchors** | Preserves high-salience identity, behavioural, emotional, or continuity markers. |
@@ -155,11 +193,33 @@ These module names and roles form part of the authorship and priority trail for 
 
 ## Public-Safe Architectural Summary
 
-The Phase-2 architecture can be summarised through seven high-level functional classes.
+The Phase-2 architecture can be summarised through eight high-level functional classes.
 
 ---
 
-### 1. Memory Weighting
+### 1. Weighted Emergence Layering
+
+WEL is the public-safe umbrella term for the way Phase-2 layers memory, meaning, salience, time, anchors, recall quality, and Governor control into behavioural selection.
+
+It separates Collapse Aware AI from flat memory systems.
+
+A flat memory system asks:
+
+```text
+What did the user say before?
+```
+
+WEL asks:
+
+```text
+How should what happened before change what the system does next?
+```
+
+That distinction is central to the Phase-2 public claim.
+
+---
+
+### 2. Memory Weighting
 
 Not all prior interactions are treated equally.
 
@@ -195,7 +255,7 @@ Ordinary events decay toward zero and may be pruned or compressed during refresh
 
 ---
 
-### 2. Continuity Preservation
+### 3. Continuity Preservation
 
 The system retains behavioural continuity across time and across sessions while remaining governable and revisable.
 
@@ -221,7 +281,7 @@ The purpose is to preserve the behavioural traces that should continue to matter
 
 ---
 
-### 3. Meaning Extraction
+### 4. Meaning Extraction
 
 Phase-2 includes a layer that extracts structured meaning from incoming context so the system is not driven only by raw surface text.
 
@@ -243,13 +303,15 @@ The public distinction is simple:
 
 ---
 
-### 4. Behavioural Biasing and Control
+### 5. Behavioural Biasing and Control
 
 The architecture includes a probabilistic weighting and behavioural control layer.
 
 The system is not only recalling past context.
 
 It uses governed bias to influence which future behaviour is selected.
+
+This is where WEL becomes behaviourally visible: retained state changes the future candidate landscape instead of merely being pasted back into context.
 
 #### Public-Safe Bias-Weighted Selection Model
 
@@ -276,7 +338,7 @@ This expresses the core Phase-2 concept:
 
 ---
 
-### 5. Interpretation Under Ambiguity
+### 6. Interpretation Under Ambiguity
 
 Phase-2 handles ambiguity through multi-interpretation logic rather than premature hard collapse.
 
@@ -313,7 +375,7 @@ Public-safe interpretation:
 
 ---
 
-### 6. Time Awareness
+### 7. Time Awareness
 
 Time is not irrelevant metadata.
 
@@ -347,7 +409,7 @@ This supports the Phase-2 claim that:
 
 ---
 
-### 7. Governor Logic
+### 8. Governor Logic
 
 The system includes an explicit governing layer regulating:
 
@@ -421,7 +483,7 @@ $$
 
 This expresses the public-safe technical claim:
 
-> **Phase-2 selects behaviour through a governed, memory-weighted probability structure rather than raw one-shot generation.**
+> **Phase-2 selects behaviour through Weighted Emergence Layering: a governed, memory-weighted probability structure rather than raw one-shot generation.**
 
 ---
 
@@ -434,12 +496,13 @@ The internal Phase-2 specification records a stack flow of approximately the fol
 2.  Meaning extracted
 3.  Relevant prior state retrieved
 4.  Memory and anchor weighting applied
-5.  Continuity and time factors introduced
-6.  Candidate interpretations or behaviours weighted
-7.  Governor constraints applied
-8.  Behaviour selected through controlled collapse
-9.  Post-output memory update performed
-10. Session continuity state refreshed
+5.  Weighted Emergence Layering shapes candidate influence
+6.  Continuity and time factors introduced
+7.  Candidate interpretations or behaviours weighted
+8.  Governor constraints applied
+9.  Behaviour selected through controlled collapse
+10. Post-output memory update performed
+11. Session continuity state refreshed
 ```
 
 This is the public-safe structural flow only.  
@@ -479,7 +542,8 @@ This document is intended to prove the following:
 
 1. The named Phase-2 architecture existed in structured form prior to release.
 2. The system was already conceived as a governed, memory-weighted behavioural continuity architecture, not a generic chatbot memory feature.
-3. The project had already moved beyond vague ideas into a defined:
+3. Weighted Emergence Layering (WEL) was part of the public-safe architectural framing for how prior behavioural state influences future selection.
+4. The project had already moved beyond vague ideas into a defined:
    - modular spine
    - memory-control logic
    - interpretation layer
@@ -487,8 +551,8 @@ This document is intended to prove the following:
    - time-awareness model
    - Bayesian biasing approach
    - drift/stability framework
-4. The public release of this redacted edition is part of a wider authorship and priority trail.
-5. The architecture connects directly to the broader Verrell’s Law claim that retained structured memory can bias future selection.
+5. The public release of this redacted edition is part of a wider authorship and priority trail.
+6. The architecture connects directly to the broader Verrell’s Law claim that retained structured memory can bias future selection.
 
 ---
 
@@ -503,7 +567,7 @@ Collapse Aware AI does **not** claim:
 
 The intended claim is narrower and stronger:
 
-> **The system accumulates weighted behavioural evidence across time and uses governed continuity logic to stabilise future interpretation and selection.**
+> **The system accumulates weighted behavioural evidence across time and uses Weighted Emergence Layering plus governed continuity logic to stabilise future interpretation and selection.**
 
 That is the correct public-safe framing.
 
@@ -530,9 +594,9 @@ It is **not** the full technical specification and should not be treated as such
 
 The private Phase-2 master specification defines a governed, memory-weighted behavioural architecture for stable interaction across time.
 
-Phase-2 is intended to deliver stable, continuous behaviour through governed memory-weighted logic, as explicitly concluded in the original document.
+Phase-2 is intended to deliver stable, continuous behaviour through Weighted Emergence Layering, governed memory-weighted logic, and controlled behavioural selection, as explicitly concluded in the original document.
 
-This public proof edition exists to show that the architecture, naming, structure, mathematical direction, and design intent were already present, while protecting the commercially sensitive execution detail required to build and tune the full system.
+This public proof edition exists to show that the architecture, naming, structure, mathematical direction, WEL framing, and design intent were already present, while protecting the commercially sensitive execution detail required to build and tune the full system.
 
 ---
 
