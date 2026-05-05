@@ -1,11 +1,13 @@
 # Collapse Aware AI (CAAI) — Public Proof Pack
 
-**Collapse Aware AI (CAAI)** is proprietary middleware for governed, memory-weighted behavioural selection. It sits between a host system and an underlying model, scripted logic layer, or decision engine, using continuity memory, recency, salience, anchors, and Governor logic to reduce behavioural drift without modifying base model weights.
+**Collapse Aware AI (CAAI)** is proprietary middleware for governed, memory-weighted behavioural selection. It sits between a host system and an underlying model, scripted logic layer, or decision engine, using continuity memory, recency, salience, anchors, **Weighted Emergence Layering (WEL)**, and Governor logic to reduce behavioural drift without modifying base model weights.
+
+**Weighted Emergence Layering (WEL)** is the public-safe architectural term for the layered CAAI approach where prior behavioural collapses are carried forward as weighted signals that can influence future candidate selection under Governor control.
 
 **Maintainer:** Marcos Verrell Moss Ross (M.R.)  
 **Entity:** Inappropriate Media Limited (t/a Collapse Aware AI)  
 **Contact:** collapseawareai@gmail.com  
-**Last updated:** 2026-05-03
+**Last updated:** 2026-05-05
 
 **DOI:** https://doi.org/10.5281/zenodo.17674143  
 **Related DOI:** https://doi.org/10.5281/zenodo.19135340
@@ -19,6 +21,8 @@ Start here first: [`PUBLIC_READER_START_HERE.md`](PUBLIC_READER_START_HERE.md)
 This short orientation note explains what Collapse Aware AI is, what this proof pack proves, what remains private, and how the Crown/licensing boundary works.
 
 For the public boundary between the wider Verrell’s Law theory and the applied middleware, read: [`SCIENTIFIC_STATUS_AND_ENGINEERING_SCOPE.md`](SCIENTIFIC_STATUS_AND_ENGINEERING_SCOPE.md)
+
+For the public-safe definition of Weighted Emergence Layering, read: [`WEIGHTED_EMERGENCE_LAYERING_WEL.md`](WEIGHTED_EMERGENCE_LAYERING_WEL.md)
 
 ---
 
@@ -45,6 +49,7 @@ This repository is the public documentation and proof-of-origin record for Colla
 It exists to document:
 
 - the public architecture of CAAI
+- Weighted Emergence Layering (WEL) as public-safe architecture language
 - the authorship and provenance trail
 - the public-safe technical framing
 - the contract-first integration model
@@ -95,11 +100,50 @@ Host runtime
 The system regulates behaviour through:
 
 - **Continuity Memory** — retained behavioural moments and anchors
+- **Weighted Emergence Layering (WEL)** — layered memory-weighted behavioural influence over future candidate selection
 - **Bias Engine** — weighting through recency, salience, and anchors
 - **Governor** — drift prevention, stability control, and constraint enforcement
 - **Collapse Selection** — final behaviour selection from candidate possibilities
 
 CAAI is designed to work around existing models or decision engines. It does not require training a new foundation model or rewriting base model weights.
+
+---
+
+## Weighted Emergence Layering (WEL)
+
+**Weighted Emergence Layering (WEL)** is the public-safe name for the memory-weighted behavioural layer used by Collapse Aware AI.
+
+WEL describes the process by which prior events become structured behavioural signals that can influence future candidate selection over time.
+
+```text
+past event
+↓
+stored behavioural weight
+↓
+future candidate bias
+↓
+governed collapse selection
+↓
+updated behavioural continuity
+```
+
+WEL keeps the distinction between passive memory retrieval and behavioural memory influence clear.
+
+Conventional memory systems often ask:
+
+```text
+What should the system remember?
+```
+
+CAAI also asks:
+
+```text
+How should what happened before change what the system does next?
+```
+
+That distinction is central to the public CAAI architecture.
+
+Full public-safe note: [`WEIGHTED_EMERGENCE_LAYERING_WEL.md`](WEIGHTED_EMERGENCE_LAYERING_WEL.md)
 
 ---
 
@@ -121,6 +165,7 @@ This proof pack documents the Phase-1 foundation and Phase-1.5 testing/validatio
 
 | File | Why it matters | Status |
 |---|---|---|
+| [`WEIGHTED_EMERGENCE_LAYERING_WEL.md`](WEIGHTED_EMERGENCE_LAYERING_WEL.md) | Defines WEL as the public-safe architectural term for CAAI's memory-weighted behavioural influence layer. | Public Architecture Term |
 | [`PHASE2_EMOTIONAL_RESONANCE_GOVERNED_MEMORY.md`](PHASE2_EMOTIONAL_RESONANCE_GOVERNED_MEMORY.md) | Public-safe Phase-2 note showing how emotional resonance becomes governed memory, not sentiment decoration or uncontrolled mirroring. | Phase-2 Architecture Note |
 | [`PHASE2_FOLLOWUP_PRIORITY_RULE.md`](PHASE2_FOLLOWUP_PRIORITY_RULE.md) | Defines the key safety rule: high user salience may increase follow-up priority, but must not increase factual certainty. | Phase-2 Governance Note |
 | [`SCIENTIFIC_STATUS_AND_ENGINEERING_SCOPE.md`](SCIENTIFIC_STATUS_AND_ENGINEERING_SCOPE.md) | Keeps the theory/middleware boundary clean: Verrell’s Law motivates the architecture; CAAI is practical middleware. | Public Guardrail |
@@ -213,6 +258,7 @@ They are included to timestamp authorship, establish public technical direction,
 | File | Purpose |
 |---|---|
 | [`PUBLIC_READER_START_HERE.md`](PUBLIC_READER_START_HERE.md) | First-read orientation note and public framing guardrail. |
+| [`WEIGHTED_EMERGENCE_LAYERING_WEL.md`](WEIGHTED_EMERGENCE_LAYERING_WEL.md) | Public-safe definition of WEL as CAAI's memory-weighted behavioural influence layer. |
 | [`SCIENTIFIC_STATUS_AND_ENGINEERING_SCOPE.md`](SCIENTIFIC_STATUS_AND_ENGINEERING_SCOPE.md) | Clarifies the boundary between theoretical framework and practical middleware, with public-safe validation framing. |
 | [`01_CANONICAL_OVERVIEW__Collapse_Aware_AI.md`](01_CANONICAL_OVERVIEW__Collapse_Aware_AI.md) | Canonical public description of CAAI as middleware for games, simulations, and agent continuity. |
 | [`PUBLIC_PROOF__CAAI_VERRELLS_LAW__GROUND_TRUTH.md`](PUBLIC_PROOF__CAAI_VERRELLS_LAW__GROUND_TRUTH.md) | Ground-truth layer for observable, implementable, and verifiable claims. |
@@ -247,9 +293,11 @@ Verrell’s Law provides the broader theoretical basis: retained information can
 
 Collapse Aware AI applies that principle in software as governed, memory-weighted behavioural middleware.
 
+Weighted Emergence Layering names the public-safe layered architecture by which prior behavioural collapses are carried forward as governed influence over later candidate selection.
+
 Public-safe wording:
 
-> Verrell’s Law motivates the architecture. Collapse Aware AI implements the principle as software middleware.
+> Verrell’s Law motivates the architecture. Collapse Aware AI implements the principle as software middleware. Weighted Emergence Layering describes the public-safe behavioural influence layer that carries memory-weighted selection forward over time.
 
 CAAI should not be presented as proof that the full theoretical or physical form of Verrell’s Law is scientifically confirmed.
 
@@ -287,10 +335,12 @@ For licensing enquiries, research collaboration, or partnership discussions:
 
 ## Canonical Short Description
 
-> Collapse Aware AI is a proprietary middleware layer that gives AI agents and NPCs memory-weighted behavioural continuity, governor-controlled drift prevention, and contract-first integration without modifying base model weights.
+> Collapse Aware AI is a proprietary middleware layer that gives AI agents and NPCs memory-weighted behavioural continuity, Governor-controlled drift prevention, and contract-first integration without modifying base model weights.
+
+> Weighted Emergence Layering is the public-safe architectural term for the layered memory-weighted behavioural influence system used by Collapse Aware AI.
 
 ---
 
 ## Index Terms
 
-Collapse Aware AI · CAAI · behavioural middleware · memory-weighted selection · continuity memory · governor logic · drift prevention · Verrell’s Law · Crown kernel · AI agent stability · Phase-1 Gold Build · Phase-1.5 testing · Phase-1.5 validation · Phase-2 agent continuity · governed emotional memory · emotional resonance damping · governed follow-up priority · continuity-aware support · Corrective Recall · Time-Interval Awareness · Weighted Meaning Layer · Strong Memory Anchors · Truth-Hedge Bias · Multi-Factor Intention Cloud
+Collapse Aware AI · CAAI · behavioural middleware · memory-weighted selection · Weighted Emergence Layering · WEL · continuity memory · governor logic · drift prevention · Verrell’s Law · Crown kernel · AI agent stability · Phase-1 Gold Build · Phase-1.5 testing · Phase-1.5 validation · Phase-2 agent continuity · governed emotional memory · emotional resonance damping · governed follow-up priority · continuity-aware support · Corrective Recall · Time-Interval Awareness · Weighted Meaning Layer · Strong Memory Anchors · Truth-Hedge Bias · Multi-Factor Intention Cloud
