@@ -3,7 +3,7 @@
 **Author:** Marcos Verrell Moss Ross (M.R.)  
 **Entity:** Inappropriate Media Limited (t/a Collapse Aware AI)  
 **Status:** Public originality and provenance statement  
-**Year range:** 2023–2026
+**Year range:** 2024–2026
 
 ---
 
