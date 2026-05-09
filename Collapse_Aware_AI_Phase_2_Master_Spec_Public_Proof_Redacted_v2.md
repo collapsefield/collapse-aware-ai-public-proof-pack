@@ -1,5 +1,5 @@
 # Collapse Aware AI — Phase-2 Master Specification
-## Public Proof Edition (Redacted) — Revision 2
+## Public Proof Edition (Redacted) — Revision 2.1
 
 | Field | Detail |
 |---|---|
@@ -12,7 +12,7 @@
 
 ---
 
-## Revision-2 Clarification Note
+## Revision-2.1 Clarification Note
 
 This revision sharpens the public-safe framing of the existing Phase-2 architecture following additional architectural review.
 
@@ -28,6 +28,8 @@ This revision primarily clarifies:
 - ambiguity handling rules
 - Governor separation between risk gating and behavioural ranking
 - continuity-aware interpretation flow
+- public terminology around long-range behavioural coherence
+- proof-of-origin preservation of the named module spine
 
 No executable implementation detail is disclosed.
 
@@ -65,7 +67,7 @@ Public-safe distinction:
 
 Phase-2 does not treat continuity systems as isolated memory silos.
 
-Strong Memory Anchors, Weighted Thread Stamps, Continuity Memory, revision state, and long-range behavioural continuity are intended to operate as differentiated memory classes/views over a governed persistence substrate.
+Strong Memory Anchors, Weighted Thread Stamps, Continuity Memory, revision state, revocation state, and long-range behavioural coherence are intended to operate as differentiated memory classes/views over a governed persistence substrate.
 
 At a public-safe level:
 
@@ -73,8 +75,25 @@ At a public-safe level:
 - continuity memory preserves active interaction continuity
 - revision state preserves meaning-change history
 - revocation state prevents obsolete context remaining active
+- long-range coherence preserves sparse behavioural consistency signals without implying machine selfhood
 
 This organisation is intended to reduce memory fragmentation, stale persistence, and uncontrolled behavioural drift.
+
+---
+
+## Terminology Note: Long-Range Behavioural Coherence
+
+Earlier internal materials used the label **Autobiographical Echo Layer** for longer-range continuity recall.
+
+For public and commercial wording, the safer term is:
+
+> **Long-Range Behavioural Coherence Layer**
+
+This keeps the intended engineering function while avoiding unnecessary identity or consciousness implication.
+
+The public-safe role is simple:
+
+> selectively preserving and surfacing relevant prior interaction patterns when they improve continuity, stability, or interpretation under Governor control.
 
 ---
 
@@ -97,6 +116,10 @@ Weighted behavioural influence
 ```
 
 This allows prior continuity state to assist interpretation without requiring raw transcript replay.
+
+Runtime note for future implementation:
+
+> Phase-1/Phase-1.5 audits should confirm whether the current adapter path is strictly one-shot or whether it can support a retrieval-assisted reinterpretation pass later.
 
 ---
 
@@ -145,6 +168,10 @@ This reflects the intended distinction between:
 - ordinary decaying memory
 - reinforced continuity memory
 - persistent anchor-class state
+
+Private calibration note:
+
+> Domain tuning should be handled in the private specification through bounded coefficient calibration, normalised candidate scoring, governed/un-governed A/B comparison, held-out preference checks, and drift/stability evaluation. Exact tuning rules remain withheld from the public proof edition.
 
 ---
 
@@ -201,6 +228,53 @@ The important public claim is not any single formula.
 The important claim is:
 
 > Past governed state changes the future probability landscape of behaviour.
+
+The public edition deliberately avoids disclosing a full combined scoring formula. The private specification should retain a factorised model that avoids double-counting salience, recency, continuity, and time as if they were fully independent signals.
+
+---
+
+## Named Phase-2 Module Spine — Public Proof Appendix
+
+This appendix preserves the named module spine as a proof-of-origin artefact while keeping the main document cleaner and more commercially readable.
+
+| Module / Layer | Public-Safe Role |
+|---|---|
+| **Weighted Emergence Layering (WEL)** | Architectural umbrella for layered memory-weighted behavioural influence under governance. |
+| **Weighted Meaning Layer (WML)** | Extracts structured meaning signals from incoming context. |
+| **Corrective Recall Layer (CRL)** | Checks recall quality and distinguishes cached, tuned, weak, or correction-required recall. |
+| **Strong Memory Anchors** | Preserves high-persistence behavioural, factual, project, or continuity reference points. |
+| **Bayes Bias Module** | Operational probabilistic weighting layer that shapes candidate behaviour under uncertainty. |
+| **Governor v2** | Regulates risk, drift, certainty, instability, contradiction, and behavioural overcommitment. |
+| **Time-Interval Awareness** | Treats gaps, recency, silence, re-entry, and session breaks as behavioural control variables. |
+| **Multi-Factor Intention Cloud (MFIC)** | Maintains several possible user intentions before governed behavioural collapse. |
+| **Session Bias Boot Layer (SBML)** | Reconstructs useful approved continuity at session start to reduce cold-start behaviour. |
+| **Weighted Thread Stamp (WTS)** | Captures high-salience thread summaries as structured continuity markers. |
+| **User Tone Profile Echo Module** | Tracks tone, humour, seriousness, rhythm, and interaction style over time. |
+| **Revoked Context Guard (RCG)** | Prevents outdated, cancelled, revoked, or terminally false context from influencing current behaviour. |
+| **Truth-Hedge Bias (THB)** | Helps regulate overconfidence, excessive hedging, and unstable certainty. |
+| **Biometric Pulse Interface (BPI)** | Future-facing optional layer for consent-based physiological or timing signals. |
+| **Continuity Memory Layer** | Stores governed continuity state, weighted memories, anchors, revisions, and session residue. |
+| **Long-Range Behavioural Coherence Layer** | Public-safe successor wording for prior Autobiographical Echo terminology; preserves sparse relevant prior interaction patterns without implying consciousness. |
+| **Cloudflare Memory Persistence Layer (MPL)** | Proposed persistence substrate for append-only memory events, snapshots, classed memory views, and governed recall. |
+
+These names and roles remain part of the authorship and priority trail for Collapse Aware AI Phase-2.
+
+---
+
+## Internal Ownership Matrix Requirement
+
+This public edition does not disclose the full module ownership matrix.
+
+The private/dev specification should maintain an internal table defining, for each module:
+
+- what it reads
+- what it writes
+- where it sits in the pipeline
+- whether it is a pipeline stage or cross-cutting control layer
+- how it is audited
+- how it can be overridden or gated
+
+This is especially important for CRL and RCG, which may act at both read-time and write-time rather than as simple single-stage components.
 
 ---
 
