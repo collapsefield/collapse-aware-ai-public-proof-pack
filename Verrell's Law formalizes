@@ -1,0 +1,378 @@
+Verrell's Law formalizes the notion that retained information from prior states can bias future system selection, establishing path-dependent continuity. A key operational principle in the framework is the Active Information Weight (AIW) Principle, which governs how past informational content shapes the probability of future outcomes. Here are illustrative examples from the framework:
+1. Memory-Weighted Candidate Selection
+In computational or AI implementations (e.g., Collapse Aware AI), candidate outputs 
+y
+i
+y 
+i
+​
+  are evaluated not only on their present-state utility 
+U
+(
+y
+i
+;
+S
+t
+,
+O
+t
+)
+U(y 
+i
+​
+ ;S 
+t
+​
+ ,O 
+t
+​
+ ) but also by a memory-weighted bias 
+B
+(
+y
+i
+;
+M
+t
+)
+B(y 
+i
+​
+ ;M 
+t
+​
+ ) derived from past states 
+M
+t
+M 
+t
+​
+ :
+P
+(
+y
+i
+∣
+S
+t
+,
+O
+t
+,
+M
+t
+)
+=
+exp
+⁡
+(
+U
+(
+y
+i
+;
+S
+t
+,
+O
+t
+)
++
+λ
+B
+(
+y
+i
+;
+M
+t
+)
+)
+∑
+j
+exp
+⁡
+(
+U
+(
+y
+j
+;
+S
+t
+,
+O
+t
+)
++
+λ
+B
+(
+y
+j
+;
+M
+t
+)
+)
+P(y 
+i
+​
+ ∣S 
+t
+​
+ ,O 
+t
+​
+ ,M 
+t
+​
+ )= 
+∑ 
+j
+​
+ exp(U(y 
+j
+​
+ ;S 
+t
+​
+ ,O 
+t
+​
+ )+λB(y 
+j
+​
+ ;M 
+t
+​
+ ))
+exp(U(y 
+i
+​
+ ;S 
+t
+​
+ ,O 
+t
+​
+ )+λB(y 
+i
+​
+ ;M 
+t
+​
+ ))
+​
+ 
+Example:
+In a dialogue system, if the AI previously responded favorably to a particular topic, 
+B
+(
+y
+i
+;
+M
+t
+)
+B(y 
+i
+​
+ ;M 
+t
+​
+ ) assigns higher weight to future responses aligned with that topic. The response is actively biased by prior interactions, not purely by the current prompt.
+2. Weighted Emergence Layering (WEL)
+WEL is a recursive method where each emergent system output carries layered influence from prior selections:
+Retained bias from previous outputs
+Recurring symbolic or behavioral patterns
+Salience and recency weighting
+Governor-enforced continuity pressure
+Example:
+A generative agent in a simulated environment repeatedly selects paths that previously led to higher rewards. The AI selects actions using a drift-diffusion SDE where past high-value experiences produce a dynamic "pull" toward similar future states.
+3. Ψμν Informational Tensor Form
+In the speculative physics branch, the Active Information Weight manifests as an effective memory-source term (T_{\mu
+u}^) added to the Einstein tensor (G_{\mu
+u}):
+G
+μ
+u
+=
+8
+π
+G
+(
+T
+μ
+u
+m
+a
+t
+t
+e
+r
++
+T
+μ
+u
+E
+M
++
+T
+μ
+u
+m
+e
+m
+)
+,
+T
+μ
+u
+m
+e
+m
+=
+α
+M
+μ
+u
+(
+I
+,
+τ
+,
+σ
+,
+ω
+)
+G 
+μu
+​
+ =8πG(T 
+μu
+matter
+​
+ +T 
+μu
+EM
+​
+ +T 
+μu
+mem
+​
+ ),T 
+μu
+mem
+​
+ =αM 
+μu
+​
+ (I,τ,σ,ω)
+Example:
+In a hypothetical information-gravity system, regions of prior high informational density 
+I
+I exert greater "informational weight," biasing the collapse of quantum states within that region. This is analogous to physical mass biasing spacetime curvature, but for probability amplitudes.
+4. Path-Dependent Divergence
+Verrell's Law predicts that two identical present-state systems can evolve differently if their retained histories differ; AIW acts as the mechanism:
+Δ
+P
+(
+s
+i
+)
+∝
+λ
+⋅
+(
+B
+(
+s
+i
+;
+M
+t
+A
+)
+−
+B
+(
+s
+i
+;
+M
+t
+B
+)
+)
+ΔP(s 
+i
+​
+ )∝λ⋅(B(s 
+i
+​
+ ;M 
+t
+A
+​
+ )−B(s 
+i
+​
+ ;M 
+t
+B
+​
+ ))
+Example:
+Two NPC agents in a game environment, starting with identical rules, display increasingly distinct behaviors because their prior interactions (retained memory 
+M
+t
+A
+M 
+t
+A
+​
+  versus 
+M
+t
+B
+M 
+t
+B
+​
+ ) actively bias future decision probabilities.
+5. Optical or Symbolic Simulation Tests
+Practical demonstrations include weighted-collapse simulations:
+Candidate wave-like states diffuse stochastically.
+Each candidate's selection probability is biased by prior measurement history (active information weight).
+Observed collapse frequencies diverge from memoryless baselines.
+Example:
+An optical interference array study recorded outcome frequencies differing systematically when prior memory-biased states were encoded in the controller, demonstrating active weighting effects.
+Summary
+In all these cases, the Active Information Weight Principle acts as the conduit between historical informational traces 
+M
+t
+M 
+t
+​
+  and present selection 
+P
+(
+s
+i
+)
+P(s 
+i
+​
+ ), producing:
+Measurable behavioral continuity
+Path-dependent divergence
+Non-local influence of past states on stochastic outcomes
+Mathematically and computationally, AIW is encoded via bias terms in probability functions, SDE-drift terms, or tensor-field contributions, ensuring that prior structured information actively shapes future system dynamics.
+References for Public Examples:
+memory_weighted_collapse_equation.md
+WEIGHTED_EMERGENCE_LAYERING_WEL.md
+worlds_first_symbolic_collapse_test_framework.md
+VL-Optics-Experiment-Note_v1.1.md
+These sources provide practical, canonical, and symbolic-level examples where the Active Information Weight principle is explicitly applied.
