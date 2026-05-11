@@ -191,7 +191,7 @@ Validation = staged, evidence-based, and ongoing.
 
 CAAI can be evaluated through observable middleware behaviour: memory-weighted selection, continuity preservation, governed output stability, reduced behavioural drift, and repeatable runtime demonstrations.
 
-The broader physics, consciousness, electromagnetic memory, and field-interaction claims of Verrell’s Law are not presented as established scientific consensus.
+The broader physics, consciousness, electromagnetic memory, and field-interaction claims of Verrell’s Law are not presented as established scientific consensus yet. .
 
 Full clarification: [`SCIENTIFIC_STATUS_AND_ENGINEERING_SCOPE.md`](SCIENTIFIC_STATUS_AND_ENGINEERING_SCOPE.md)
 
