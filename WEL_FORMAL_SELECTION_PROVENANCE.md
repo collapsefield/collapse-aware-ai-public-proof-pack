@@ -56,20 +56,26 @@ Let candidate behaviour `y` be selected from a candidate set `Y`.
 
 Base model utility:
 
-$$U(y; X_t, O_t)$$
+$$
+U(y; S_t, O_t)
+$$
 
 Memory-weighted bias:
 
-$$B(y; M_t)$$
+$$
+B(y; M_t)
+$$
 
 Final selection distribution:
 
-$$P(y_{t+1}) = \operatorname{Softmax}(U(y; X_t, O_t) + \lambda B(y; M_t))$$
+$$
+\mathbf{P}(y_{t+1}) = \mathrm{Softmax}\big(U(y; S_t, O_t) + \lambda B(y; M_t)\big)
+$$
 
 Where:
 
 - `U` = base utility or raw model preference
-- `X_t` = current system/runtime state
+- `S_t` = current system/runtime state
 - `O_t` = current observation/input
 - `M_t` = memory state
 - `B` = memory-derived behavioural bias
@@ -80,7 +86,9 @@ The coupling value `λ` controls how strongly memory-derived bias influences fin
 
 A simple bounded form is:
 
-$$0 \leq \lambda \leq 1$$
+$$
+0 \leq \lambda \leq 1
+$$
 
 Where:
 
@@ -94,7 +102,9 @@ Where:
 
 The memory-bias term can be decomposed into recency, salience, and anchor components:
 
-$$B(y; M_t) = \alpha_R r(y, R_t) + \alpha_\Sigma s(y, \Sigma_t) + \alpha_A a(y, A_t)$$
+$$
+B(y; M_t) = \alpha_R r(y, R_t) + \alpha_\Sigma s(y, \Sigma_t) + \alpha_A a(y, A_t)
+$$
 
 Where:
 
@@ -106,6 +116,14 @@ Where:
 - `a` = anchor alignment score
 - `α_R, α_Σ, α_A` = weighting coefficients
 
+For a bounded public form, the component weights may be treated as convex coefficients:
+
+$$
+\alpha_R + \alpha_\Sigma + \alpha_A = 1, \quad \alpha_R, \alpha_\Sigma, \alpha_A \geq 0
+$$
+
+In practical middleware use, the component alignment scores should also be normalized or clipped before coupling so that the memory-bias term remains governable and does not overwhelm base utility or safety constraints.
+
 This avoids treating memory as a single opaque variable. WEL separates short-term recency, high-weight salience, and persistent anchor influence.
 
 ---
@@ -114,7 +132,9 @@ This avoids treating memory as a single opaque variable. WEL separates short-ter
 
 WEL is recursive. Selected behaviour updates memory, and updated memory influences future behavioural selection.
 
-$$M_{t+1} = \operatorname{UpdateMemory}(M_t, y_t, w_t)$$
+$$
+M_{t+1} = \mathrm{UpdateMemory}(M_t, y_t, w_t)
+$$
 
 Where:
 
@@ -124,7 +144,9 @@ Where:
 
 A minimal memory update can be described as:
 
-$$M_{t+1} = \delta M_t + w_t \phi(y_t)$$
+$$
+M_{t+1} = \delta M_t + w_t \phi(y_t)
+$$
 
 Where:
 
