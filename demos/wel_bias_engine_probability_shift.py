@@ -8,12 +8,20 @@ First published publicly: 2026-05-13
 Version:      WEL-DEMO-001
 
 Purpose:
-    Demonstrates how a memory-derived bias vector can alter candidate-selection
-    probabilities without modifying the underlying base model.
+    Demonstrates how a memory-derived bias vector B(y; M_t) can alter
+    candidate-selection probabilities without modifying the underlying base model.
 
 Core claim:
     Same base logits. Same candidate set. Different memory-bias field.
     Different selected behavioural probability landscape.
+
+Canonical public form:
+    P(y_{t+1}) = Softmax(U(y; S_t, O_t) + λ B(y; M_t))
+
+Public-boundary note:
+    This demo uses a simple illustrative bias vector. It does not disclose
+    production Crown internals, schemas, thresholds, private scoring rules,
+    candidate-packing logic, or governor implementation details.
 
 Requirements:
     Python 3.9+
@@ -48,13 +56,18 @@ def wel_probability_shift(
     """
     Applies a WEL memory-weighted shift to candidate logits.
 
+    This is the public-safe minimal form of:
+        U(y; S_t, O_t) + λ B(y; M_t)
+
     Args:
         base_logits:
             Raw candidate scores from the base model or candidate generator.
         memory_bias:
-            Memory-derived behavioural bias vector.
-            Positive values increase compatibility with memory.
-            Negative values reduce compatibility with memory.
+            Memory-derived behavioural bias vector B(y; M_t).
+            Positive values increase compatibility with retained memory.
+            Negative values reduce compatibility with retained memory.
+            In full WEL, this may be derived from recency, salience,
+            and anchor components, but those production mechanics are not disclosed here.
         lambda_weight:
             Coupling strength controlling how strongly memory affects selection.
             Expected range: 0.0 to 1.0.
@@ -86,12 +99,13 @@ def run_demo() -> None:
     candidates = ["Action_A", "Action_B", "Action_C", "Action_D"]
 
     # Base model preference:
-    # Action_C starts as the strongest raw candidate.
+    # Action_C starts as the strongest raw candidate under present-state utility U(y; S_t, O_t).
     base_logits = np.array([2.0, 1.5, 3.0, 0.5])
 
-    # Memory-derived bias:
-    # Prior interaction state favours Action_A and suppresses Action_C.
-    memory_bias = np.array([3.5, -1.0, -2.0, 0.0])
+    # Public-safe memory-derived bias B(y; M_t):
+    # Prior retained state favours Action_A and dampens Action_C.
+    # Values are illustrative and bounded for demonstration purposes only.
+    memory_bias = np.array([3.0, -0.5, -1.5, 0.0])
 
     lambda_weight = 0.6
 
