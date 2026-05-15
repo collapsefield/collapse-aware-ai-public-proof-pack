@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use or reference this public proof pack, please cite it using the metadata below."
+title: "Collapse Aware AI Public Proof Pack"
+type: dataset
+authors:
+  - family-names: "Verrell Moss Ross"
+    given-names: "Marcos"
+    name-particle: "M.R."
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.17674143"
+  - type: doi
+    value: "10.5281/zenodo.19135340"
+repository-code: "https://github.com/collapsefield/collapse-aware-ai-public-proof-pack"
+url: "https://github.com/collapsefield/collapse-aware-ai-public-proof-pack"
+abstract: "Public proof-of-origin and public-safe technical documentation for Collapse Aware AI, a proprietary middleware architecture for governed, memory-weighted behavioural selection, continuity preservation, drift reduction, and contract-first integration without modifying base model weights."
+keywords:
+  - Collapse Aware AI
+  - CAAI
+  - behavioural middleware
+  - memory-weighted selection
+  - Weighted Emergence Layering
+  - WEL
+  - governed collapse
+  - Crown kernel
+  - Verrell's Law
+  - AI agent stability
+license: "LicenseRef-Proprietary"
+date-released: "2026-05-15"
