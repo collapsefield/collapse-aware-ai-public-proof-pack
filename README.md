@@ -36,7 +36,7 @@ The repository is public for documentation, provenance, and due diligence.
 
 It is not an open-source implementation.
 
-It does not disclose the sealed Crown kernel.
+It does not disclose the sealed Crown kernel Governor
 
 The current public stage is **Phase-1.5 testing and validation**: running controlled checks, acceptance tests, and demonstration evidence around the Gold Build before wider licensing conversations.
 
