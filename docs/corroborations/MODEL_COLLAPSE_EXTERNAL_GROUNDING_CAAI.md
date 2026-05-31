@@ -36,7 +36,7 @@ A 2026 public article summarised research led by Yasser Roudi and collaborators 
 Public source mentioned:
 
 - Roland Moore-Colyer, Live Science, “How can we prevent AI models from cannibalizing themselves when human-generated data runs out? Scientists say they've found the answer,” published 2026-05-21.
-- Referenced study: F. Jangjoo, G. Di Sarra, M. Marsili, and Y. Roudi, “Lost in Retraining: Closed-Loop learning and model collapse in exponential families,” *Physical Review Letters* 136(19), 2026. DOI listed publicly as `10.1103/156q-3ngc`.
+- Referenced study: F. Jangjoo, G. Di Sarra, M. Marsili, and Y. Roudi, “Lost in Retraining: Closed-Loop Learning and Model Collapse in Exponential Families,” *Physical Review Letters*, 2026.
 
 This proof-pack note uses the public article and cited paper title as a corroborating external signal only. It does not reproduce the paper and does not depend on any private implementation detail from the Collapse Aware AI Crown.
 
