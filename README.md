@@ -6,13 +6,13 @@
 
 New readers, reviewers, studios, and licensing partners should read:
 
-- PUBLIC_READER_START_HERE.md
-- WHY_NOT_JUST_USE_AN_LLM.md
-- PROBLEM_SOLUTION_MIDDLEWARE_OVERVIEW.md
-- COMMON_QUESTIONS_FOR_STUDIOS.md
-- CAAI_ENGINEERING_SCOPE_AND_VALIDATION.md
-- SCIENTIFIC_STATUS_AND_ENGINEERING_SCOPE.md
-- WEIGHTED_EMERGENCE_LAYERING_WEL.md
+- [Public Reader Start Here](PUBLIC_READER_START_HERE.md)
+- [Why Not Just Use An LLM?](WHY_NOT_JUST_USE_AN_LLM.md)
+- [Problem / Solution Middleware Overview](PROBLEM_SOLUTION_MIDDLEWARE_OVERVIEW.md)
+- [Common Questions For Studios](COMMON_QUESTIONS_FOR_STUDIOS.md)
+- [CAAI Engineering Scope and Validation](CAAI_ENGINEERING_SCOPE_AND_VALIDATION.md)
+- [Scientific Status and Engineering Scope](SCIENTIFIC_STATUS_AND_ENGINEERING_SCOPE.md)
+- [Weighted Emergence Layering (WEL)](WEIGHTED_EMERGENCE_LAYERING_WEL.md)
 
 ## Core Public Position
 
