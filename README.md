@@ -78,7 +78,7 @@ Weighted Emergence Layering (WEL) remains the public architectural term describi
 
 ---
 
-## The Problem CAAI Attempts To Solve
+## The Problems CAAI Attempts To Solve
 
 ### Problem: AI systems forget.
 Solution: continuity memory.
