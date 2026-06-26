@@ -1,30 +1,50 @@
 # Collapse Aware AI (CAAI) — Public Proof Pack
 
-**Collapse Aware AI (CAAI)** is proprietary middleware for governed, memory-weighted behavioural selection.
+**Collapse Aware AI (CAAI)** is proprietary, engine-agnostic middleware for **governed retained-state behavioural selection**.
 
-It sits between a host system and an underlying model, scripted logic layer, or decision engine, using continuity memory, recency, salience, anchors, Weighted Emergence Layering (WEL), and Governor logic to reduce behavioural drift without modifying base model weights.
+It sits between a host system and an underlying model, scripted logic layer, simulation runtime, or decision engine. Its purpose is not simply to store memory, retrieve context, or generate text. Its purpose is to govern how retained state is allowed to influence future behavioural selection.
+
+In short:
+
+> CAAI is not AI memory storage. CAAI is a runtime layer for controlled behavioural selection.
 
 ---
 
 ## Executive Summary
 
-Most AI systems are good at generating responses.
-
-The harder problem is maintaining continuity over time.
+Most AI systems are good at producing outputs. The harder problem is maintaining continuity, control, and inspectability over time.
 
 CAAI is designed to improve:
 
-- behavioural continuity
-- memory-weighted influence
-- relationship persistence
+- governed behavioural selection
+- retained-state influence
+- persistence and recall
 - drift reduction
+- fallback handling
 - governor-controlled stability
-- long-session consistency
-- explainable behavioural selection
+- explainable runtime selection
+- contract-first integration
 
 The objective is simple:
 
-> Same model. Better continuity. Fewer loops. More stable behaviour.
+> Same host system. Same candidate space. More governed continuity. Less uncontrolled drift.
+
+---
+
+## Current Demo Position
+
+The current **Gold Build Core** is the Phase-1 engineering proof track.
+
+It should be understood as:
+
+- engine-agnostic middleware
+- JSON-in / JSON-out API architecture
+- retained-state behavioural selection
+- governor-controlled runtime logic
+- persistence / restart recall proof
+- diagnostic visibility into selected behaviour
+
+It should not be presented as a finished AAA NPC brain, a full Phase-2 adaptive agent system, or proof of machine consciousness.
 
 ---
 
@@ -32,13 +52,14 @@ The objective is simple:
 
 This repository is intended for:
 
-- game studios
-- AI developers
+- Technical Directors
+- AI Tools Engineers
 - simulation developers
-- robotics teams
+- robotics / embodied-agent teams
 - agent-framework builders
-- technical reviewers
-- potential licensing partners
+- game AI / NPC systems teams
+- R&D reviewers
+- potential evaluation and licensing partners
 
 It serves as the public-facing proof pack and engineering overview for Collapse Aware AI.
 
@@ -49,6 +70,7 @@ It serves as the public-facing proof pack and engineering overview for Collapse 
 New readers should begin with:
 
 - [Public Reader Start Here](PUBLIC_READER_START_HERE.md)
+- [Commercial Distinction and Evaluation Path](COMMERCIAL_DISTINCTION_AND_EVALUATION_PATH.md)
 - [Why Not Just Use An LLM?](WHY_NOT_JUST_USE_AN_LLM.md)
 - [Problem / Solution Middleware Overview](PROBLEM_SOLUTION_MIDDLEWARE_OVERVIEW.md)
 - [Common Questions For Studios](COMMON_QUESTIONS_FOR_STUDIOS.md)
@@ -58,81 +80,103 @@ New readers should begin with:
 
 ---
 
-## Core Public Position
+## What CAAI Is Not
 
-CAAI is engineering middleware.
+CAAI is not:
 
-It should be evaluated through:
+- a foundation model
+- a vector database
+- a standard RAG pipeline
+- long-context prompting
+- ordinary memory storage
+- a chatbot skin
+- a Unity-only or Unreal-only plugin
+- a claim of AGI or machine consciousness
+- proof of the full scientific scope of Verrell's Law
 
-- continuity improvement
-- behavioural stability
-- memory-weighted influence
-- governor effectiveness
-- drift reduction
-- runtime demonstrations
-- integration simplicity
+CAAI is middleware concerned with **how retained state is permitted to influence runtime behavioural selection under explicit governance rules**.
 
-CAAI is not presented as proof of broader physical claims.
+---
 
-Weighted Emergence Layering (WEL) remains the public architectural term describing how retained behavioural state becomes structured influence over future selection.
+## Commercial Distinction
+
+Many AI memory systems ask:
+
+> What information should be stored or retrieved?
+
+CAAI asks:
+
+> How should retained state influence future behavioural selection, and under what constraints?
+
+That distinction is central to the middleware.
+
+| Common AI memory direction | CAAI direction |
+|---|---|
+| Store information | Use retained state during behavioural selection |
+| Retrieve context | Govern runtime influence |
+| Extend context window | Select between candidate behaviours |
+| Improve recall | Improve controlled behavioural continuity |
+| Add memory to a model | Add an inspectable selection layer around a runtime |
+
+---
+
+## Public Runtime Shape
+
+```text
+Host system / UI / engine
+        ↓
+Structured input payload
+        ↓
+Candidate behaviours / possible outputs
+        ↓
+Retained-state influence
+        ↓
+Governor constraints
+        ↓
+Selected behaviour
+        ↓
+Diagnostic evidence / fallback status
+        ↓
+Persistent state update
+```
+
+Implementation details, Crown internals, scoring systems, thresholds, routing logic, and production tuning remain proprietary.
 
 ---
 
 ## The Problems CAAI Attempts To Solve
 
 ### Problem: AI systems forget.
-Solution: continuity memory.
+Solution: retained-state continuity.
 
 ### Problem: behaviour drifts.
 Solution: governor control.
 
-### Problem: relationships reset.
-Solution: memory weighting.
-
 ### Problem: sessions feel disconnected.
-Solution: WEL.
+Solution: persistence and recall.
 
-### Problem: agents become unstable over long interactions.
+### Problem: memory systems retrieve facts but do not govern influence.
 Solution: governed behavioural selection.
+
+### Problem: technical reviewers need visibility.
+Solution: diagnostic evidence and public-safe runtime traces.
 
 ---
 
 ## High-Level Architecture
 
-Publicly disclosed components include:
+Publicly disclosed concepts include:
 
-- Weighted Emergence Layering (WEL)
-- Active Information Weighting (AIW)
-- Continuity Memory
-- Strong Anchors
-- Governor Logic
-- Drift Detection
-- Behavioural Selection Controls
+- retained-state influence
+- continuity memory
+- active information weighting
+- strong anchors
+- governor logic
+- drift detection
+- behavioural selection controls
+- fallback and validation handling
 
-Implementation details, Crown internals, scoring systems, thresholds, routing logic, and production tuning remain proprietary.
-
----
-
-## What Makes CAAI Different
-
-Traditional systems typically rely on:
-
-- prompt engineering
-- context stuffing
-- larger context windows
-- retrieval alone
-
-CAAI focuses on behavioural continuity.
-
-Rather than asking only:
-
-> What information should be recalled?
-
-CAAI also asks:
-
-> How much should that information influence behaviour?
-
-That distinction is central to the middleware.
+Private implementation details remain sealed.
 
 ---
 
@@ -142,9 +186,12 @@ Verrell's Law remains the wider research framework.
 
 CAAI remains the engineering implementation.
 
-The two are related but should be evaluated separately.
+The two are related but should be evaluated separately. A reviewer can reject Verrell's Law entirely and still evaluate CAAI on engineering performance, continuity metrics, drift reduction, persistence, governor behaviour, and runtime outcomes.
 
-A reviewer can reject Verrell's Law entirely and still evaluate CAAI on engineering performance, continuity metrics, drift reduction, and behavioural outcomes.
+```text
+Verrell's Law = research framework around retained information, weighting, bias, and selection.
+CAAI Gold Build Core = engineering proof of governed retained-state behavioural selection.
+```
 
 ---
 
@@ -152,19 +199,34 @@ A reviewer can reject Verrell's Law entirely and still evaluate CAAI on engineer
 
 Future licensing discussions should focus on measurable outcomes:
 
-- continuity retention
-- reduced behavioural drift
-- improved NPC consistency
-- persistent relationships
-- lower scripting burden
-- controllable behavioural evolution
-- explainability and governance
+- Does retained state influence behavioural selection in a controlled way?
+- Does the governor restrict unstable or unwanted selection paths?
+- Does persistence survive restart and recall correctly?
+- Does the diagnostic output make the decision path inspectable?
+- Can the API be wrapped by a target engine or host runtime?
+- Does the middleware reduce scripting, state-machine, or integration burden?
 
 The primary question is not whether the terminology is interesting.
 
 The primary question is:
 
-> Does the middleware produce better behaviour than the baseline?
+> Does the middleware produce useful, controlled behavioural-selection evidence compared with a baseline?
+
+---
+
+## Evaluation / Licensing Direction
+
+The preferred early commercial path is a paid, time-limited **Architecture Evaluation Licence** under NDA.
+
+The evaluation should let serious technical parties assess:
+
+- local runtime behaviour
+- API contract shape
+- retained-state influence
+- persistence and restart recall
+- governor behaviour
+- diagnostic visibility
+- integration feasibility
 
 ---
 
@@ -172,7 +234,7 @@ The primary question is:
 
 CAAI is currently progressing through validation, integration, and runtime proof stages.
 
-Public materials are intended to explain the architecture, rationale, and evaluation criteria while protecting proprietary implementation details.
+Public materials explain the architecture, rationale, and evaluation criteria while protecting proprietary implementation details.
 
 ---
 
