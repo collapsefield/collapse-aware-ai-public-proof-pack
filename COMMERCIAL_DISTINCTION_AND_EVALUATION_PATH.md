@@ -144,15 +144,15 @@ A technical reviewer does not need to accept the full research scope of Verrell'
 
 ---
 
-## 9. Launch Sequence After P5-P7
+## 9. Public Demo and Evaluation Launch Sequence
 
-Recommended sequence:
+Recommended sequence after the current Gold Build Core validation stage:
 
-1. Complete P5-P7 validation.
-2. Record a clear demo video.
+1. Complete controlled validation of the Gold Build Core.
+2. Record a clear public-safe demo video.
 3. Publish demo footage on YouTube.
-4. Update GitHub proof materials.
-5. Publish a LinkedIn launch post.
+4. Update GitHub proof materials with demo context and public-safe evidence.
+5. Publish a LinkedIn launch post aimed at technical readers.
 6. Approach selected technical decision-makers.
 7. Offer evaluation access under NDA.
 
