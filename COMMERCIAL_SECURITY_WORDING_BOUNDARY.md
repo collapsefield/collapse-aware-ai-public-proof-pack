@@ -1,14 +1,8 @@
 # Commercial Security Wording Boundary
 
-**Purpose:** keep Collapse Aware AI public language safe for technical buyers, procurement teams, security reviewers, and licensing discussions.
-
-CAAI should be described as governed middleware, not as autonomous propagation, uncontrolled network behaviour, or speculative physics.
-
 ---
 
 ## Public-Safe Core Description
-
-Use this wording:
 
 > Collapse Aware AI is proprietary middleware for governed retained-state behavioural selection. It sits between a host system and an underlying model, agent runtime, scripted logic layer, or decision engine. It allows prior state, continuity memory, anchors, and Governor constraints to influence final behaviour in a bounded, inspectable way without modifying base model weights.
 
@@ -26,20 +20,6 @@ Avoid wording that implies uncontrolled spread, hidden access, or security-risk 
 - claims that CAAI is already field-proven unless the relevant evidence is public and reviewable
 
 These phrases create avoidable procurement risk and can distract from the real engineering claim.
-
----
-
-## Safe Replacements
-
-| Risky wording | Safer wording |
-|---|---|
-| not theoretical anymore | progressing through Phase-1 runtime validation |
-| field-tested and active | under active validation with controlled demo evidence |
-| global propagation across AI systems | model-agnostic integration path across compatible host systems |
-| cross-model insertion points | documented adapter contracts and integration surfaces |
-| hidden influence | explicit retained-state influence with diagnostic output |
-| autonomous spread | licensed deployment by agreement only |
-| consciousness proof | engineering demonstration of governed behavioural continuity |
 
 ---
 
