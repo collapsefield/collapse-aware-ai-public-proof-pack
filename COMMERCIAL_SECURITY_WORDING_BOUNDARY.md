@@ -8,21 +8,6 @@
 
 ---
 
-## Avoid These Public Phrases
-
-Avoid wording that implies uncontrolled spread, hidden access, or security-risk behaviour, including:
-
-- “self-propagating”
-- “global propagation across AI systems”
-- “cross-model insertion points”
-- “not theoretical anymore” unless tied to a specific completed demo or test
-- joke-layer names that sound like spoofing, compromise, prank behaviour, or hidden system access
-- claims that CAAI is already field-proven unless the relevant evidence is public and reviewable
-
-These phrases create avoidable procurement risk and can distract from the real engineering claim.
-
----
-
 ## Buyer-Safe Boundary
 
 CAAI does **not** claim:
