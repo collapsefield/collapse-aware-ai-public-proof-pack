@@ -1,255 +1,320 @@
 # Weighted Emergence Layering (WEL)
 
-**Subtitle:** A Memory-Weighted Selection Framework for Continuity-Aware AI Middleware
-**Author:** Marcos Verrell Moss Ross (M.R.)
-**Organisation:** Inappropriate Media Limited / Collapse Aware AI
-**Status:** Public technical provenance note
-**First published publicly:** 2026-05-13
-**Version:** WEL-PROV-001
+**Status:** Public-safe architectural definition  
+**Author / Originator:** Marcos Verrell Moss Ross (M.R.)  
+**Organisation:** Inappropriate Media Limited / Collapse Aware AI  
+**Version:** Public definition v2.0  
+**Boundary:** This file describes public architecture language only. It does not disclose Crown kernel internals or private scoring logic.
 
 ---
 
-## 1. Purpose
+## 1. Definition
 
-Weighted Emergence Layering (WEL) is a middleware-level framework for converting stored memory, salience, recency, and anchor signals into active selection pressure over future AI behaviour.
+Weighted Emergence Layering (WEL) is the public-safe architectural term for the memory-weighted behavioural layer used in Collapse Aware AI.
 
-WEL does not merely retrieve memory. It modifies the probability landscape from which behaviour is selected.
+It describes how prior events, retained state, continuity memory, recency, salience, and behavioural anchors can influence future candidate selection while remaining subject to Governor control.
+
+In plain terms:
+
+```text
+past event
+        ↓
+retained behavioural signal
+        ↓
+weighted influence
+        ↓
+future candidate bias
+        ↓
+Governor-controlled selection
+        ↓
+updated continuity
+```
+
+WEL is not merely memory retrieval.
+
+It is the controlled use of retained state as behavioural influence.
 
 ---
 
-## 2. Core Claim
+## 2. Core Public-Safe Summary
 
-Given the same base model, same prompt, and same candidate set, different memory-weighted states can produce different selected behavioural trajectories.
+Weighted Emergence Layering is a memory-weighted middleware approach in which prior events influence future behavioural selection through structured retained-state signals, anchors, salience, recency, and Governor-controlled selection logic.
 
-In short:
-
-**Same model. Same candidates. Different memory field. Different behaviour.**
+It is designed to give AI agents, NPCs, simulations, and long-running interactive systems stronger behavioural continuity over time without modifying the underlying model weights.
 
 ---
 
-## 3. What WEL Is
+## 3. Why WEL Exists
 
-WEL is:
+Many AI systems can remember or retrieve information.
 
-- a selection-biasing framework
-- a behavioural continuity mechanism
-- a memory-weighted middleware layer
-- a way to make prior interactions influence future outputs without retraining the base model
+The harder question is:
+
+```text
+How should remembered state affect future behaviour?
+```
+
+A memory system may retrieve a fact.
+
+WEL asks whether that retained state should influence future selection, how strongly, under what constraints, and with what diagnostic visibility.
+
+This distinction is central:
+
+```text
+memory storage  = what is kept
+memory retrieval = what is recalled
+WEL influence   = how retained state affects future selection
+```
 
 ---
 
-## 4. What WEL Is Not
+## 4. Relationship to Verrell’s Law
+
+Verrell’s Law proposes that retained state from prior interactions can bias future selection.
+
+Collapse Aware AI applies that principle in software.
+
+WEL is the bridge between them:
+
+```text
+Verrell’s Law
+        ↓
+retained state can bias future selection
+
+Collapse Aware AI
+        ↓
+middleware applies governed retained-state behavioural selection
+
+WEL
+        ↓
+public-safe name for the layered architecture carrying prior state forward as controlled behavioural influence
+```
+
+---
+
+## 5. Relationship to Collapse Aware AI
+
+In Collapse Aware AI, WEL describes the public-facing architecture around the behavioural selection layer.
+
+The public runtime shape is:
+
+```text
+host system / engine / UI
+        ↓
+structured input
+        ↓
+candidate behaviours
+        ↓
+retained-state influence
+        ↓
+Governor constraints
+        ↓
+selected behaviour
+        ↓
+diagnostic evidence
+        ↓
+persistent state update
+```
+
+The private implementation remains sealed.
+
+---
+
+## 6. What WEL Includes
+
+Public-safe WEL framing includes:
+
+- continuity memory
+- recency weighting
+- salience weighting
+- behavioural anchors
+- candidate behaviour scoring
+- governed selection
+- drift and stability checks
+- fallback awareness
+- diagnostic visibility
+- contract-first boundaries between host system, adapter, middleware, and underlying model or decision engine
+
+---
+
+## 7. Evidence Tier Boundary
+
+WEL should be understood in two tiers.
+
+### 7.1 Phase-1 / Built Evidence Tier
+
+The Phase-1 public evidence tier is:
+
+```text
+single-step governed retained-state behavioural selection
+```
+
+This means:
+
+```text
+same candidate set
+same present input
+different retained-state influence
+different selected behaviour
+Governor constraints applied
+diagnostic evidence available
+```
+
+This is the current Gold Build Core proof direction.
+
+---
+
+### 7.2 Future / Specified Tier
+
+The wider recursive WEL loop is specified as part of the roadmap.
+
+Recursive WEL means:
+
+```text
+selected behaviour updates memory
+updated memory influences later behaviour
+repeated cycles create stronger continuity
+```
+
+Unless separately implemented and verified, this should be treated as:
+
+```text
+specified / future development
+```
+
+Public materials should not imply that every recursive or emergent WEL capability is already present in Phase-1.
+
+---
+
+## 8. What WEL Does Not Disclose
+
+WEL does not disclose:
+
+- Crown kernel internals
+- private scoring formulas
+- production schemas
+- hidden thresholds
+- commercial integration maps
+- proprietary routing logic
+- sealed implementation details
+- complete recursive Phase-2 behaviour logic
+
+It is intended as public architecture language, not a release of the private system.
+
+---
+
+## 9. What WEL Is Not
 
 WEL is not:
 
+- a foundation model
+- a vector database
 - ordinary prompt memory
 - simple retrieval augmented generation
 - fine-tuning
-- a claim that the base model is conscious
-- proof of the full physical form of Verrell's Law
+- a chatbot skin
+- proof of machine consciousness
+- proof of the full scientific scope of Verrell’s Law
+- an open-source implementation
+- uncontrolled self-improving behaviour
 
 ---
 
-## 5. Formal Selection Equation
+## 10. Public-Safe Formal Shape
 
-Let candidate behaviour `y` be selected from a candidate set `Y`.
-
-Base model utility:
-
-$$
-U(y; S_t, O_t)
-$$
-
-Memory-weighted bias:
-
-$$
-B(y; M_t)
-$$
-
-Final selection distribution:
-
-$$
-\mathbf{P}(y_{t+1}) = \mathrm{Softmax}\big(U(y; S_t, O_t) + \lambda B(y; M_t)\big)
-$$
-
-Where:
-
-- `U` = base utility or raw model preference
-- `S_t` = current system/runtime state
-- `O_t` = current observation/input
-- `M_t` = memory state
-- `B` = memory-derived behavioural bias
-- `λ` = bias coupling strength
-- `P(y)` = final candidate-selection probability
-
-The coupling value `λ` controls how strongly memory-derived bias influences final selection. In practical middleware use, `λ` should be bounded to prevent memory from overwhelming task relevance, safety constraints, or governor logic.
-
-A simple bounded form is:
-
-$$
-0 \leq \lambda \leq 1
-$$
-
-Where:
-
-- `λ = 0` means no memory influence
-- `λ = 1` means full configured memory-bias influence
-- intermediate values provide tunable behavioural continuity
-
----
-
-## 6. Bias Decomposition
-
-The memory-bias term can be decomposed into recency, salience, and anchor components:
-
-$$
-B(y; M_t) = \alpha_R r(y, R_t) + \alpha_\Sigma s(y, \Sigma_t) + \alpha_A a(y, A_t)
-$$
-
-Where:
-
-- `R_t` = recency memory
-- `Σ_t` = salience memory
-- `A_t` = anchor memory
-- `r` = recency alignment score
-- `s` = salience alignment score
-- `a` = anchor alignment score
-- `α_R, α_Σ, α_A` = weighting coefficients
-
-For a bounded public form, the component weights may be treated as convex coefficients:
-
-$$
-\alpha_R + \alpha_\Sigma + \alpha_A = 1, \quad \alpha_R, \alpha_\Sigma, \alpha_A \geq 0
-$$
-
-In practical middleware use, the component alignment scores should also be normalized or clipped before coupling so that the memory-bias term remains governable and does not overwhelm base utility or safety constraints.
-
-This avoids treating memory as a single opaque variable. WEL separates short-term recency, high-weight salience, and persistent anchor influence.
-
----
-
-## 7. Recursive Memory Update
-
-WEL is recursive. Selected behaviour updates memory, and updated memory influences future behavioural selection.
-
-$$
-M_{t+1} = \mathrm{UpdateMemory}(M_t, y_t, w_t)
-$$
-
-Where:
-
-- `y_t` = selected behaviour
-- `w_t` = weight assigned to the event
-- `M_{t+1}` = updated memory state
-
-A minimal memory update can be described as:
-
-$$
-M_{t+1} = \delta M_t + w_t \phi(y_t)
-$$
-
-Where:
-
-- `δ` = memory retention/decay factor
-- `φ(y_t)` = encoded representation of the selected behaviour
-- `w_t` = event weight based on salience, recurrence, anchor relevance, or governor approval
-
-This creates path-dependence. Behaviour at time `t` affects memory, and memory affects selection at time `t+1`.
-
----
-
-## 8. Minimal Demonstration
-
-The companion file `demos/wel_bias_engine_probability_shift.py` demonstrates the central WEL mechanism.
-
-The simulation uses:
-
-- the same candidate actions
-- the same base logits
-- a memory-derived bias vector
-- a bounded coupling value λ
-
-The expected result is that the baseline model favours one action, while the memory-weighted WEL selection favours another.
-
-This demonstrates candidate-selection divergence caused by memory-weighted bias, not by changing the base model.
-
----
-
-## 9. Expected Demonstration Result
-
-Baseline model preference:
+A public-safe selection shape can be described as:
 
 ```text
-Action_C = highest probability
+candidate behaviour
+        ↓
+base preference
+        ↓
+retained-state influence
+        ↓
+Governor constraint
+        ↓
+final selected behaviour
 ```
 
-Memory-weighted WEL preference:
+Or compactly:
 
 ```text
-Action_A = highest probability
+final selection = governed(base preference + bounded retained-state influence)
 ```
 
-The important point is not the specific action labels. The important point is the mechanism:
+This is intentionally public-safe.
 
-**same base logits + different memory-bias field = different behavioural probability landscape.**
-
----
-
-## 10. Relationship to Collapse Aware AI
-
-Collapse Aware AI uses WEL as part of its middleware logic for behavioural continuity.
-
-In Phase-1, this appears as:
-
-- candidate generation
-- memory weighting
-- bias scoring
-- governor checks
-- final behavioural selection
-
-WEL provides the selection-pressure layer that allows memory to influence behaviour without modifying the underlying base model.
+It does not expose Crown formulas, thresholds, weighting internals, or commercial tuning.
 
 ---
 
-## 11. Relationship to Verrell's Law
+## 11. Commercial Relevance
 
-WEL is the engineering implementation branch of a broader Verrell's Law principle:
+WEL is relevant to systems where behavioural continuity matters over time, including:
 
-> Stored structure can bias future selection.
+- game NPCs
+- simulation agents
+- long-running AI agents
+- workflow agents
+- embodied-agent systems
+- training simulators
+- interactive character systems
+- governed AI middleware
 
-Within Collapse Aware AI, this is implemented as memory-weighted behavioural selection.
+The commercial value is not “memory” alone.
 
-This document makes no claim that the broader physical interpretation of Verrell's Law is experimentally proven.
+The value is governed influence:
 
----
-
-## 12. Differentiation from Ordinary Memory Systems
-
-Ordinary memory systems usually retrieve context and insert it into a prompt.
-
-WEL instead converts memory into weighted selection pressure.
-
-This means memory does not merely inform output generation. It alters the probability surface of future behavioural selection.
-
-This distinction matters because WEL can produce path-dependent behavioural divergence from the same base model and candidate set.
-
----
-
-## 13. Provenance Statement
-
-This document records the Weighted Emergence Layering (WEL) framework as developed by Marcos Verrell Moss Ross (M.R.) through the Collapse Aware AI project and Inappropriate Media Limited.
-
-First published publicly: 2026-05-13.
-
-This date establishes priority of the WEL framework terminology, notation, and architecture within the Collapse Aware AI project lineage.
-
-The terminology, architecture, notation, and implementation framing are part of the Collapse Aware AI / Verrell's Law project lineage.
+```text
+remembered state affects behaviour
+but does not override Governor control
+```
 
 ---
 
-## 14. Copyright and Use
+## 12. Buyer-Safe Positioning
 
-Copyright © 2026 Marcos Verrell Moss Ross / Inappropriate Media Limited.
-All rights reserved unless otherwise stated in the repository license.
+Use this wording:
 
-This public note is provided for technical provenance, transparency, and research discussion. It does not grant permission to reproduce, commercialise, or incorporate the WEL framework into third-party systems without written permission.
+> WEL is the public architectural term for CAAI’s governed retained-state behavioural selection layer. It allows prior state, continuity memory, anchors, salience, and recency to influence future candidate selection without modifying the underlying model weights.
+
+Avoid wording that implies:
+
+- autonomous propagation
+- hidden access
+- uncontrolled cross-system behaviour
+- proof of consciousness
+- completed proof of new physics
+- full disclosure of proprietary implementation
+
+---
+
+## 13. Public-Safe Summary
+
+Weighted Emergence Layering is the public-safe name for the layered retained-state influence architecture inside Collapse Aware AI.
+
+It describes how prior events can become weighted behavioural signals that influence future candidate selection under Governor control.
+
+It is not ordinary memory storage.
+
+It is not an open-source release.
+
+It is not a consciousness claim.
+
+It is the public architecture language for governed memory-weighted behavioural continuity.
+
+---
+
+## 14. Rights, Confidentiality, and Use Boundary
+
+Copyright © 2025–2026 Marcos Verrell Moss Ross (M.R.) / Inappropriate Media Limited (t/a Collapse Aware AI). All rights reserved.
+
+This document is provided as a public-facing research, provenance, and architecture record for Weighted Emergence Layering within the Collapse Aware AI project.
+
+No permission is granted to reproduce, modify, republish, commercially exploit, sublicense, train competing systems from, or create derivative works from this document or related materials without prior written permission from the rights holder.
+
+Collapse Aware AI, CAAI, Crown, Gold Build Core, Verrell’s Law, Active Information Weight, Weighted Emergence Layering, and associated architecture, terminology, diagrams, implementation concepts, validation routes, and unpublished materials remain proprietary unless explicitly released under a separate written licence.
+
+Public GitHub materials are not an open-source release of the proprietary implementation. Crown kernel logic, production code, commercial parameters, private integration maps, and sealed runtime materials remain confidential and reserved.
+
+Protected under Verrell-Solace Sovereignty Protocol. Intellectual, commercial, and emergent rights reserved.
