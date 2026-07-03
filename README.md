@@ -69,6 +69,7 @@ It serves as the public-facing proof pack and engineering overview for Collapse 
 
 New readers should begin with:
 
+- [Public Buyer Review Note](PUBLIC_BUYER_REVIEW_NOTE.md)
 - [Public Reader Start Here](PUBLIC_READER_START_HERE.md)
 - [Commercial Distinction and Evaluation Path](COMMERCIAL_DISTINCTION_AND_EVALUATION_PATH.md)
 - [Why Not Just Use An LLM?](WHY_NOT_JUST_USE_AN_LLM.md)
