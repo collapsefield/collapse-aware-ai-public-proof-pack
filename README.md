@@ -10,6 +10,36 @@ In short:
 
 ---
 
+## Relationship to Verrell's Law
+
+Collapse Aware AI is the engineering track connected to Verrell's Law.
+
+Verrell's Law is a retained-state selection framework:
+
+> prior interactions can leave persistent state changes that bias future selection.
+
+Collapse Aware AI tests the engineering analogue:
+
+> can retained weighted state influence future behavioural selection in a governed, measurable, inspectable runtime without retraining the underlying model?
+
+CAAI should not be presented as proof of new physics, proof of consciousness, or proof of a universal memory field.
+
+Public Phase-1 / Gold Build Core claims should stay limited to demonstrated engineering behaviour, including:
+
+- candidate behaviour selection;
+- retained-state influence;
+- governor constraints;
+- persistence evidence;
+- restart-safe memory/recall;
+- bias-on / bias-off divergence;
+- diagnostic traceability;
+- fallback honesty;
+- controlled behavioural selection.
+
+Publish measurement, not private control internals.
+
+---
+
 ## Executive Summary
 
 Most AI systems are good at producing outputs. The harder problem is maintaining continuity, control, and inspectability over time.
@@ -44,7 +74,7 @@ It should be understood as:
 - persistence / restart recall proof
 - diagnostic visibility into selected behaviour
 
-It should not be presented as a finished AAA NPC brain, a full Phase-2 adaptive agent system, or proof of machine consciousness.
+It should not be presented as a finished AAA NPC brain, a full Phase-2 adaptive agent system, proof of machine consciousness, or proof of the full scientific scope of Verrell's Law.
 
 ---
 
@@ -78,6 +108,13 @@ New readers should begin with:
 - [CAAI Engineering Scope and Validation](CAAI_ENGINEERING_SCOPE_AND_VALIDATION.md)
 - [Scientific Status and Engineering Scope](SCIENTIFIC_STATUS_AND_ENGINEERING_SCOPE.md)
 - [Weighted Emergence Layering (WEL)](WEIGHTED_EMERGENCE_LAYERING_WEL.md)
+
+Related Verrell's Law framework documents:
+
+- [Retained-State Selection Framework](https://github.com/collapsefield/collapsefield-verrells-law/blob/main/RETAINED_STATE_SELECTION_FRAMEWORK.md)
+- [Mathematical Reference v1.3](https://github.com/collapsefield/collapsefield-verrells-law/blob/main/VERRELLS_LAW_MATHEMATICAL_REFERENCE_v1.3.md)
+- [Falsifiable Memory-Bias Estimator](https://github.com/collapsefield/collapsefield-verrells-law/blob/main/FALSIFIABLE_MEMORY_BIAS_ESTIMATOR.md)
+- [Falsification Conditions](https://github.com/collapsefield/collapsefield-verrells-law/blob/main/FALSIFICATION_CONDITIONS.md)
 
 ---
 
@@ -181,21 +218,6 @@ Private implementation details remain sealed.
 
 ---
 
-## Relationship To Verrell's Law
-
-Verrell's Law remains the wider research framework.
-
-CAAI remains the engineering implementation.
-
-The two are related but should be evaluated separately. A reviewer can reject Verrell's Law entirely and still evaluate CAAI on engineering performance, continuity metrics, drift reduction, persistence, governor behaviour, and runtime outcomes.
-
-```text
-Verrell's Law = research framework around retained information, weighting, bias, and selection.
-CAAI Gold Build Core = engineering proof of governed retained-state behavioural selection.
-```
-
----
-
 ## Commercial Evaluation Criteria
 
 Future licensing discussions should focus on measurable outcomes:
@@ -244,3 +266,8 @@ Public materials explain the architecture, rationale, and evaluation criteria wh
 © 2025–2026 Marcos Verrell Moss Ross (M.R.) / Inappropriate Media Limited (t/a Collapse Aware AI).
 
 Protected under Verrell-Solace Sovereignty Protocol. Intellectual and emergent rights reserved.
+
+---
+
+**README version:** retained-state hardening pass  
+**Date:** 2026-07-04
