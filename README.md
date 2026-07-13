@@ -38,6 +38,16 @@ Public Phase-1 / Gold Build Core claims should stay limited to demonstrated engi
 
 Publish measurement, not private control internals.
 
+## Engineering Working Paper
+
+The formal reference paper for memory-weighted candidate selection is maintained separately:
+
+- [Memory-Weighted Selection — repository](https://github.com/collapsefield/memory-weighted-selection)
+- [Read the compiled paper](https://github.com/collapsefield/memory-weighted-selection/blob/main/Memory-Weighted-Selection.pdf)
+- [Inspect the public source and figures](https://github.com/collapsefield/memory-weighted-selection/tree/main/paper_source)
+
+The paper defines the general middleware selection mechanism. This Public Proof Pack remains the place for demonstrated CAAI engineering evidence. Neither repository discloses private Crown implementation mechanics.
+
 ---
 
 ## Executive Summary
