@@ -89,7 +89,7 @@ The delivered system provides:
 
 The supplied runtime and evidence package have been checked for integrity and internally reproduced against the delivered Crown runtime.
 
-The Core Gold Build should not be presented as a finished AAA NPC brain, a full Phase-2 adaptive agent system, proof of machine consciousness, or proof of the full scientific scope of Verrell's Law. Phase 2 is mapped and specified, but has not yet been built.
+The Core Gold Build should not be presented as a finished AAA NPC brain, a full Phase-2 adaptive agent system, proof of machine consciousness, or proof of the full scientific scope of Verrell's Law. Phase 2 is mapped and specified, and development is now in progress through controlled, incremental slices. Phase-2 capabilities are not part of the current Core Gold Build unless separately implemented and demonstrated.
 
 ---
 
@@ -272,7 +272,7 @@ The evaluation should let serious technical parties assess:
 
 The Phase-1 Core Gold Build is complete, verified against its supplied runtime and evidence package, and ready for controlled demonstration, paid evaluation pilots, and licensing discussions.
 
-Phase 2 remains a mapped development roadmap. Its planned adaptive, long-horizon, persona-continuity, broader governor, outcome-learning, and cross-model capabilities are not claimed as features of the current Core Gold Build.
+Phase 2 and broader WEL development are now in progress through controlled, incremental slices. Planned adaptive, long-horizon, persona-continuity, broader governor, outcome-learning, and cross-model capabilities are not claimed as features of the current Core Gold Build unless separately implemented and demonstrated.
 
 Public materials explain the demonstrated architecture, rationale, validation evidence, and evaluation criteria while protecting proprietary implementation details.
 
