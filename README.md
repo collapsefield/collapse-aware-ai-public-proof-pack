@@ -24,7 +24,7 @@ Collapse Aware AI tests the engineering analogue:
 
 CAAI should not be presented as proof of new physics, proof of consciousness, or proof of a universal memory field.
 
-Public Phase-1 / Gold Build Core claims should stay limited to demonstrated engineering behaviour, including:
+Public Phase-1 Core Gold Build claims are limited to demonstrated engineering behaviour, including:
 
 - candidate behaviour selection;
 - retained-state influence;
@@ -71,20 +71,25 @@ The objective is simple:
 
 ---
 
-## Current Demo Position
+## Current Demo and Licensing Position
 
-The current **Gold Build Core** is the Phase-1 engineering proof track.
+The **Phase-1 Core Gold Build is complete** and ready for controlled technical demonstration, paid evaluation pilots, and licensing discussions.
 
-It should be understood as:
+The delivered system provides:
 
 - engine-agnostic middleware
 - JSON-in / JSON-out API architecture
 - retained-state behavioural selection
-- governor-controlled runtime logic
-- persistence / restart recall proof
-- diagnostic visibility into selected behaviour
+- governed and studio operating modes
+- persistence and recall across restart
+- deterministic seed capture and replay
+- request validation
+- runtime metrics and request traceability
+- transparent degraded-mode reporting
 
-It should not be presented as a finished AAA NPC brain, a full Phase-2 adaptive agent system, proof of machine consciousness, or proof of the full scientific scope of Verrell's Law.
+The supplied runtime and evidence package have been checked for integrity and internally reproduced against the delivered Crown runtime.
+
+The Core Gold Build should not be presented as a finished AAA NPC brain, a full Phase-2 adaptive agent system, proof of machine consciousness, or proof of the full scientific scope of Verrell's Law. Phase 2 is mapped and specified, but has not yet been built.
 
 ---
 
@@ -230,12 +235,12 @@ Private implementation details remain sealed.
 
 ## Commercial Evaluation Criteria
 
-Future licensing discussions should focus on measurable outcomes:
+Licensing discussions should focus on measurable outcomes:
 
 - Does retained state influence behavioural selection in a controlled way?
 - Does the governor restrict unstable or unwanted selection paths?
 - Does persistence survive restart and recall correctly?
-- Does the diagnostic output make the decision path inspectable?
+- Do runtime metrics, identifiers, and fallback status make execution inspectable?
 - Can the API be wrapped by a target engine or host runtime?
 - Does the middleware reduce scripting, state-machine, or integration burden?
 
@@ -265,9 +270,11 @@ The evaluation should let serious technical parties assess:
 
 ## Current Status
 
-CAAI is currently progressing through validation, integration, and runtime proof stages.
+The Phase-1 Core Gold Build is complete, verified against its supplied runtime and evidence package, and ready for controlled demonstration, paid evaluation pilots, and licensing discussions.
 
-Public materials explain the architecture, rationale, and evaluation criteria while protecting proprietary implementation details.
+Phase 2 remains a mapped development roadmap. Its planned adaptive, long-horizon, persona-continuity, broader governor, outcome-learning, and cross-model capabilities are not claimed as features of the current Core Gold Build.
+
+Public materials explain the demonstrated architecture, rationale, validation evidence, and evaluation criteria while protecting proprietary implementation details.
 
 ---
 
@@ -279,5 +286,5 @@ Protected under Verrell-Solace Sovereignty Protocol. Intellectual and emergent r
 
 ---
 
-**README version:** retained-state hardening pass  
-**Date:** 2026-07-04
+**README version:** Core Gold Build completion-status pass  
+**Date:** 2026-07-15
