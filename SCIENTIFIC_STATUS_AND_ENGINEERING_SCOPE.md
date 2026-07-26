@@ -1,146 +1,123 @@
 # Scientific Status and Engineering Scope
 
-**Collapse Aware AI (CAAI) — Public Clarification Note**  
+**Collapse Aware AI (CAAI) — Current Public Clarification**  
 **Author:** Marcos Verrell Moss Ross (M.R.)  
 **Maintainer:** Inappropriate Media Limited (t/a Collapse Aware AI)  
-**Status:** Public clarification / positioning guardrail  
-**Last updated:** 2026-05-03
+**Status:** Canonical public clarification / positioning guardrail  
+**Last updated:** 2026-07-26
 
 ---
 
 ## Purpose
 
-This note clarifies the boundary between the wider theoretical framework of **Verrell’s Law** and the applied software direction of **Collapse Aware AI (CAAI)**.
+This document defines the current boundary between **Verrell’s Law** and **Collapse Aware AI (CAAI)**.
 
-Short version:
+> **Verrell’s Law is a falsifiable retained-state selection research framework.**  
+> **Collapse Aware AI is the separate engineering track for governed retained-state behavioural selection.**  
+> **CAAI can be evaluated as software without accepting any wider physical or consciousness hypothesis.**
 
-> **Verrell’s Law is the testable theoretical framework.**  
-> **Collapse Aware AI is the practical engineering application.**  
-> **The middleware can be evaluated without accepting the full physical scope of the theory.**
-
----
-
-## Scientific Status
-
-Verrell’s Law is presented as an original, testable theoretical framework exploring how memory, observation, weighted history, and informational structure may bias future collapse or selection events.
-
-Its broader claims relating to physics, consciousness, electromagnetic memory, field interaction, and large-scale emergence are **not presented as established scientific consensus**.
-
-They should be read as theoretical, falsifiable, and under active validation unless independently confirmed through suitable experimental, peer-reviewed, or mainstream scientific processes.
-
-Recommended public wording:
-
-> Verrell’s Law is currently a testable theoretical framework and research hypothesis. Its wider physics and consciousness claims are not yet established scientific consensus.
+Where older public material conflicts with this note or with the current canonical Verrell’s Law specification, the newer canonical material governs.
 
 ---
 
-## Engineering Scope
+## Verrell’s Law — Current Scientific Status
 
-Collapse Aware AI is the applied software branch of this work.
+The current Verrell’s Law framework asks whether retained history can contribute a measurable, directional bias to later selection under controlled conditions.
 
-CAAI does not require acceptance of the full theoretical framework in order to be useful, testable, or commercially relevant.
+Its present canonical mathematical specification is maintained in the Verrell’s Law repository:
 
-The middleware can be evaluated through observable software behaviour, including:
+- `VERRELLS_LAW_MATHEMATICAL_FOUNDATIONS_AND_FALSIFICATION_PROTOCOL_v1.0.md`
+- `VERRELLS_LAW_MATHEMATICAL_REFERENCE_v1.3.md`
+- `FALSIFIABLE_MEMORY_BIAS_ESTIMATOR.md`
+- `FALSIFICATION_CONDITIONS.md`
 
-- memory-weighted behavioural selection
-- continuity preservation across interactions
-- governed output stability
-- reduced behavioural drift
-- bounded variance
-- repeatable runtime demonstrations
-- contract-first integration with host systems
+The current framework:
 
-Recommended public wording:
+- is **not** presented as established physics;
+- does **not** claim completed peer review or completed experimental proof;
+- does **not** require a universal electromagnetic or non-local memory field;
+- does **not** require consciousness to collapse a quantum wavefunction;
+- does **not** replace quantum mechanics, neuroscience, the Born Rule, or general relativity;
+- treats physical-field interpretations as a separate speculative research layer requiring independent evidence.
 
-> Collapse Aware AI is practical middleware. It can be evaluated through behaviour tests, integration evidence, and runtime demonstrations.
+Older language involving a “brain as tuner”, universal field memory, resonance, non-local personal memory, consciousness fields, or a physical `Ψμν` mechanism belongs to earlier exploratory material unless a current canonical document explicitly restates it as a live hypothesis.
+
+The current hard claim is narrower: retained-state compatibility is proposed as a measurable contributor to selection bias within a declared test regime, with explicit null and falsification conditions.
+
+---
+
+## Collapse Aware AI — Current Engineering Status
+
+Collapse Aware AI is proprietary, engine-agnostic middleware for **governed retained-state behavioural selection**.
+
+It is not a foundation model, chatbot skin, vector database, standard RAG pipeline, or replacement for an underlying model or decision engine.
+
+The **Phase-1 Core Gold Build is complete** and is the current licensing and controlled-evaluation target.
+
+Demonstrated Phase-1 capabilities include:
+
+- candidate behaviour selection;
+- retained-state influence over later selection;
+- governor-controlled operating behaviour;
+- governed / studio comparison;
+- persistence and recall across restart;
+- deterministic seed capture and replay;
+- bias-on / bias-off behavioural divergence;
+- request validation;
+- runtime metrics and request traceability;
+- explicit degraded-mode / fallback reporting;
+- model- and engine-agnostic JSON/API integration.
+
+The current engineering question is therefore not whether a speculative field exists. It is:
+
+> Can retained weighted state influence later behavioural selection in a governed, measurable, inspectable runtime without retraining the underlying model?
+
+That question can be evaluated directly through software behaviour and integration evidence.
+
+---
+
+## What the Core Gold Build Does Not Claim
+
+The current Core Gold Build should **not** be represented as:
+
+- a finished AAA NPC brain;
+- a finished long-horizon autonomous agent platform;
+- a complete Phase-2 system;
+- a sentient or conscious AI;
+- proof of Verrell’s Law as physics;
+- proof of non-local memory;
+- a system that eliminates hallucinations generally;
+- a data-cleaning or model-training system;
+- a guarantee of token-cost reduction in every deployment;
+- a universal fix for weak base models, bad data, infrastructure failures, or poor domain knowledge.
+
+---
+
+## Phase 2 and WEL
+
+**Weighted Emergence Layering (WEL)** and the wider Phase-2 architecture are a separate development track built on top of the Phase-1 foundation.
+
+Phase 2 is mapped, specified, and being developed through controlled incremental slices. Phase-2 concepts must not be described as features of the current Core Gold Build unless they have been separately implemented and demonstrated.
+
+Examples of broader Phase-2 work may include richer long-horizon continuity, additional weighting/decay mechanisms, decision traceability, outcome recording, and extended agent-facing behaviour controls.
+
+Those are roadmap/development claims, not automatic Phase-1 claims.
 
 ---
 
 ## Relationship Between Theory and Middleware
 
-Verrell’s Law provides the conceptual basis:
+The clean relationship is:
 
-> retained information may bias future state selection.
+```text
+Verrell’s Law = falsifiable retained-state selection research framework
+Collapse Aware AI = engineering middleware for governed retained-state behavioural selection
+Physical interpretation = separate research layer requiring independent evidence
+```
 
-Collapse Aware AI applies a practical version of that idea in software:
+Verrell’s Law historically motivated the architecture.
 
-> prior events, weighted memories, anchors, and continuity state can bias future behavioural selection under Governor control.
-
-This does **not** mean CAAI proves the full physical or consciousness claims of Verrell’s Law.
-
-Recommended wording:
-
-> Verrell’s Law motivates the architecture. Collapse Aware AI implements selected memory-weighting and governance principles as software middleware.
-
----
-
-## Simple Worked Example
-
-A guard NPC sees the player steal an item.
-
-In a standard system, the guard may forget, reset, or respond inconsistently across later interactions.
-
-In Collapse Aware AI, that event can become a weighted memory. Later, when the player returns, the system can bias the guard’s behaviour toward suspicion, caution, or escalation — while the Governor prevents unstable or inappropriate behaviour.
-
-The result is not a claim of machine consciousness.
-
-It is continuity-aware behavioural control.
-
----
-
-## What CAAI Should Be Judged On
-
-CAAI should be judged on practical engineering outcomes, not on whether every wider theoretical claim of Verrell’s Law is accepted.
-
-Relevant evaluation questions include:
-
-1. Does the same input behave differently when relevant memory is present?
-2. Does memory influence remain bounded rather than chaotic?
-3. Does governed mode reduce drift or risky behavioural paths?
-4. Can prior events affect later NPC or agent behaviour without full transcript replay?
-5. Are outputs more coherent across long interaction horizons?
-6. Can the middleware be integrated through stable contracts?
-7. Are selection, recall, and governance effects observable in test logs or demos?
-
-These are engineering questions. They can be tested without settling the full theoretical claims of Verrell’s Law.
-
----
-
-## Public Validation Roadmap
-
-The project is currently in a selective public proof and validation stage. The public goal is not mass adoption yet. The goal is to preserve authorship, demonstrate the architecture, protect the proprietary Crown boundary, and prepare for controlled licensing discussions.
-
-A practical validation path is:
-
-1. Internal Gold Build runtime proof
-2. Phase-1.5 testing and validation evidence
-3. Repeatable behaviour tests
-4. Private developer review
-5. Controlled game-simulation demo
-6. Studio-facing pilot or licensing evaluation
-7. Third-party technical review where appropriate
-
-This roadmap does not claim that all external validation has already happened. It defines the staged route by which the applied middleware can be evaluated.
-
----
-
-## What Is Not Being Claimed
-
-CAAI does not claim to be AGI.
-
-CAAI does not claim to prove machine consciousness.
-
-CAAI does not claim to prove the full physical form of Verrell’s Law.
-
-CAAI does not require modifying base model weights.
-
-CAAI does not require a new foundation model.
-
-CAAI does not disclose the proprietary Crown kernel or private scoring logic in this public repository.
-
-CAAI is best understood as:
-
-> proprietary middleware for governed, memory-weighted behavioural continuity.
+CAAI does not prove the wider theory. A technical reviewer can reject every speculative physical interpretation and still evaluate CAAI through runtime behaviour, persistence, deterministic replay, governed/studio divergence, fallback handling, integration contracts, and diagnostic evidence.
 
 ---
 
@@ -148,59 +125,55 @@ CAAI is best understood as:
 
 | Project term | Plain engineering meaning |
 |---|---|
-| Collapse selection | choosing a final behaviour from candidate possibilities |
-| Weighted Moment | prior event with stored behavioural importance |
-| Strong Memory Anchor | persistent reference point for identity, role, or continuity |
-| Governor | control layer that limits drift and unsafe variance |
-| Bias Engine | scoring influence from recency, salience, and anchors |
-| Continuity Memory | retained behavioural state that influences later selection |
-| Crown | private proprietary behavioural engine |
+| Collapse / selection | resolving candidate behaviours into a selected behaviour |
+| Retained state | prior state preserved so it can influence later selection |
+| Weighted moment | prior event carrying stored behavioural importance |
+| Anchor | persistent reference point used during behavioural selection |
+| Governor | control layer limiting how retained state may influence selection |
+| Crown | private proprietary behavioural-selection engine |
 
-The public engineering claim should remain simple:
-
-> CAAI uses weighted prior state and Governor control to improve behavioural continuity.
+“Collapse” in CAAI should normally be read in the engineering/systems sense: **selection resolution**. It does not automatically mean quantum wave-function collapse.
 
 ---
 
-## Authorship and Naming Note
+## Current Validation and Commercial Position
 
-This work is authored and maintained by **Marcos Verrell Moss Ross (M.R.)** under **Inappropriate Media Limited (t/a Collapse Aware AI)**.
+The Phase-1 Core Gold Build is complete and ready for:
 
-Some public records may use initials, legacy naming, privacy-preserving identifiers, or controlled public identifiers for IP-protection reasons.
+- controlled technical demonstration;
+- paid evaluation pilots;
+- integration discussions;
+- licensing discussions.
 
-Collapse Aware AI, the Gold Build, and Verrell’s Law remain part of the same protected development trail.
+Public evaluation should focus on measurable questions such as:
 
-Preferred forward-facing author line:
+1. Does retained state alter later candidate selection under otherwise matched conditions?
+2. Is that influence bounded by governor control?
+3. Does state survive restart and remain available through recall?
+4. Can seeded runs be reproduced deterministically?
+5. Is degraded behaviour reported honestly rather than silently fabricated?
+6. Can the middleware sit between a host system and an existing model/decision engine through stable contracts?
 
-> Marcos Verrell Moss Ross (M.R.) / Inappropriate Media Limited
+These are engineering questions. They do not require acceptance of speculative physics.
 
 ---
 
-## Final Summary
+## Canonical Short Description
 
-Clean public separation:
+> **Collapse Aware AI is proprietary, engine-agnostic middleware for governed retained-state behavioural selection. The Phase-1 Core Gold Build is complete and can be evaluated independently of Verrell’s Law’s wider research hypotheses.**
+
+---
+
+## Final Boundary
+
+Do not collapse the three layers into one another:
 
 ```text
-Verrell’s Law = testable theoretical framework.
-Collapse Aware AI Gold Build = practical middleware.
-Phase-1 = game/NPC continuity and governed behaviour.
-Phase-1.5 = testing and validation stage.
-Phase-2 = later continuity-aware chatbot/agent architecture.
-Validation = staged, evidence-based, and ongoing.
+Current demonstrated software ≠ Phase-2 roadmap ≠ speculative physical interpretation
 ```
 
-Verrell’s Law asks a theoretical question:
+The engineering product is judged by engineering evidence.
 
-> Can weighted past conditions bias future emergence?
+The research framework is judged by its stated mathematical and falsification protocol.
 
-Collapse Aware AI applies a practical software question:
-
-> Can memory-weighted governance make AI characters, agents, and interactive systems behave with better continuity and stability?
-
-The current Gold Build is focused on the second question.
-
-That is the engineering claim.
-
-That is the licensing-relevant claim.
-
-That is what can be tested.
+The physical interpretation requires independent evidence of its own.
