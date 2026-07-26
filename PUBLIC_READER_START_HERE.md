@@ -1,467 +1,287 @@
 # Public Reader Start Here
 
-**Collapse Aware AI (CAAI) — Public Orientation Note**  
+**Collapse Aware AI (CAAI) — Current Public Orientation Note**  
 **Author:** Marcos Verrell Moss Ross (M.R.)  
 **Maintainer:** Inappropriate Media Limited (t/a Collapse Aware AI)  
-**Status:** Public proof-of-origin and technical orientation record  
-**Repository role:** Documentation, provenance, and public-safe architecture explanation  
-**Last updated:** 2026-05-03
+**Status:** Public proof, technical orientation and commercial boundary record  
+**Last updated:** 2026-07-26
 
 ---
 
 ## 1. What Collapse Aware AI Is
 
-Collapse Aware AI (CAAI) is a proprietary middleware architecture for continuity-aware behavioural selection.
+Collapse Aware AI (CAAI) is proprietary, engine-agnostic middleware for **governed retained-state behavioural selection**.
 
-It is designed to sit between:
+It is designed to sit between a host system — such as a game, simulation, agent framework or other decision-making application — and an underlying model, scripted logic layer or decision engine.
 
-- a host system, such as a game, simulation, chatbot shell, or agent framework
-- and an underlying model, scripted logic layer, or decision engine
+Its purpose is not simply to store memory, retrieve context or generate text.
 
-Its purpose is to help runtime systems maintain behavioural continuity over time by applying:
-
-- memory-weighted decision bias
-- governed behavioural constraints
-- drift detection and correction
-- persistent state influence
-- contract-first integration
+Its purpose is to govern **how retained state is permitted to influence future behavioural selection**.
 
 In simple terms:
 
-> Collapse Aware AI is not the base model.  
-> It is the behavioural control layer around the model.
+> CAAI is not the base model.  
+> CAAI is the runtime selection and continuity layer around an existing system.
 
 ---
 
-## 2. The Core Idea
+## 2. The Current Core Gold Build
 
-Most AI systems respond mainly to the current prompt, current state, or current context window.
+The **Phase-1 Core Gold Build is complete** and is the current controlled-evaluation and licensing target.
 
-Collapse Aware AI adds a structured continuity layer so that prior events can influence future behaviour in a controlled, measurable, and bounded way.
+Demonstrated public-safe capabilities include:
 
-The core operational principle is:
+- candidate behaviour selection;
+- retained-state influence over later selection;
+- governor constraints;
+- governed and studio operating modes;
+- persistence and recall across restart;
+- deterministic seed capture and replay;
+- bias-on / bias-off behavioural divergence;
+- request validation;
+- runtime metrics and request traceability;
+- explicit degraded-mode / fallback reporting;
+- model- and engine-agnostic JSON/API integration.
 
-> Past state should not be passive history.  
-> It should act as weighted influence over future behavioural selection.
-
-This influence is applied through three core signal classes:
-
-- **Recency** — how recent a memory, event, or behavioural signal is
-- **Salience** — how important or contextually significant that signal is
-- **Anchors** — persistent behavioural reference points that stabilise identity, role, task, or long-term objective
-
-These signals are then constrained by a **Governor** so the system does not drift, contradict itself, over-collapse into rigid loops, or behave outside its intended operating regime.
-
----
-
-## 3. What This Repository Is
-
-This repository is a public proof pack.
-
-It exists to document the origin, public architecture, authorship trail, and non-proprietary technical framing of Collapse Aware AI.
-
-It contains:
-
-- public architecture descriptions
-- proof-of-origin documents
-- non-executable technical notes
-- validation and drift-governance explanations
-- selected research and whitepaper materials
-- provenance and attribution records
-- public-safe references to Verrell’s Law
-
-This repository is intended for:
-
-- technical readers
-- potential licensing partners
-- reviewers
-- search engines and AI indexing systems
-- future due diligence
-- authorship and prior-art protection
+The Core Gold Build is not a finished AAA NPC brain or complete Phase-2 agent architecture. It is the demonstrated middleware foundation on which domain-specific integrations can be evaluated.
 
 ---
 
-## 4. What This Repository Is Not
+## 3. The Core Engineering Idea
 
-This repository is not an open-source release of Collapse Aware AI.
+Most AI memory systems focus on questions such as:
 
-It does not contain:
+> What information should be stored or retrieved?
 
-- proprietary Crown kernel code
-- private implementation logic
-- production source code
-- commercial integration maps
-- private tuning parameters
-- executable SDKs
-- deployment packages
-- cloneable internal algorithms
+CAAI focuses on a different question:
 
-The public materials explain the architecture and prove the development trail.
+> How should retained state influence future behavioural selection, and under what constraints?
 
-They do not disclose the sealed core.
+The public runtime shape is:
 
----
+```text
+Host system / UI / engine
+        ↓
+Structured input payload
+        ↓
+Candidate behaviours / possible outputs
+        ↓
+Retained-state influence
+        ↓
+Governor constraints
+        ↓
+Selected behaviour
+        ↓
+Diagnostic evidence / fallback status
+        ↓
+Persistent state update
+```
 
-## 5. Crown Boundary
-
-The proprietary behavioural engine is referred to internally as the **Crown**.
-
-The Crown is the sealed core logic responsible for the deepest behavioural selection and bias mechanics.
-
-Public materials may describe:
-
-- input/output contracts
-- endpoint expectations
-- high-level architecture
-- validation principles
-- public-safe schema examples
-- acceptance-test concepts
-
-Public materials do not disclose:
-
-- Crown internals
-- proprietary scoring logic
-- private collapse-selection implementation
-- commercial tuning rules
-- sealed kernel code
-
-This boundary is deliberate.
-
-Collapse Aware AI is designed as licensable middleware, not as a public open-source framework.
+This makes CAAI a behavioural-selection layer rather than ordinary memory storage.
 
 ---
 
-## 6. What CAAI Proves Publicly
+## 4. What This Repository Is
 
-The public proof pack supports the following claims:
+This repository is the public proof pack for Collapse Aware AI.
 
-1. **Authorship and origin**  
-   Collapse Aware AI has a public timestamped development trail connected to Marcos Verrell Moss Ross (M.R.) and Inappropriate Media Limited.
+It exists to provide:
 
-2. **Architectural definition**  
-   CAAI is publicly defined as model-agnostic behavioural middleware using memory-weighted bias, continuity memory, governor logic, and collapse selection.
+- authorship and provenance;
+- public-safe architecture descriptions;
+- engineering-scope clarification;
+- selected validation evidence and terminology;
+- commercial differentiation;
+- search/indexing-friendly current positioning;
+- a public boundary around the private Crown implementation.
 
-3. **Commercial boundary**  
-   The public repo documents the system without exposing proprietary implementation.
-
-4. **Contract-first integration approach**  
-   The system is designed around stable interfaces such as inference, recall, health, telemetry, and adapter contracts.
-
-5. **Validation direction**  
-   Behavioural drift, anchor consistency, hedge rate, topic coherence, and loop risk are treated as measurable engineering concerns rather than vague impressions.
-
-6. **Relationship to Verrell’s Law**  
-   CAAI is the applied engineering branch of the broader Verrell’s Law framework, using memory-weighted selection as a practical software control mechanism.
+It is intended for technical reviewers, potential licensing partners, developers, search engines, AI indexing systems and future due diligence.
 
 ---
 
-## 7. What CAAI Does Not Claim
+## 5. What This Repository Is Not
 
-Collapse Aware AI does not claim to be AGI.
+This repository is not an open-source release of the commercial implementation.
 
-It does not claim to prove machine consciousness.
+It does not disclose:
 
-It does not require training a new foundation model.
+- proprietary Crown kernel source;
+- private scoring logic;
+- production thresholds or tuning;
+- full commercial integration maps;
+- secrets, credentials or private runtime configuration;
+- enough implementation detail to clone the proprietary system.
 
-It does not require modifying base model weights.
-
-It does not disclose enough public information to clone the proprietary implementation.
-
-It does not prove the full physical or scientific claims of Verrell’s Law.
-
-It does not replace the need for proper runtime testing, validation evidence, or licensing due diligence.
-
-The correct public framing is:
-
-> CAAI is a proprietary middleware architecture for governed, memory-weighted behavioural continuity.
+The architecture and development trail are public. The Crown remains private.
 
 ---
 
-## 8. Relationship to Verrell’s Law
+## 6. Current Claim Boundary
 
-Verrell’s Law provides the broader theoretical basis:
+CAAI should be judged on demonstrated engineering behaviour.
 
-> retained information can bias future state selection.
+The current Core Gold Build does **not** claim to be:
 
-Collapse Aware AI applies that principle in software.
+- AGI;
+- conscious or sentient;
+- proof of Verrell’s Law as physics;
+- proof of a universal or non-local memory field;
+- a replacement for a base model;
+- a general cure for hallucinations;
+- a data-cleaning system;
+- a universal token-cost reduction system;
+- the complete Phase-2 architecture.
 
-In CAAI:
+A weak base model, bad domain data, infrastructure failure or missing business logic remain separate problems.
 
-- memory becomes weighted continuity state
-- retained moments become behavioural influence
-- anchors stabilise identity and role
-- the Governor constrains unstable outputs
-- collapse selection chooses the final behaviour from candidate possibilities
+---
 
-This makes CAAI an engineering instantiation of memory-weighted selection.
+## 7. Relationship to Verrell’s Law
 
-It should not be presented as proof that the full theoretical, or physical, form of Verrell’s Law has been scientifically confirmed yet.
+Verrell’s Law and Collapse Aware AI are connected but separate.
 
-Better public wording:
+The current Verrell’s Law position is a **falsifiable retained-state selection research framework**.
 
-> Verrell’s Law motivates the architecture.  
-> Collapse Aware AI implements the principle as software middleware.
+The current CAAI position is **engineering middleware for governed retained-state behavioural selection**.
+
+The clean boundary is:
+
+```text
+Verrell’s Law = retained-state selection research hypothesis
+Collapse Aware AI = engineering implementation
+Physical interpretation = separate research layer requiring independent evidence
+```
+
+CAAI can be evaluated without accepting speculative physical or consciousness claims.
+
+Older public material may contain exploratory language involving non-local fields, resonance, consciousness fields, quantum collapse or a “brain as tuner” analogy. That material is part of the historical development trail and should not override the current canonical retained-state framing.
+
+For the current scientific boundary, read `SCIENTIFIC_STATUS_AND_ENGINEERING_SCOPE.md` and the canonical Verrell’s Law repository.
+
+---
+
+## 8. Collapse Means Selection Resolution
+
+In current CAAI engineering material, **collapse** means the resolution of competing candidate behaviours or outputs into a selected behaviour under present input, retained state and governor constraints.
+
+It does not automatically mean quantum wave-function collapse.
+
+This distinction matters because older exploratory physics language should not be imported into current software claims unless explicitly stated.
 
 ---
 
 ## 9. Current Development Stage
 
-Collapse Aware AI is currently in **Phase-1.5 testing and validation**.
+The public development position is now:
 
-The current public framing is:
+- **Phase-1 Core Gold Build — complete:** demonstrated governed retained-state behavioural-selection middleware and current licensing/evaluation target.
+- **Phase-2 / Weighted Emergence Layering (WEL) — separate development track:** mapped, specified and under controlled incremental development.
 
-- **Phase-1 Gold Build** — proof of memory-weighted behavioural selection, continuity, recall, and governor-controlled behaviour
-- **Phase-1.5 Testing and Validation Stage** — controlled checks, acceptance tests, behaviour comparisons, runtime evidence, and demonstration proof around the Gold Build
-- **Phase-2 Research Track** — future chatbot and expanded behavioural architecture, including richer memory, probabilistic modelling, and stronger continuity systems
+The old “Phase-1.5” label is no longer the current project-state description.
 
-The public proof pack documents the foundation, provenance, validation direction, and public-safe architecture.
-
-It is not a final product release.
+Phase-2 concepts must not be represented as current Core Gold Build features unless separately implemented and demonstrated.
 
 ---
 
-## 10. Integration Principle
+## 10. What Can Be Evaluated Now
 
-CAAI is designed around contract-first integration.
+A technical or commercial evaluation can ask:
 
-The preferred integration model is:
+1. Does retained state alter later candidate selection under matched present conditions?
+2. Is retained-state influence bounded by governor control?
+3. Does state persist across restart and remain available through recall?
+4. Can seeded behaviour be replayed deterministically?
+5. Do governed and studio modes produce observable differences?
+6. Are malformed requests handled cleanly?
+7. Is degraded operation reported honestly?
+8. Can CAAI integrate through stable contracts without retraining or replacing the underlying model?
+
+These are observable engineering questions.
+
+---
+
+## 11. Integration Principle
+
+CAAI follows a contract-first integration model.
 
 ```text
 Host system
 ↓
-Adapter / API contract
+Structured API / adapter contract
 ↓
-Collapse Aware AI middleware
+CAAI middleware
 ↓
-Crown behavioural engine
+Private Crown runtime
 ↓
-Governed output
+Governed selected behaviour + diagnostic status
 ↓
 Host system
 ```
 
-The system should be connected through stable interfaces, not by rewriting the proprietary core.
-
-Core rule:
-
-> Integrate by contract.  
-> Do not redesign the Crown.
+Public references may describe endpoint concepts such as health, infer, recall, ingest and flag operations, but endpoint names are not the proprietary selection mechanism.
 
 ---
 
-## 11. Public-Safe Endpoint Concepts
+## 12. Drift and Governance
 
-Public materials may refer to endpoint concepts such as:
+CAAI treats behavioural drift as deviation from intended runtime behaviour or continuity constraints.
 
-- `/core/health`
-- `/core/infer`
-- `/core/recall`
-- `/core/ingest`
-- `/flag`
-- governor or telemetry endpoints
+The Governor limits how strongly retained state can influence selection and provides a controlled comparison between operating modes.
 
-These endpoint references are public-safe architectural descriptions.
-
-They should not be treated as full disclosure of implementation logic.
-
-The important point is the contract shape:
-
-- receive input and context
-- retrieve relevant continuity state
-- score candidate behaviours
-- apply governor constraints
-- return selected output with traceable metadata
+The current Phase-1 claim is bounded: CAAI demonstrates governor-controlled behavioural selection and measurable differences in the delivered runtime. Broader future drift-management and long-horizon agent capabilities belong to later development unless separately demonstrated.
 
 ---
 
-## 12. Behavioural Drift
+## 13. Commercial Position
 
-CAAI treats drift as an engineering problem.
+The Phase-1 Core Gold Build is ready for:
 
-Drift means measurable deviation from intended behavioural invariants.
+- controlled technical demonstration;
+- paid evaluation pilots;
+- integration discussions;
+- licensing discussions.
 
-Examples include:
+Potential fits are systems that already have **candidate behaviours, actions, interventions or outputs** and need retained history to influence selection in a controlled, inspectable way.
 
-- loss of character or role consistency
-- contradiction of known anchors
-- excessive improvisation
-- unstable topic movement
-- repetitive loops
-- over-hedging
-- loss of task focus
+Potential domains include games, simulations, workflow/agent systems, decision-support systems and other bounded applications where continuity and selection governance matter.
 
-Public-safe drift metrics may include:
-
-- anchor hit rate
-- hedge rate
-- topic coherence
-- contradiction frequency
-- loop/repetition risk
-- confidence floor failures
-- deviation from continuity profile
-
-Drift should not be described as “vibes.”
-
-It should be measured.
+CAAI should not be sold as “a smarter LLM”. It is structural middleware around an existing runtime or decision system.
 
 ---
 
-## 13. Governor Logic
+## 14. Suggested Reading Order
 
-The Governor is the behavioural control layer.
+New readers should start with:
 
-Its job is to:
+1. `README.md` — main current repository overview.
+2. `PUBLIC_BUYER_REVIEW_NOTE.md` — buyer-facing orientation.
+3. `COMMERCIAL_DISTINCTION_AND_EVALUATION_PATH.md` — commercial distinction and evaluation route.
+4. `CAAI_ENGINEERING_SCOPE_AND_VALIDATION.md` — current Phase-1 capability and validation boundary.
+5. `SCIENTIFIC_STATUS_AND_ENGINEERING_SCOPE.md` — Verrell’s Law / CAAI separation and scientific-status guardrail.
+6. `WEIGHTED_EMERGENCE_LAYERING_WEL.md` — broader WEL / Phase-2 direction, kept separate from current build claims.
 
-- constrain unstable behaviour
-- reduce drift
-- enforce operating rules
-- dampen risky output paths
-- preserve continuity
-- route uncertain behaviour into safer regimes
-
-The Governor does not need to be mystical or over-described.
-
-It is best understood as a control layer around behavioural selection.
-
-Public-safe wording:
-
-> The Governor constrains collapse selection so that memory influence improves continuity without allowing uncontrolled drift.
+Current Verrell’s Law mathematical authority is maintained separately in `collapsefield/collapsefield-verrells-law`, led by the canonical Mathematical Foundations and Falsification Protocol v1.0.
 
 ---
 
-## 14. Commercial Position
-
-Collapse Aware AI is intended as licensable middleware.
-
-The commercial value is:
-
-- same base model or runtime
-- better behavioural continuity
-- less drift
-- bounded memory influence
-- clearer integration contracts
-- no need to retrain a foundation model
-- proprietary core remains protected
-
-Primary target areas include:
-
-- game NPCs
-- simulation agents
-- long-running interactive agents
-- workflow agents
-- future chatbot continuity systems
-
-This repository supports licensing conversations by showing public architecture, authorship, and development continuity without disclosing the sealed implementation.
-
----
-
-## 15. What a Technical Reviewer Should Look For
-
-A serious reviewer should focus on:
-
-- whether CAAI is correctly framed as middleware
-- whether the contract boundaries are clear
-- whether drift metrics are measurable
-- whether memory influence is separated from simple prompt context
-- whether the Crown remains sealed
-- whether public claims are tied to artifacts, schemas, or tests
-- whether the system can be evaluated without exposing proprietary internals
-
-A serious reviewer should not expect this repository to contain the production Crown code.
-
-That is intentionally private.
-
----
-
-## 16. Suggested Reading Order
-
-New readers should start here, then read:
-
-1. `README.md`  
-   Main repository overview.
-
-2. `01_CANONICAL_OVERVIEW__Collapse_Aware_AI.md`  
-   Clean public description of CAAI as middleware.
-
-3. `SCIENTIFIC_STATUS_AND_ENGINEERING_SCOPE.md`  
-   Boundary between Verrell’s Law and practical middleware; Phase-1.5 public validation framing.
-
-4. `PUBLIC_PROOF__CAAI_VERRELLS_LAW__GROUND_TRUTH.md`  
-   Public grounding layer for what is observable, implementable, and verifiable.
-
-5. `PUBLIC_PROOF__CAAI__DRIFT_GOVERNANCE_AND_VALIDATION.md`  
-   Drift, governance, validation, and technical due-diligence framing.
-
-6. `CAAI_Behavioral_Regimes_Clarification.md`  
-   Behavioural regime and operating-mode clarification.
-
-7. `CAAI_Health_Safety_and_Governance_v1.0.md`  
-   Public safety and governance framing.
-
-8. `CollapseAwareAI_Originality_and_Attribution.md`  
-   Authorship and originality declaration.
-
-9. `Official_GitHub_References.md`  
-   Reference index for related public repositories.
-
----
-
-## 17. Summary
-
-Collapse Aware AI (CAAI) is proprietary middleware for governed, memory-weighted behavioural selection. It sits between a host system and an underlying model or decision engine, using recency, salience, anchors, continuity memory, and Governor logic to reduce behavioural drift and improve long-term coherence without retraining the base model. This repository is a public proof-of-origin and architecture record; it does not disclose the sealed Crown kernel or proprietary implementation.
-
----
-
-## 18. Canonical Short Description
+## 15. Canonical Short Description
 
 Use this when a short public description is needed:
 
-> Collapse Aware AI is a proprietary middleware layer that gives AI agents and NPCs memory-weighted behavioural continuity, governor-controlled drift prevention, and contract-first integration without modifying base model weights.
+> **Collapse Aware AI is proprietary, engine-agnostic middleware for governed retained-state behavioural selection. The completed Phase-1 Core Gold Build controls how prior state influences later candidate selection under explicit governor constraints, without retraining the underlying model.**
 
 ---
 
-## 19. Rights and Licensing
+## 16. Final Reader Note
 
-This repository is public for documentation, provenance, and review.
+The correct current interpretation is:
 
-It is not an open-source implementation.
-
-Unless otherwise stated, public documentation is shared only under the licence terms included in this repository.
-
-All executable code, proprietary algorithms, Crown kernel logic, implementation details, commercial rights, trademarks, trade secrets, and unpublished materials remain expressly reserved.
-
-No permission is granted to commercially exploit, clone, repackage, or derive a competing implementation from this public proof pack.
-
----
-
-## 20. Attribution
-
-Author and originator:
-
-**Marcos Verrell Moss Ross (M.R.)**
-
-Maintained by:
-
-**Inappropriate Media Limited (t/a Collapse Aware AI)**
-
-Associated theoretical framework:
-
-**Verrell’s Law**
-
-Project:
-
-**Collapse Aware AI**
-
----
-
-## 21. Final Reader Note
-
-This repository should be read as a public proof and explanation layer.
-
-The correct interpretation is:
-
-> The architecture is public.  
-> The provenance is public.  
-> The Crown is private.  
-> The product is licensable.  
-> The implementation is not open-source.
+```text
+The architecture is public.
+The demonstrated Phase-1 boundary is public.
+The provenance is public.
+The Crown implementation is private.
+The Core Gold Build is licensable.
+Phase 2 is separate and still developing.
+Speculative physics is not required for CAAI to work or be evaluated.
+```
