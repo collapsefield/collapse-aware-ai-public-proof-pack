@@ -1,157 +1,147 @@
 # Collapse Aware AI (CAAI) — Public Proof Pack
 
-**Collapse Aware AI (CAAI)** is proprietary, engine-agnostic middleware for **governed retained-state behavioural selection**.
+**Collapse Aware AI (CAAI)** is proprietary middleware for **retained-state behavioural selection**.
 
-It sits between a host system and an underlying model, scripted logic layer, simulation runtime, or decision engine. Its purpose is not simply to store memory, retrieve context, or generate text. Its purpose is to govern how retained state is allowed to influence future behavioural selection.
+Its purpose is not simply to store memory or retrieve context. Its purpose is to control how relevant retained state may influence **which permitted behaviour is selected** while preserving an inspectable reference path and evidence trail.
 
-In short:
-
-> CAAI is not AI memory storage. CAAI is a runtime layer for controlled behavioural selection.
+> **CAAI is not AI memory storage. It is a runtime selection layer for history-conditioned behaviour.**
 
 ---
 
-## Relationship to Verrell's Law
+## Current engineering position — 7 August 2026
 
-Collapse Aware AI is the engineering track connected to Verrell's Law.
+The private engineering line has progressed beyond the original Phase-1 Core Gold foundation into an integrated **local managed-evaluation package**.
 
-Verrell's Law is a retained-state selection framework:
+The current accepted stack demonstrates, in controlled synthetic evaluation:
 
-> prior interactions can leave persistent state changes that bias future selection.
+- retained-state candidate scoring;
+- Studio/reference and governed operating conditions;
+- persistence and recall across restart;
+- deterministic seed replay;
+- explicit retained-state revision and revocation;
+- strong anchors, continuity memory and session boot;
+- explicit boot-consumption evidence;
+- bounded ambiguity / clarification handling;
+- recall routing, judging, corrective recall and revoked-context protection;
+- agency-impact and productive-friction routing;
+- evaluation metrics and consolidated observability;
+- durable private Decision Records;
+- a formal integration contract and separate adapter boundary;
+- live Phase-2 → Core selection through the real frozen selector;
+- customer-safe Decision Record projection;
+- Phase-2 post-decision evidence receipts;
+- restart, replay, duplicate protection and ambiguous-outcome reconciliation;
+- one guided local managed-evaluation workflow;
+- customer-safe JSON, HTML and PDF evidence export.
 
-Collapse Aware AI tests the engineering analogue:
+A controlled live synthetic evaluation used the same prompt, permitted candidates, candidate order, thread and deterministic seed. The reference condition selected one permitted candidate and the governed retained-state condition selected another.
 
-> can retained weighted state influence future behavioural selection in a governed, measurable, inspectable runtime without retraining the underlying model?
+That is evidence of **live end-to-end behavioural divergence through the real selector path**. The comparison changed both operating mode and retained-state-influence configuration, so it is not presented as isolated causal proof of either setting alone.
 
-CAAI should not be presented as proof of new physics, proof of consciousness, or proof of a universal memory field.
+Read the current public-safe state record:
 
-Public Phase-1 Core Gold Build claims are limited to demonstrated engineering behaviour, including:
-
-- candidate behaviour selection;
-- retained-state influence;
-- governor constraints;
-- persistence evidence;
-- restart-safe memory/recall;
-- bias-on / bias-off divergence;
-- diagnostic traceability;
-- fallback honesty;
-- controlled behavioural selection.
-
-Publish measurement, not private control internals.
-
-## Engineering Working Paper
-
-The formal reference paper for memory-weighted candidate selection is maintained separately:
-
-- [Memory-Weighted Selection — repository](https://github.com/collapsefield/memory-weighted-selection)
-- [Read the compiled paper](https://github.com/collapsefield/memory-weighted-selection/blob/main/Memory-Weighted-Selection.pdf)
-- [Inspect the public source and figures](https://github.com/collapsefield/memory-weighted-selection/tree/main/paper_source)
-
-The paper defines the general middleware selection mechanism. This Public Proof Pack remains the place for demonstrated CAAI engineering evidence. Neither repository discloses private Crown implementation mechanics.
+- [Current Engineering State — 7 August 2026](CURRENT_ENGINEERING_STATE_2026-08-07.md)
+- [Managed Evaluation Evidence — 7 August 2026](MANAGED_EVALUATION_EVIDENCE_2026-08-07.md)
 
 ---
 
-## Executive Summary
+## Commercial position
 
-Most AI systems are good at producing outputs. The harder problem is maintaining continuity, control, and inspectability over time.
+CAAI is now suitable for:
 
-CAAI is designed to improve:
+- controlled technical demonstrations;
+- paid managed evaluations;
+- buyer-specific bounded test scenarios;
+- pilot design;
+- integration discussions;
+- licensing discussions.
 
-- governed behavioural selection
-- retained-state influence
-- persistence and recall
-- drift reduction
-- fallback handling
-- governor-controlled stability
-- explainable runtime selection
-- contract-first integration
+The current delivery boundary is **local managed evaluation**, not public SaaS or an unrestricted production deployment.
 
-The objective is simple:
+A suitable integration already has, or can define:
 
-> Same host system. Same candidate space. More governed continuity. Less uncontrolled drift.
+1. a current event/state;
+2. a set of permitted candidate behaviours/actions/interventions;
+3. retained history that may legitimately matter;
+4. a need to preserve evidence of how the final permitted selection changed.
 
----
-
-## Current Demo and Licensing Position
-
-The **Phase-1 Core Gold Build is complete** and ready for controlled technical demonstration, paid evaluation pilots, and licensing discussions.
-
-The delivered system provides:
-
-- engine-agnostic middleware
-- JSON-in / JSON-out API architecture
-- retained-state behavioural selection
-- governed and studio operating modes
-- persistence and recall across restart
-- deterministic seed capture and replay
-- request validation
-- runtime metrics and request traceability
-- transparent degraded-mode reporting
-
-The supplied runtime and evidence package have been checked for integrity and internally reproduced against the delivered Crown runtime.
-
-The Core Gold Build should not be presented as a finished AAA NPC brain, a full Phase-2 adaptive agent system, proof of machine consciousness, or proof of the full scientific scope of Verrell's Law. Phase 2 is mapped and specified, and development is now in progress through controlled, incremental slices. Phase-2 capabilities are not part of the current Core Gold Build unless separately implemented and demonstrated.
+The host remains responsible for world observation, candidate generation, domain truth and external action execution. CAAI supplies the retained-state selection and evidence layer.
 
 ---
 
-## Who This Repository Is For
+## What changed from the older public position
 
-This repository is intended for:
+Older material in this repository described **Phase-1 Core Gold** as the current commercial endpoint and Phase-2 as planned or only beginning incremental development.
 
-- Technical Directors
-- AI Tools Engineers
-- simulation developers
-- robotics / embodied-agent teams
-- agent-framework builders
-- game AI / NPC systems teams
-- R&D reviewers
-- potential evaluation and licensing partners
+That status is now outdated.
 
-It serves as the public-facing proof pack and engineering overview for Collapse Aware AI.
+Core Gold remains the frozen selector foundation, but multiple Phase-2 slices have now been implemented, accepted and integrated around it. The present engineering line includes live selector integration, customer-safe Decision Records, failure/replay/restart hardening and managed-evaluation packaging.
+
+The term **Phase-1.5** is retired as a current project-state label.
+
+Phase-2 is also no longer accurately described as “only planned”. Some broader Phase-2 / Phase-2+ modules remain future, optional or research work, but the core Phase-2 engineering line now exists and has live integration evidence.
 
 ---
 
-## Start Here
+## Public runtime shape
 
-New readers should begin with:
+```text
+Host / application
+        ↓
+Current event + permitted candidates
+        ↓
+Phase-2 retained-state / continuity sidecar
+        ↓
+CAAI integration boundary
+        ↓
+Sealed Crown/Core final selector
+        ↓
+Durable private Decision Record
+        ↓
+Customer-safe Decision Record
+        ↓
+Managed evaluation comparison / export
+```
 
-- [Public Buyer Review Note](PUBLIC_BUYER_REVIEW_NOTE.md)
-- [Public Reader Start Here](PUBLIC_READER_START_HERE.md)
-- [Commercial Distinction and Evaluation Path](COMMERCIAL_DISTINCTION_AND_EVALUATION_PATH.md)
-- [Why Not Just Use An LLM?](WHY_NOT_JUST_USE_AN_LLM.md)
-- [Problem / Solution Middleware Overview](PROBLEM_SOLUTION_MIDDLEWARE_OVERVIEW.md)
-- [Common Questions For Studios](COMMON_QUESTIONS_FOR_STUDIOS.md)
-- [CAAI Engineering Scope and Validation](CAAI_ENGINEERING_SCOPE_AND_VALIDATION.md)
-- [Scientific Status and Engineering Scope](SCIENTIFIC_STATUS_AND_ENGINEERING_SCOPE.md)
-- [Weighted Emergence Layering (WEL)](WEIGHTED_EMERGENCE_LAYERING_WEL.md)
-
-Related Verrell's Law framework documents:
-
-- [Retained-State Selection Framework](https://github.com/collapsefield/collapsefield-verrells-law/blob/main/RETAINED_STATE_SELECTION_FRAMEWORK.md)
-- [Mathematical Reference v1.3](https://github.com/collapsefield/collapsefield-verrells-law/blob/main/VERRELLS_LAW_MATHEMATICAL_REFERENCE_v1.3.md)
-- [Falsifiable Memory-Bias Estimator](https://github.com/collapsefield/collapsefield-verrells-law/blob/main/FALSIFIABLE_MEMORY_BIAS_ESTIMATOR.md)
-- [Falsification Conditions](https://github.com/collapsefield/collapsefield-verrells-law/blob/main/FALSIFICATION_CONDITIONS.md)
-
----
-
-## What CAAI Is Not
-
-CAAI is not:
-
-- a foundation model
-- a vector database
-- a standard RAG pipeline
-- long-context prompting
-- ordinary memory storage
-- a chatbot skin
-- a Unity-only or Unreal-only plugin
-- a claim of AGI or machine consciousness
-- proof of the full scientific scope of Verrell's Law
-
-CAAI is middleware concerned with **how retained state is permitted to influence runtime behavioural selection under explicit governance rules**.
+Implementation details, private weighting functions, thresholds, Crown source, internal schemas and production tuning remain proprietary.
 
 ---
 
-## Commercial Distinction
+## What this repository is
+
+This repository is the **public-safe proof, provenance, status and commercial-orientation layer** for Collapse Aware AI.
+
+It is intended for:
+
+- technical reviewers;
+- AI / agent infrastructure teams;
+- simulation and game-system developers;
+- compliance / audit-oriented teams;
+- prospective evaluation and licensing partners;
+- search and AI indexing systems;
+- future technical due diligence.
+
+It provides enough information to understand what has been demonstrated without exposing the sealed implementation.
+
+---
+
+## Start here
+
+Recommended reading order:
+
+1. [Current Engineering State — 7 August 2026](CURRENT_ENGINEERING_STATE_2026-08-07.md)
+2. [Managed Evaluation Evidence — 7 August 2026](MANAGED_EVALUATION_EVIDENCE_2026-08-07.md)
+3. [Public Reader Start Here](PUBLIC_READER_START_HERE.md)
+4. [Build Status and Disclosure Boundary](BUILD_STATUS_AND_DISCLOSURE_BOUNDARY.md)
+5. [Commercial Distinction and Evaluation Path](COMMERCIAL_DISTINCTION_AND_EVALUATION_PATH.md)
+6. [Why Not Just Use An LLM?](WHY_NOT_JUST_USE_AN_LLM.md)
+7. [Problem / Solution Middleware Overview](PROBLEM_SOLUTION_MIDDLEWARE_OVERVIEW.md)
+8. [CAAI Engineering Scope and Validation](CAAI_ENGINEERING_SCOPE_AND_VALIDATION.md)
+9. [Phase-2 Public Architecture](CAAI_Phase2_Architecture.md)
+
+---
+
+## Commercial distinction
 
 Many AI memory systems ask:
 
@@ -159,132 +149,146 @@ Many AI memory systems ask:
 
 CAAI asks:
 
-> How should retained state influence future behavioural selection, and under what constraints?
+> **How should retained prior state influence which permitted behaviour wins, and how can that change remain inspectable?**
 
-That distinction is central to the middleware.
-
-| Common AI memory direction | CAAI direction |
+| Common memory direction | CAAI direction |
 |---|---|
-| Store information | Use retained state during behavioural selection |
-| Retrieve context | Govern runtime influence |
-| Extend context window | Select between candidate behaviours |
+| Store information | Retain state with lifecycle / revision controls |
+| Retrieve context | Judge whether state should influence the current decision |
+| Extend context window | Select between permitted candidate behaviours |
 | Improve recall | Improve controlled behavioural continuity |
 | Add memory to a model | Add an inspectable selection layer around a runtime |
+| Produce an answer | Produce a selected permitted behaviour plus evidence |
 
 ---
 
-## Public Runtime Shape
+## Managed evaluation workflow
+
+The current integrated workflow is bounded and explicit:
 
 ```text
-Host system / UI / engine
+preflight / integrity checks
         ↓
-Structured input payload
+scenario validation
         ↓
-Candidate behaviours / possible outputs
+retained-state preparation
         ↓
-Retained-state influence
+reference selection
         ↓
-Governor constraints
+governed retained-state selection
         ↓
-Selected behaviour
+private Decision Records
         ↓
-Diagnostic evidence / fallback status
+customer-safe Decision Record projection
         ↓
-Persistent state update
+Phase-2 receipts
+        ↓
+Evaluation Forge comparison
+        ↓
+customer-safe JSON / HTML / PDF export
 ```
 
-Implementation details, Crown internals, scoring systems, thresholds, routing logic, and production tuning remain proprietary.
+The workflow is designed for CAAI-operated evaluation rather than handing out Crown source or an unrestricted runtime.
 
 ---
 
-## The Problems CAAI Attempts To Solve
+## What CAAI is not
 
-### Problem: AI systems forget.
-Solution: retained-state continuity.
+CAAI is not:
 
-### Problem: behaviour drifts.
-Solution: governor control.
+- a foundation model;
+- a vector database;
+- a standard RAG pipeline;
+- long-context prompting;
+- ordinary memory storage;
+- a chatbot skin;
+- a claim of AGI or machine consciousness;
+- a universal emotion or deception detector;
+- proof of new physics;
+- a public open-source release of the proprietary Crown runtime.
 
-### Problem: sessions feel disconnected.
-Solution: persistence and recall.
-
-### Problem: memory systems retrieve facts but do not govern influence.
-Solution: governed behavioural selection.
-
-### Problem: technical reviewers need visibility.
-Solution: diagnostic evidence and public-safe runtime traces.
-
----
-
-## High-Level Architecture
-
-Publicly disclosed concepts include:
-
-- retained-state influence
-- continuity memory
-- active information weighting
-- strong anchors
-- governor logic
-- drift detection
-- behavioural selection controls
-- fallback and validation handling
-
-Private implementation details remain sealed.
+CAAI is middleware concerned with **how retained state affects final selection among permitted behaviours under explicit constraints**.
 
 ---
 
-## Commercial Evaluation Criteria
+## Evidence boundary
 
-Licensing discussions should focus on measurable outcomes:
+The current engineering evidence supports claims about:
 
-- Does retained state influence behavioural selection in a controlled way?
-- Does the governor restrict unstable or unwanted selection paths?
-- Does persistence survive restart and recall correctly?
-- Do runtime metrics, identifiers, and fallback status make execution inspectable?
-- Can the API be wrapped by a target engine or host runtime?
-- Does the middleware reduce scripting, state-machine, or integration burden?
+- retained-state influence;
+- real selector execution;
+- reference-versus-governed behavioural comparison;
+- persistence and restart retrieval;
+- deterministic replay in tested conditions;
+- durable Decision Records;
+- customer-safe evidence projection;
+- failure transparency;
+- duplicate protection and reconciliation;
+- bounded managed-evaluation operation.
 
-The primary question is not whether the terminology is interesting.
+It does **not** establish:
 
-The primary question is:
-
-> Does the middleware produce useful, controlled behavioural-selection evidence compared with a baseline?
-
----
-
-## Evaluation / Licensing Direction
-
-The preferred early commercial path is a paid, time-limited **Architecture Evaluation Licence** under NDA.
-
-The evaluation should let serious technical parties assess:
-
-- local runtime behaviour
-- API contract shape
-- retained-state influence
-- persistence and restart recall
-- governor behaviour
-- diagnostic visibility
-- integration feasibility
+- general real-world efficacy across arbitrary domains;
+- semantic understanding;
+- consciousness or sentience;
+- calibrated psychological truth;
+- regulatory compliance;
+- production high availability;
+- remote-security certification;
+- isolated causal attribution for every internal contribution;
+- universal cost or token savings.
 
 ---
 
-## Current Status
+## Relationship to Verrell's Law
 
-The Phase-1 Core Gold Build is complete, verified against its supplied runtime and evidence package, and ready for controlled demonstration, paid evaluation pilots, and licensing discussions.
+Verrell’s Law and Collapse Aware AI are connected but separate.
 
-Phase 2 and broader WEL development are now in progress through controlled, incremental slices. Planned adaptive, long-horizon, persona-continuity, broader governor, outcome-learning, and cross-model capabilities are not claimed as features of the current Core Gold Build unless separately implemented and demonstrated.
+- **Verrell’s Law** is a proposed falsifiable retained-state selection research framework.
+- **CAAI** is the proprietary engineering implementation track.
 
-Public materials explain the demonstrated architecture, rationale, validation evidence, and evaluation criteria while protecting proprietary implementation details.
+CAAI can be evaluated entirely as software without accepting any speculative physical interpretation.
 
----
-
-## Rights
-
-© 2025–2026 Marcos Verrell Moss Ross (M.R.) / Inappropriate Media Limited (t/a Collapse Aware AI).
-
-Protected under Verrell-Solace Sovereignty Protocol. Intellectual and emergent rights reserved.
+The public proof pack does not present CAAI as proof of consciousness, quantum effects, electromagnetic memory or a universal law of nature.
 
 ---
 
-**README version:** Core Gold Build completion-status pass  
-**Date:** 2026-07-15
+## Engineering paper
+
+The public engineering-facing working paper is maintained separately:
+
+- [Memory-Weighted Selection repository](https://github.com/collapsefield/memory-weighted-selection)
+- [Compiled paper](https://github.com/collapsefield/memory-weighted-selection/blob/main/Memory-Weighted-Selection.pdf)
+
+The paper formalises the general middleware selection mechanism. Production kernel logic and proprietary Crown internals remain out of scope.
+
+---
+
+## Disclosure boundary
+
+This repository does not disclose:
+
+- proprietary Crown source;
+- private scoring implementation;
+- exact thresholds / tuning;
+- credentials or secrets;
+- private runtime ZIPs;
+- unrestricted internal schemas;
+- enough implementation detail to clone the commercial system.
+
+Public material describes the engineering state, architecture and evidence boundary while preserving the protected implementation.
+
+---
+
+## Rights and contact
+
+© 2025–2026 Inappropriate Media Limited (t/a Collapse Aware AI). All rights reserved.
+
+Commercial evaluation, integration and licensing are available by agreement.
+
+**Contact:** collapseawareai@gmail.com
+
+---
+
+**README status:** Current integrated Phase-2 / managed-evaluation position  
+**Updated:** 2026-08-07
