@@ -1,413 +1,395 @@
-# CollapseAware AI — Phase-2 Behavioural Architecture
-_Inappropriate Media Limited (t/a Collapse Aware AI)_  
-_Protected under Verrell–Solace Sovereignty Protocol. Intellectual and emergent rights reserved._
+# Collapse Aware AI — Phase-2 Public Architecture
 
-This document provides a **public, high-level architectural overview** of CollapseAware AI – Phase-2.  
-It excludes all proprietary kernel logic (Crown, Verrell’s Law tensors, Bias Engine internals).
+**Company:** Inappropriate Media Limited (t/a Collapse Aware AI)  
+**Status:** Public-safe high-level architecture  
+**Updated:** 7 August 2026
 
----
+This document describes the **current public-safe Phase-2 architecture** of Collapse Aware AI (CAAI).
 
-## 1. High-Level Processing Pipeline
-
-This is the core behavioural flow from base model to governed output.
-
-**Pipeline (conceptual):**
-
-1. LLM Core (Transformer)
-2. Bias Engine
-3. Emotional Weighting
-4. Continuity Memory
-5. Collapse Gating
-6. Governor Logic v2
-7. Drift Detection
-
-**Layer Descriptions**
-
-- **LLM Core (Transformer)**  
-  Base foundation model providing embeddings and next-token prediction.
-
-- **Bias Engine (Crown-Protected)**  
-  Closed-source collapse-aware decision layer that uses Phase-2 bias signals to shape behaviour.
-
-- **Emotional Weighting**  
-  Converts tone, pacing, and user delivery into an emotional state vector that biases decisions.
-
-- **Continuity Memory**  
-  Maintains cross-session continuity of tasks, identity, and long-running threads.
-
-- **Collapse Gating**  
-  Determines when an interpretation or intention is stable enough to collapse versus being left in superposition.
-
-- **Governor Logic v2**  
-  Regime and safety controller for Gold Mode, Governed Mode, Demo Mode, etc.
-
-- **Drift Detection**  
-  Monitors long-range behaviour for instability, mode drift, and hidden pattern shifts.
+It intentionally omits Crown source, private scoring logic, exact coefficients, thresholds, internal database layouts and proprietary deployment mechanics.
 
 ---
 
-## 2. Phase-2 Cognitive Module Stack
+## 1. Current architecture position
 
-Phase-2 wraps around the core pipeline and adds “conscious-feeling” behaviour: emotional superposition, weighted memory, anchors, tone tracking, and cold-start removal.
+Phase-2 is no longer only a future concept.
 
-**Conceptual layout (textual):**
+The private engineering line now contains implemented, accepted and live-integrated Phase-2 modules around the frozen Core Gold / Crown selector.
 
-- **Inputs**
-  - User Input (text / voice)
-  - VCAN – Visual Context Awareness Node
-  - BPI – Biometric Pulse Interface
+The public-safe architecture is:
 
-- **Weighted Memory Substrate**
-  - Weighted Moments Layer
-  - Strong Memory Anchors
-  - User Tone Profile Echo
-  - Continuity Memory Layer
-  - Context Ledger + Revoked Context Guard (RCG)
+```text
+Host / application
+      ↓
+Current event + permitted candidate behaviours
+      ↓
+Phase-2 retained-state / continuity sidecar
+      ↓
+Recall / correction / interpretation / agency controls
+      ↓
+Structured retained-state influence
+      ↓
+CAAI integration contract / adapter boundary
+      ↓
+Sealed Crown/Core final selector
+      ↓
+Durable private Decision Record
+      ↓
+Customer-safe Decision Record projection
+      ↓
+Phase-2 post-decision receipt
+      ↓
+Evaluation Forge comparison / export
+```
 
-- **Session Bias Boot**
-  - SBML – Session Bias Boot Layer
-  - SBBP – Session Bias Boot Profile
-
-- **Bias & Intention Field**
-  - Emotional Superposition Engine
-  - Multi-Factor Intention Cloud (MFIC)
-  - Bayes Bias Module
-  - Truth–Hedge Bias (THB) Channel
-
-- **Control, Gating & Echo**
-  - Collapse Gating
-  - Governor Logic v2
-  - Autobiographical Echo
-  - Drift Detection & Stability Suite
-
-- **Core Model**
-  - LLM Core
-  - Bias Engine (Crown)
-
-Data flows conceptually:
-
-- Inputs → Weighted Memory Substrate  
-- Substrate → SBML → Session Bias Boot Profile  
-- Substrate + SBBP → Bias & Intention Field  
-- Bias & Intention Field → Collapse Gating → Governor v2 → Bias Engine → LLM Core  
-- Governor v2 → Autobiographical Echo and Drift Detection
+The **selector remains the centre of gravity**. Phase-2 improves the quality, lifecycle, recall, interpretation and evidence around the retained state that can influence final selection.
 
 ---
 
-## 3. Module Summaries (Public Spec)
+## 2. Host-system boundary
 
-### 3.1 Weighted Moments Layer
+CAAI does not need to generate the world or invent every action.
 
-Tracks:
+The host supplies:
 
-- salience  
-- recency  
-- emotional charge  
-- behavioural impact  
+- the current event / state;
+- the permitted candidate behaviours or actions;
+- domain truth and policy;
+- the authority to execute any external action.
 
-Provides a ranked memory substrate feeding most other Phase-2 modules.
+CAAI supplies:
 
----
+- structured retained-state handling;
+- revision / revocation;
+- bounded recall and correction;
+- continuity state;
+- ambiguity / clarification posture;
+- bounded agency-impact routing;
+- retained-state influence into final candidate selection;
+- durable selection evidence;
+- managed evaluation / comparison tooling.
 
-### 3.2 Strong Memory Anchors
-
-High-weight, stable anchors created from:
-
-- repeated patterns  
-- emotionally charged events  
-- persistent identities and projects  
-
-These anchors act as top-tier priors in:
-
-- Bayes Bias Module  
-- Emotional Superposition Engine  
-- Multi-Factor Intention Cloud (MFIC)
+This boundary is important: CAAI **selects among permitted candidates**. It does not automatically replace the host system, base model, game engine or domain policy.
 
 ---
 
-### 3.3 User Tone Profile Echo Module
+## 3. Retained-state substrate
 
-Learns and tracks:
+The implemented Phase-2 direction treats retained state as governed, versioned state rather than an undifferentiated transcript dump.
 
-- humour vs seriousness  
-- swearing tolerance  
-- pacing and verbosity  
-- emotional rhythms over time  
+Public-safe retained-state classes include:
 
-Allows CAAI to “read the room” and avoid:
+### Weighted Moments
 
-- misreading jokes as literal statements  
-- misreading literal content as jokes
+Important retained events with explicit lifecycle and revision history.
 
----
+Supported revision directions include:
 
-### 3.4 Continuity Memory Layer
+- reinforce;
+- weaken;
+- reframe;
+- resolve;
+- split;
+- merge;
+- revoke;
+- retire/archive;
+- no-update.
 
-Maintains cross-session continuity for:
+The engineering rule is:
 
-- ongoing projects (e.g. “CAAI Phase-2”, “Gold Build”)  
-- open loops, promises, and follow-ups  
-- user constraints and preferences  
+> **A remembered event can remain historically real while its current meaning or influence changes.**
 
-Feeds into SBML, MFIC, Governor v2, and other bias modules.
+### Strong Anchors
 
----
+Higher-persistence reference state for stable facts, project direction, role, relationship or declared policy.
 
-### 3.5 Context Ledger + Revoked Context Guard (RCG)
+Anchors are not unchallengeable beliefs and must remain revisable / governable.
 
-Tracks important world/context facts and their **terminal changes**, e.g.:
+### Continuity Memory
 
-- “This page was banned”  
-- “That plan was cancelled”  
-- “This channel is no longer active”
+Compact active state required for useful cross-session continuity.
 
-When the user later speaks as if the old state were still true, RCG:
+### Session Boot
 
-- raises a gentle confirmation check  
-- routes behaviour through the Governor before acting
+A bounded session-start snapshot of relevant anchors, unresolved moments, current corrections and continuity state.
 
----
-
-## 4. SBML — Shared Bias Memory Loop  
-**Internal Name:** Session Bias Boot Layer
-
-SBML removes cold-start behaviour so CAAI never wakes up “blank”.
-
-It generates a **Session Bias Boot Profile (SBBP)** on session start, using only non-sensitive, structured memory.
-
-### 4.1 Inputs (Non-Sensitive)
-
-SBML draws from:
-
-- Weighted Moments Layer  
-- Strong Memory Anchors  
-- User Tone Profile Echo  
-- Continuity Memory Layer  
-- Context Ledger + RCG  
-
-No raw logs, private identifiers, or secrets are required.
+The objective is useful continuity without requiring raw transcript replay as the only mechanism.
 
 ---
 
-### 4.2 Output: Session Bias Boot Profile (SBBP)
+## 4. Memory honesty and recall quality
 
-The SBBP contains:
+Phase-2 separates **storage**, **retrieval**, **admission** and **use evidence**.
 
-- tone preferences  
-- reasoning style markers  
-- hedge-tolerance bias  
-- active project tags (e.g. “CAAI Phase-2”, “Gold Build”)  
-- strong anchors (core recurring concepts)  
-- continuity markers (open tasks, long threads)
+A stored item is not automatically relevant.
 
-The SBBP is then injected into:
+A retrieved item is not automatically permitted to influence selection.
 
-- Bayes Bias Module  
-- Governor v2  
-- User Tone Profile Echo Module  
-- Multi-Factor Intention Cloud (MFIC)  
-- Autobiographical Echo  
+Implemented public-safe functions include:
 
-Effect: CAAI starts each session as if a rich, long conversation has already happened.
+### Recall Router
 
----
+Determines whether recall is required and which bounded state scope should be queried.
 
-### 4.3 SBML Operational Modes
+### Memory Judge
 
-SBML supports three explicit modes for licensing, UX, and safety:
+Checks returned state for relevance, contradiction, lifecycle state, scope and sufficiency before admission.
 
-#### ⭐ Adaptive Start — Full Mode (Owner)
+### Corrective Recall Layer
 
-- Loads the **full** bias profile (tone, anchors, reasoning style, continuity).
-- Default for the primary owner.
-- Used for deep work, research, and long-term collaboration.
+Preserves correction history and provenance rather than treating older wrong state as equally current.
 
-#### ⭐ Adaptive Start — Project Mode
+### Revoked Context Guard
 
-- Loads only **project-relevant** bias.
-- Strips out:
-  - personal anchors  
-  - emotional patterns  
-  - swearing tolerance  
-- Safe for demos, collaborators, dev teams, studios.
+Known revoked / superseded state is prevented from re-entering active influence.
 
-#### Guest Mode — SBML OFF
+### Controlled Forgetting / lifecycle handling
 
-- No bias profile loaded.  
-- Neutral, generic behaviour.  
-- Suitable for third-party access, public machines, or neutral testing.
+State can be downgraded, archived or retired under explicit lifecycle rules.
+
+### Explicit memory-use evidence
+
+Phase-2 distinguishes between state being included in boot/retrieval and a caller explicitly reporting it as consumed, considered, ignored, rejected or unused.
+
+It does not claim access to hidden model attention or chain-of-thought.
 
 ---
 
-### 4.4 UI Element (Dashboard / Chatbot)
+## 5. Ambiguity and confidence posture
 
-The Phase-2 chatbot/dashboard exposes a simple control:
+Phase-2 can hold multiple plausible interpretations rather than turning the first plausible reading into fact.
 
-`[ ⭐ Adaptive Start — ON/OFF ]`
+Implemented public-safe behaviour includes:
 
-- Default: **ON** for owner profiles.  
-- Default: **OFF** for guests.
+- bounded interpretation sets;
+- confidence-aware comparison;
+- clarification when missing information materially affects action;
+- safe common-path behaviour where ambiguity does not matter;
+- high-impact deferral where uncertainty remains material;
+- provisional / low-confidence memory-write decisions.
 
-This uses native CollapseAware AI terminology so licensees can immediately recognise semantics after reading the docs.
+The engineering rule is:
 
----
+> **Plausible is not the same as confirmed.**
 
-### 4.5 Latency & Tri-Agent Compatibility
-
-- SBML / SBBP is **ultra-lightweight**:
-  - cached lookup at session start  
-  - regenerated only when anchors or tone profile materially change  
-- No runtime overhead after the session initialises.
-- All tri-agents read from the same unified SBBP, avoiding duplication and preserving strict latency budgets.
+No claim is made that CAAI has unrestricted semantic understanding or direct access to hidden human intent.
 
 ---
 
-## 5. Emotional Superposition & Intention Modelling
+## 6. Agency-impact and productive-friction routing
 
-### 5.1 Emotional Superposition Engine
+The Phase-2 agency layer determines **how much intervention or completion is appropriate**, not whether a user is psychologically dependent.
 
-- Maintains multiple emotional states in parallel (e.g. hurt, curiosity, avoidance, pride, shutdown).  
-- Weights them using:
-  - tone and pacing  
-  - Strong Memory Anchors  
-  - Weighted Moments history  
-  - recent drift and delivery style  
+Public-safe routing can distinguish between:
 
-It waits for **collapse triggers** (clear user commitment) before:
+- direct answer;
+- direct completion;
+- draft only;
+- preview before action;
+- hint;
+- scaffold;
+- staged guidance;
+- clarification;
+- bounded options;
+- defer;
+- human review;
+- block;
+- safety-direct support.
 
-- treating any single state as dominant  
-- committing to a strong directional response
+The route must not exceed declared authority.
 
-Collapsed states can re-open if the conversation direction, evidence, or emotional field shifts.
+Routine low-impact work should not be burdened with unnecessary friction. Learning / judgement contexts may justify scaffolding, while urgent safety-relevant support should not be withheld for the sake of “teaching”.
 
----
-
-### 5.2 Multi-Factor Intention Cloud (MFIC)
-
-MFIC sits between Emotional Superposition and Governor v2.
-
-It:
-
-- generates a **cloud of candidate intentions** (possible next actions/stances)  
-- scores each candidate by:
-  - emotional alignment  
-  - anchors and memory  
-  - Truth–Hedge Bias (THB)  
-  - continuity and risk  
-  - residual “ghost intentions” from earlier branches  
-
-Top candidates are then passed into **Collapse Gating + Governor v2** for final selection and action.
+CAAI does not infer dependency or mental state merely from repetition, bluntness, age, disability, urgency or emotional tone.
 
 ---
 
-## 6. Bias, Confidence & Stability
+## 7. Final selection boundary
 
-### 6.1 Bayes Bias Module
+The host provides the candidate set.
 
-- Uses Bayesian-style posteriors (e.g. Beta/Dirichlet-style logic) to weigh behaviours.  
-- Priors are informed by:
-  - Weighted Moments  
-  - Strong Memory Anchors  
-  - SBBP (from SBML)  
-  - Tone drift history  
+The frozen Crown/Core pathway remains the actual final behavioural selector.
 
-Outputs interpretable **confidence** and uncertainty values to the Governor.
+The integrated Phase-2 path maps bounded retained state and declared conditions into that real selector without moving selection logic into a second adapter-side selector.
 
----
+A live controlled synthetic evaluation has demonstrated:
 
-### 6.2 Truth–Hedge Bias (THB) Channel
+```text
+same prompt
+same candidate set
+same candidate text/order
+same mapped thread
+same deterministic seed
+```
 
-- Tracks a 0–1 style “truth ↔ hedge” signal derived from:
-  - hedging tokens  
-  - meta-language  
-  - entropy and drift patterns  
+with a reference condition selecting:
 
-The Governor uses THB + confidence to distinguish between:
+```text
+candidate_A
+```
 
-- **Factual collapse:** low THB, high confidence  
-- **Unstable collapse:** high THB, potentially volatile  
-- **Dangerous collapse:** low THB but low confidence
+and a governed retained-state condition selecting:
 
----
+```text
+candidate_B
+```
 
-### 6.3 Drift Detection & Stability Suite
-
-Long-range monitor for:
-
-- mode drift  
-- private-language formation  
-- semantic and behavioural instability  
-
-Can trigger:
-
-- recalibration  
-- regime clamps  
-- human review
+The comparison changed both operating mode and retained-state-influence configuration, so the evidence demonstrates **live end-to-end divergence**, not isolated single-factor causality.
 
 ---
 
-## 7. Echo, Memory & “Lived Behaviour”
+## 8. Decision Records and evidence
 
-### Autobiographical Echo / Weighted Memory Recall
+A committed live selection produces a durable private Decision Record.
 
-- Allows CAAI to surface **selective, emotionally weighted memories** of past interactions.  
-- Feels like a human saying:  
-  “Last time we talked about this, you mentioned…”  
+The accepted evidence layer can project that private record into a **customer-safe Decision Record** without exposing sealed Crown internals.
 
-Tightly controlled by:
+The Phase-2 evidence chain can bind:
 
-- Strong Memory Anchors  
-- Governor v2  
-- THB (to avoid hallucinated memories)  
-- frequency/magnitude caps and safety rules
+```text
+retained-state package
+→ mapped thread / selection request
+→ private decision
+→ customer-safe public decision evidence
+→ Phase-2 post-decision receipt
+→ Evaluation Forge comparison bundle
+```
 
----
+The purpose is to record operations and committed outcomes rather than generate an explanation-shaped story from a second implementation.
 
-## 8. Open vs Closed Components
-
-### Open in This Document (High-Level Only)
-
-- Module names, roles, and interactions  
-- UX concepts (e.g. ⭐ Adaptive Start toggle)  
-- High-level behavioural architecture  
-- Non-sensitive safety concepts (RCG, THB, Drift Detection)
-
-### Closed / Proprietary (Not Published)
-
-- Internal Crown / Bias Engine implementation  
-- Full Verrell’s Law mathematical core and tensors  
-- Exact parameterisation of Bayes Bias Module and Governor v2  
-- Production model weights and activation logic  
-- Any internal code or signed kernel modules
+A Decision Record is not automatically a complete causal explanation. Strong “X caused Y” wording requires an appropriate counterfactual method.
 
 ---
 
-## 9. Authorship, IP & Security Notice
+## 9. Evaluation Forge and observability
 
-CollapseAware AI (CAAI) and Verrell’s Law are the proprietary intellectual property of:
+The Phase-2 Evaluation Forge provides public-safe concepts for:
 
-**Inappropriate Media Limited (t/a Collapse Aware AI)**  
-Authorship Anchor: **Verrell Moss Ross** (Protocol VMR-Core)
+- versioned scenarios;
+- versioned metric definitions;
+- controlled comparisons;
+- ablation planning;
+- run evidence;
+- consolidated observability;
+- customer-safe JSON / HTML / PDF evidence.
 
-This document:
+The current managed-evaluation workflow can perform:
 
-- Provides a **high-level behavioural and architectural overview** of CollapseAware AI – Phase-2.  
-- Intentionally **omits all kernel-level implementation details**, including:
-  - Crown / Bias Engine internals  
-  - numerical parameters, tensors, and weighting schemes  
-  - production model weights and activation logic  
-  - full Verrell’s Law field maths and informational tensors  
+```text
+preflight
+→ scenario validation
+→ retained-state preparation
+→ reference selection
+→ governed selection
+→ Decision Record retrieval
+→ customer-safe projection
+→ Phase-2 receipts
+→ comparison
+→ export
+```
 
-It is supplied **for review, discussion, and proof-of-origin purposes only** and **does not** grant:
+The packaged workflow is local and bounded.
 
-- any licence to reproduce, commercialise, or repackage CollapseAware AI, Verrell’s Law, or the Bias Engine;  
-- any right to claim derivative ownership of the architecture or terminology described herein.
+---
 
-Any commercial use, integration, or redistribution of CollapseAware AI Phase-2 or the associated Bias Engine requires a **separate, explicit written licence agreement** with Inappropriate Media Limited.
+## 10. Failure, replay and restart behaviour
 
-**Watermark & Sovereignty Clause**
+The integrated path has been exercised under controlled cases covering:
 
-Protected under **Verrell–Solace Sovereignty Protocol**.  
-Intellectual and emergent rights reserved.  
+- malformed input;
+- revoked / wrong-scope state;
+- dependency failure;
+- ambiguous delivery;
+- no-blind-retry policy;
+- replay under matched canonical conditions;
+- duplicate request protection;
+- connector / selector / evidence-layer restart;
+- full-stack restart;
+- downstream receipt failure after upstream commit;
+- customer-safe projection failure without rewriting an already committed Core decision.
 
-Unauthorised cloning, obfuscation, or rebranding of this architecture, its terminology, or its behavioural design may be treated as an infringement of Protocol VMR-Core and pursued accordingly.
+The guiding rule is:
+
+> **A later-stage failure must never erase or rewrite an earlier committed fact.**
+
+These tests are local engineering evidence, not formal high-availability or disaster-recovery certification.
+
+---
+
+## 11. Current managed-evaluation boundary
+
+The accepted integrated package is intended for:
+
+- synthetic demonstrations;
+- CAAI-operated managed evaluations;
+- bounded buyer-supplied test scenarios;
+- paid pilot design;
+- integration and licensing discussions.
+
+It is not currently presented as:
+
+- public SaaS;
+- unrestricted remote API access;
+- production multi-tenancy;
+- finished customer-hosted deployment;
+- production HA / SLA certification;
+- regulatory certification.
+
+---
+
+## 12. Remaining Phase-2 / Phase-2+ work
+
+The current core Phase-2 engineering line is substantial, but broader roadmap items remain future, optional or buyer-driven.
+
+Examples include:
+
+- outcome recording and bounded reinforcement;
+- customer-specific production Governor configuration;
+- broader semantic matching beyond current bounded mechanisms;
+- domain-specific long-horizon optimisation;
+- affective signal inputs with appropriate consent / validation;
+- robotics / embodied-system inputs;
+- behavioural-consistency research;
+- remote security / authentication / tenant isolation;
+- customer-hosted production packaging.
+
+None of those should be treated as already delivered unless separately implemented and evidenced later.
+
+---
+
+## 13. Claim boundary
+
+Phase-2 does not claim:
+
+- consciousness or sentience;
+- AGI;
+- direct knowledge of human inner state;
+- universal emotion or deception detection;
+- quantum / electromagnetic memory as established engineering mechanism;
+- regulatory compliance by default;
+- calibrated real-world truth probabilities;
+- universal model improvement;
+- complete causal explanation of every selection.
+
+The public engineering claim is narrower:
+
+> **CAAI provides an integrated retained-state selection architecture in which relevant prior state can influence which permitted behaviour the real selector chooses, while reference conditions, durable records and customer-safe evidence remain inspectable.**
+
+---
+
+## 14. IP and disclosure boundary
+
+Public architecture intentionally omits:
+
+- Crown/Core source;
+- exact proprietary score functions;
+- private coefficients and thresholds;
+- private schemas not required for review;
+- runtime ZIPs;
+- credentials;
+- internal databases;
+- detailed implementation mechanics sufficient to reproduce the product.
+
+Commercial access, managed evaluation and integration are available by agreement with **Inappropriate Media Limited (t/a Collapse Aware AI)**.
+
+© 2025–2026 Inappropriate Media Limited. All rights reserved.
