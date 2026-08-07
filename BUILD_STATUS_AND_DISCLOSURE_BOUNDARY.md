@@ -1,196 +1,230 @@
 # Build Status and Disclosure Boundary
 
+**Current public-safe status:** 7 August 2026  
+**Company:** Inappropriate Media Limited, trading as Collapse Aware AI
+
 ## Purpose
 
-This document clarifies the current public/private status of Collapse-Aware AI (CAAI), the scope of the public proof materials, and the boundary between disclosed architecture and protected implementation.
+This document states the current engineering position of Collapse Aware AI (CAAI) and the boundary between public proof and protected implementation.
 
-It exists to make the project status clear without exposing sealed proprietary logic.
-
----
-
-## Project Status Overview
-
-Collapse-Aware AI is being developed in phased form.
-
-The project is **real**, **active**, and **under continued private development**.
-
-Public materials have been released to establish:
-
-- authorship
-- technical direction
-- continuity of development
-- architectural intent
-- licensing and commercial context
-- proof that the system is not merely an abstract concept
-
-However, the public proof pack is **not** the full private build.
-
-It is a controlled disclosure set.
+The public proof pack is deliberately not a mirror of the private runtime.
 
 ---
 
-## Phase-1 Status
+## Current project status
 
-## Phase-1: Private Build Track
+Collapse Aware AI is proprietary middleware for **retained-state behavioural selection**.
 
-Phase-1 is the current operational foundation of Collapse-Aware AI.
+The current engineering line is no longer accurately described as a Phase-1-only project with Phase-2 merely planned.
 
-This phase consists of:
+The private build has progressed through:
 
-- the bounded middleware architecture
-- the protected behavioural core
-- the scaffold and interface layer used to host and test the system
-- the integration logic required to connect the sealed core into the working runtime
-- persistence, route control, and governed behaviour checks needed for licensing readiness
+```text
+Phase-1 Core Gold selector foundation
+        ↓
+Decision-record / customer-safe evidence substrate
+        ↓
+Phase-2 retained-state and continuity modules
+        ↓
+formal integration contract
+        ↓
+mock-boundary adapter
+        ↓
+real Core boundary discovery
+        ↓
+live Phase-2 → Core selection
+        ↓
+customer-safe Decision Record linkage
+        ↓
+failure / replay / restart hardening
+        ↓
+local managed-evaluation packaging
+```
 
-Phase-1 exists in **private form**.
-
-Its private build track includes sealed components, protected implementation details, and controlled integration work that are not exposed in the public repository.
-
-At the time of writing, Phase-1 is in the stage of:
-
-- controlled integration
-- verification
-- refinement
-- runtime testing
-- preparation for licensing/demo readiness
-
-This means the project is **not a mere idea**, but it is also **not fully open-released**.
-
----
-
-## What the Public Proof Pack Is
-
-The public proof pack is a **proof-of-origin and architecture disclosure package**.
-
-Its purpose is to show that:
-
-- Collapse-Aware AI was conceived and developed as a distinct system
-- the project has a documented design path
-- the work has continuity over time
-- the architecture direction is deliberate and structured
-- the public can verify that the project has real technical substance
-- the owner has maintained a traceable authorship trail
-
-The public proof pack is **not intended to function as a full open-source release of the private production system**.
+The current accepted integrated boundary is a **local managed-evaluation package**.
 
 ---
 
-## What Is Public
+## Phase-1 Core Gold
 
-The public proof materials may include items such as:
+Core Gold remains the frozen behavioural-selection foundation.
 
-- authorship statements
-- versioned proof documents
-- conceptual architecture summaries
-- controlled technical writeups
-- non-sensitive scaffold examples
-- selected interface or structure notes
-- rollout direction
-- commercial framing
-- licensing context
-- timestamps, references, and continuity records
+Its verified role includes:
 
-These materials exist to prove origin, direction, and seriousness of development.
+- retained-state scoring;
+- candidate selection;
+- Studio/reference and governed operation;
+- persistence and recall;
+- deterministic replay;
+- request validation and fallback honesty;
+- the sealed Crown/Core final-selection path.
 
----
-
-## What Remains Private
-
-The following categories remain private, sealed, or partially withheld by design:
-
-- the protected behavioural core
-- sealed weighting and bias logic
-- internal runtime integration details
-- non-public test and validation artefacts
-- private implementation methods
-- adapter and production-side wiring details not intended for public release
-- confidential project materials supplied to authorised contractors only
-- proprietary logic used to preserve commercial advantage and IP protection
-
-This boundary is intentional.
-
-Collapse-Aware AI is being developed as a licensable proprietary system, not as a fully exposed public build.
+Core Gold remains proprietary and is not published as source.
 
 ---
 
-## Why the Boundary Exists
+## Phase-2 current status
 
-The disclosure boundary exists for several reasons:
+The old public statement **“Phase-2 is planned and actively designed”** is now obsolete as a description of the whole engineering line.
 
-1. **IP protection**  
-   The project contains proprietary ideas, methods, and implementation structures that require protection.
+Implemented and accepted Phase-2 work now includes:
 
-2. **Licensing readiness**  
-   The system is being prepared as commercial middleware, which requires controlled disclosure.
+- Weighted Moments with explicit revision / revocation lifecycle;
+- strong anchors and continuity memory;
+- deterministic session boot;
+- explicit memory-use / boot-consumption evidence;
+- bounded interpretation hold and clarification posture;
+- recall routing, judging, corrective recall and revoked-context protection;
+- controlled forgetting / lifecycle handling;
+- agency-impact and productive-friction routing;
+- Evaluation Forge metrics and consolidated observability;
+- formal Phase-2 → Core integration contract;
+- live integration with the real frozen selector;
+- post-decision receipts and customer-safe evidence linkage;
+- restart, replay, duplicate protection and ambiguous-outcome reconciliation;
+- managed-evaluation operator packaging and customer-safe export.
 
-3. **Security and integrity**  
-   Releasing sealed components prematurely would weaken the project’s protection and make misappropriation easier.
+Some broader Phase-2 and optional Phase-2+ concepts remain future work. Those include buyer-specific production Governor configuration, outcome-driven reinforcement, broader semantic matching, affective signal inputs, robotics/embodied inputs, behavioural-consistency research and production deployment hardening.
 
-4. **Phase separation**  
-   Not all architectural modules belong to the same implementation stage. Public readers must understand that conceptual scope and present runtime scope are not identical.
-
-5. **Proof without overexposure**  
-   The public proof pack is meant to establish legitimacy and origin without publishing the full protected engine.
-
----
-
-## Public vs Private Interpretation Guidance
-
-When reading public CAAI materials, the correct interpretation is:
-
-- the project is real
-- the architecture is deliberate
-- the behavioural core exists in protected form
-- private testing/integration work is underway or ongoing within the Phase-1 track
-- public documents show proof, direction, and authorship
-- public documents do not expose the entire production implementation
-
-Any architecture notes describing broader future capability should be understood in the context of the project’s phased development model.
+These future concepts must not be represented as already delivered.
 
 ---
 
-## Phase-2 Clarification
+## Live integration status
 
-Phase-2 refers to the expanded behavioural architecture planned to sit on top of the Phase-1 base.
+A controlled synthetic evaluation has exercised the real selector path using matched present conditions.
 
-This includes broader continuity, memory, stability, and behavioural modules intended to deepen the system’s responsiveness, persistence, and adaptive qualities.
+The same prompt, permitted candidate set, candidate order, mapped thread and deterministic seed were used across a reference condition and a governed retained-state condition.
 
-Phase-2 is a **planned and actively designed expansion layer**.
+The reference condition selected `candidate_A`; the governed retained-state condition selected `candidate_B`.
 
-It should not be confused with the narrower current objective of Phase-1, which remains the immediate operational priority.
+This supports a public engineering claim of **live end-to-end behavioural divergence under the declared comparison conditions**.
 
-In plain terms:
+Because both operating mode and retained-state-influence configuration changed, the result is not presented as isolated causal proof of either factor alone.
 
-- **Phase-1** = private operational base, integration, verification, licensing readiness
-- **Phase-2** = expanded higher-order behavioural architecture built on top of that base
+Both committed decisions produced durable private Decision Records and were linked to customer-safe projected records and Phase-2 evidence receipts.
 
----
+See:
 
-## Current Disclosure Position
-
-The correct public position is therefore:
-
-- Collapse-Aware AI has an active private Phase-1 build track
-- protected core components exist and are not fully disclosed
-- controlled integration and verification work are part of the present build process
-- the public repository is a proof and disclosure boundary, not a full release of the private engine
-- future phases extend the architecture beyond the present private Phase-1 operational goal
+- [CURRENT_ENGINEERING_STATE_2026-08-07.md](CURRENT_ENGINEERING_STATE_2026-08-07.md)
+- [MANAGED_EVALUATION_EVIDENCE_2026-08-07.md](MANAGED_EVALUATION_EVIDENCE_2026-08-07.md)
 
 ---
 
-## Final Note
+## Current commercial boundary
 
-This repository should be read as a **public proof pack**, not as a complete mirror of the private system.
+CAAI can now be discussed for:
 
-The absence of full implementation details in public does **not** indicate absence of development.
+- controlled technical demonstration;
+- paid managed evaluation;
+- bounded buyer-supplied test scenarios;
+- pilot design;
+- integration planning;
+- licensing discussions.
 
-It indicates deliberate boundary control.
+The current integrated package is **not** being represented as:
 
-Collapse-Aware AI is being developed in a phased, protected, and commercially aware manner, with public disclosure used to establish origin, direction, and legitimacy while preserving sealed implementation details.
+- public SaaS;
+- multi-tenant production infrastructure;
+- a finished customer-hosted deployment;
+- production high availability;
+- remote-security certification;
+- regulatory certification.
+
+The preferred near-term commercial model is CAAI-operated or supervised evaluation while proprietary runtime details remain protected.
 
 ---
 
-**Maintainer:** M.R.  
-**Project:** Collapse-Aware AI  
-**Owner:** Inappropriate Media Limited
+## What the public proof pack is
+
+The public proof pack exists to establish:
+
+- authorship and provenance;
+- current engineering status;
+- public-safe architecture;
+- evidence boundaries;
+- commercial distinction;
+- controlled technical-review material;
+- continuity of development.
+
+It is not an open-source product release.
+
+---
+
+## What is public
+
+Public materials may include:
+
+- authorship and provenance statements;
+- high-level architecture;
+- status summaries;
+- public-safe validation descriptions;
+- bounded evidence summaries;
+- commercial evaluation framing;
+- terminology / claim boundaries;
+- non-sensitive diagrams and examples.
+
+---
+
+## What remains private
+
+The following remain private, sealed or controlled:
+
+- Crown/Core source;
+- exact scoring / weighting implementation;
+- private thresholds and tuning;
+- unrestricted internal schemas;
+- runtime ZIPs;
+- credentials / secrets;
+- internal databases;
+- private Decision Record detail beyond approved evidence extracts;
+- proprietary adapter / deployment mechanics not required for public review.
+
+This boundary protects both IP and future licensing options.
+
+---
+
+## Correct public interpretation
+
+The current public interpretation is:
+
+- the selector is real and working;
+- multiple Phase-2 continuity / recall / evidence modules are implemented;
+- the Phase-2 sidecar has crossed the real Core boundary;
+- live committed reference and governed selections have been demonstrated;
+- customer-safe Decision Record projection has been demonstrated;
+- failure/replay/restart behaviour has been tested in a bounded local configuration;
+- one managed-evaluation operator workflow has been packaged;
+- the proprietary Crown implementation remains private;
+- production remote deployment and buyer-hosted packaging remain separate productisation work.
+
+---
+
+## Claim boundary
+
+CAAI does not claim:
+
+- consciousness or sentience;
+- AGI;
+- established new physics;
+- universal emotion / deception detection;
+- calibrated real-world psychological truth;
+- general regulatory compliance;
+- universal performance or token savings;
+- perfect causal explanation of every decision.
+
+The current claim is engineering-specific:
+
+> **Relevant retained prior state can influence which permitted behaviour the CAAI selector chooses, and the resulting selection path can be evaluated against a reference condition with durable and customer-safe evidence.**
+
+---
+
+## Final note
+
+The project should no longer be summarised publicly as “Phase-1 current, Phase-2 future”.
+
+The more accurate position is:
+
+> **Core Gold is the frozen selector foundation; a substantial Phase-2 continuity/evidence stack has been built around it and integrated through the live selector into a controlled managed-evaluation workflow. Broader Phase-2+ and production-deployment capabilities remain separate future work.**
+
+© 2025–2026 Inappropriate Media Limited (t/a Collapse Aware AI). All rights reserved.
