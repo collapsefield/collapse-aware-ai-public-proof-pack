@@ -69,6 +69,29 @@ The host remains responsible for world observation, candidate generation, domain
 
 ---
 
+## Independent evaluation services — no middleware purchase required
+
+The retained-state work behind CAAI also supports a **separate commercial evaluation and analysis capability** for organisations that want to understand an existing stateful, adaptive or history-sensitive system without first adopting CAAI middleware.
+
+Current service directions include:
+
+- **History-Sensitivity / Retained-State Audit** — test whether different prior histories materially alter later behaviour under matched present conditions;
+- **Emergent Behaviour Stress Test** — perturb declared operating factors and identify reproducible departures from baseline behaviour;
+- **Stateful Agent / Cognitive Infrastructure Review** — map what persists, what is retrieved, what can influence action, and where hidden state can create divergence;
+- **Intervention-Sensitivity / Human-in-the-Loop Analysis** — test whether changes in operator or external intervention alter the later system trajectory.
+
+A customer can bring one bounded agent, workflow, simulator, training system, game/NPC system or other adaptive software problem. Depending on scope, the output can include a predeclared protocol, controlled histories or perturbations, baseline comparisons, replay/stability evidence, architecture findings and a customer-safe evidence report.
+
+This work is **independent of mandatory CAAI software adoption**. If an evaluation later reveals a problem that Core Gold may address, a separate software discussion can follow.
+
+**Core Gold is the finished, frozen CAAI product currently available commercially. Evolution 2 remains an engineering programme and is not being offered here as a finished commercial product.**
+
+Read the full service outline:
+
+- [Independent Stateful AI & Adaptive Systems Evaluation](INDEPENDENT_STATEFUL_AI_AND_ADAPTIVE_SYSTEMS_EVALUATION.md)
+
+---
+
 ## What changed from the older public position
 
 Older material in this repository described **Phase-1 Core Gold** as the current commercial endpoint and Phase-2 as planned or only beginning incremental development.
@@ -131,13 +154,14 @@ Recommended reading order:
 
 1. [Current Engineering State — 7 August 2026](CURRENT_ENGINEERING_STATE_2026-08-07.md)
 2. [Managed Evaluation Evidence — 7 August 2026](MANAGED_EVALUATION_EVIDENCE_2026-08-07.md)
-3. [Public Reader Start Here](PUBLIC_READER_START_HERE.md)
-4. [Build Status and Disclosure Boundary](BUILD_STATUS_AND_DISCLOSURE_BOUNDARY.md)
-5. [Commercial Distinction and Evaluation Path](COMMERCIAL_DISTINCTION_AND_EVALUATION_PATH.md)
-6. [Why Not Just Use An LLM?](WHY_NOT_JUST_USE_AN_LLM.md)
-7. [Problem / Solution Middleware Overview](PROBLEM_SOLUTION_MIDDLEWARE_OVERVIEW.md)
-8. [CAAI Engineering Scope and Validation](CAAI_ENGINEERING_SCOPE_AND_VALIDATION.md)
-9. [Phase-2 Public Architecture](CAAI_Phase2_Architecture.md)
+3. [Independent Stateful AI & Adaptive Systems Evaluation](INDEPENDENT_STATEFUL_AI_AND_ADAPTIVE_SYSTEMS_EVALUATION.md)
+4. [Public Reader Start Here](PUBLIC_READER_START_HERE.md)
+5. [Build Status and Disclosure Boundary](BUILD_STATUS_AND_DISCLOSURE_BOUNDARY.md)
+6. [Commercial Distinction and Evaluation Path](COMMERCIAL_DISTINCTION_AND_EVALUATION_PATH.md)
+7. [Why Not Just Use An LLM?](WHY_NOT_JUST_USE_AN_LLM.md)
+8. [Problem / Solution Middleware Overview](PROBLEM_SOLUTION_MIDDLEWARE_OVERVIEW.md)
+9. [CAAI Engineering Scope and Validation](CAAI_ENGINEERING_SCOPE_AND_VALIDATION.md)
+10. [Phase-2 Public Architecture](CAAI_Phase2_Architecture.md)
 
 ---
 
@@ -284,11 +308,11 @@ Public material describes the engineering state, architecture and evidence bound
 
 © 2025–2026 Inappropriate Media Limited (t/a Collapse Aware AI). All rights reserved.
 
-Commercial evaluation, integration and licensing are available by agreement.
+Commercial evaluation, integration, independent stateful-system analysis and licensing are available by agreement.
 
 **Contact:** collapseawareai@gmail.com
 
 ---
 
-**README status:** Current integrated Phase-2 / managed-evaluation position  
-**Updated:** 2026-08-07
+**README status:** Current CAAI proof/evaluation position + independent stateful-system evaluation service  
+**Updated:** 2026-08-20
