@@ -1,137 +1,135 @@
 # Build Status and Disclosure Boundary
 
-**Current public-safe status:** 7 August 2026  
+**Current public-safe status:** 27 August 2026  
 **Company:** Inappropriate Media Limited, trading as Collapse Aware AI
 
 ## Purpose
 
 This document states the current engineering position of Collapse Aware AI (CAAI) and the boundary between public proof and protected implementation.
 
-The public proof pack is deliberately not a mirror of the private runtime.
+The public proof pack is deliberately **not** a mirror of the private runtime.
 
 ---
 
 ## Current project status
 
-Collapse Aware AI is proprietary middleware for **retained-state behavioural selection**.
+CAAI is proprietary middleware for **governed retained-state behavioural selection**.
 
-The current engineering line is no longer accurately described as a Phase-1-only project with Phase-2 merely planned.
-
-The private build has progressed through:
+The current programme should be understood as two distinct layers:
 
 ```text
-Phase-1 Core Gold selector foundation
+Core Gold Build
+frozen commercial selector foundation
         ↓
-Decision-record / customer-safe evidence substrate
+Decision Records / customer-safe evidence / managed evaluation
         ↓
-Phase-2 retained-state and continuity modules
-        ↓
-formal integration contract
-        ↓
-mock-boundary adapter
-        ↓
-real Core boundary discovery
-        ↓
-live Phase-2 → Core selection
-        ↓
-customer-safe Decision Record linkage
-        ↓
-failure / replay / restart hardening
-        ↓
-local managed-evaluation packaging
+Evolution 2
+richer continuity, lifecycle, confidence and behavioural governance
 ```
 
-The current accepted integrated boundary is a **local managed-evaluation package**.
+The central rule remains:
+
+> **Retained history is eligible evidence, not automatic authority.**
 
 ---
 
-## Phase-1 Core Gold
+## Core Gold Build
 
 Core Gold remains the frozen behavioural-selection foundation.
 
-Its verified role includes:
+Public-safe accepted capabilities in the integrated lineage include:
 
-- retained-state scoring;
-- candidate selection;
-- Studio/reference and governed operation;
-- persistence and recall;
-- deterministic replay;
-- request validation and fallback honesty;
-- the sealed Crown/Core final-selection path.
+- selection among host-supplied permitted candidate behaviours/actions;
+- reference and governed retained-state conditions;
+- persistence and recall across restart;
+- deterministic replay in tested conditions;
+- retained-state revision and revocation;
+- request validation and bounded fallback behaviour;
+- final selection through the sealed Crown/Core path;
+- durable decision identity and private Decision Records;
+- customer-safe Decision Record projection;
+- restart / replay / duplicate-protection hardening;
+- guided managed evaluation and evidence export.
 
 Core Gold remains proprietary and is not published as source.
 
----
-
-## Phase-2 current status
-
-The old public statement **“Phase-2 is planned and actively designed”** is now obsolete as a description of the whole engineering line.
-
-Implemented and accepted Phase-2 work now includes:
-
-- Weighted Moments with explicit revision / revocation lifecycle;
-- strong anchors and continuity memory;
-- deterministic session boot;
-- explicit memory-use / boot-consumption evidence;
-- bounded interpretation hold and clarification posture;
-- recall routing, judging, corrective recall and revoked-context protection;
-- controlled forgetting / lifecycle handling;
-- agency-impact and productive-friction routing;
-- Evaluation Forge metrics and consolidated observability;
-- formal Phase-2 → Core integration contract;
-- live integration with the real frozen selector;
-- post-decision receipts and customer-safe evidence linkage;
-- restart, replay, duplicate protection and ambiguous-outcome reconciliation;
-- managed-evaluation operator packaging and customer-safe export.
-
-Some broader Phase-2 and optional Phase-2+ concepts remain future work. Those include buyer-specific production Governor configuration, outcome-driven reinforcement, broader semantic matching, affective signal inputs, robotics/embodied inputs, behavioural-consistency research and production deployment hardening.
-
-These future concepts must not be represented as already delivered.
+It is the current finished selector foundation available for controlled commercial evaluation, pilot, integration and licensing discussions.
 
 ---
 
-## Live integration status
+## Evolution 2 current status
 
-A controlled synthetic evaluation has exercised the real selector path using matched present conditions.
+Evolution 2 extends the architecture around the frozen selector rather than replacing it.
 
-The same prompt, permitted candidate set, candidate order, mapped thread and deterministic seed were used across a reference condition and a governed retained-state condition.
+The private engineering line now includes accepted checkpoints for:
 
-The reference condition selected `candidate_A`; the governed retained-state condition selected `candidate_B`.
+- structured ContinuityFrame interpretation;
+- bounded hybrid retained-state retrieval;
+- Open Loops for unfinished matters;
+- conservative Reopen Semantics;
+- Interaction Fit between retained history and the present interaction;
+- suppression and bounded proactive controls;
+- Confidence / Clarification gates;
+- conservative Contradiction / Change Surfacing;
+- record-only Outcomes integration;
+- Agent Self-History written only from finally selected behaviour;
+- bounded turn-local behavioural signals;
+- consent-gated Session Observation foundation;
+- a config-backed Engineering Tuning console;
+- restart-safe local Engineer Model packaging;
+- microphone speech-to-text input for engineering use.
 
-This supports a public engineering claim of **live end-to-end behavioural divergence under the declared comparison conditions**.
+A clean current-task/reference behaviour remains a genuine competitor to history-conditioned alternatives, and final selection authority remains separated from candidate generation.
 
-Because both operating mode and retained-state-influence configuration changed, the result is not presented as isolated causal proof of either factor alone.
+Evolution 2 remains an **Engineering build rather than a finished Production release**.
 
-Both committed decisions produced durable private Decision Records and were linked to customer-safe projected records and Phase-2 evidence receipts.
+---
 
-See:
+## Current public-safe runtime shape
 
-- [CURRENT_ENGINEERING_STATE_2026-08-07.md](CURRENT_ENGINEERING_STATE_2026-08-07.md)
-- [MANAGED_EVALUATION_EVIDENCE_2026-08-07.md](MANAGED_EVALUATION_EVIDENCE_2026-08-07.md)
+```text
+Host / application
+        ↓
+current event / state + permitted candidates
+        ↓
+retained-state continuity / lifecycle / retrieval
+        ↓
+fit / confidence / suppression / candidate construction
+        ↓
+clean current-task/reference path competes with history-conditioned alternatives
+        ↓
+governed final selection
+        ↓
+decision / outcome / evidence lineage
+```
+
+The host remains responsible for domain truth, the permitted candidate/action set and external execution.
+
+---
+
+## Game / NPC and simulation boundary
+
+CAAI is host-neutral and can be evaluated in game/NPC or simulation environments where the host supplies authoritative identities, world state, witnessed events, permitted actions and save/restart state.
+
+The game remains authoritative for world truth and execution. CAAI can govern whether retained history should influence which permitted behaviour wins.
+
+This is a public-safe architecture and evaluation direction, **not** a claim that a finished Unity, Unreal or Godot Production SDK already exists.
 
 ---
 
 ## Current commercial boundary
 
-CAAI can now be discussed for:
+CAAI can currently be discussed for:
 
-- controlled technical demonstration;
-- paid managed evaluation;
-- bounded buyer-supplied test scenarios;
+- controlled technical demonstrations;
+- paid managed evaluations;
+- bounded buyer-supplied scenarios;
 - pilot design;
 - integration planning;
-- licensing discussions.
+- licensing discussions;
+- independent retained-state / history-sensitivity evaluation of existing adaptive systems.
 
-The current integrated package is **not** being represented as:
-
-- public SaaS;
-- multi-tenant production infrastructure;
-- a finished customer-hosted deployment;
-- production high availability;
-- remote-security certification;
-- regulatory certification.
-
-The preferred near-term commercial model is CAAI-operated or supervised evaluation while proprietary runtime details remain protected.
+The preferred near-term commercial model can keep the proprietary runtime under CAAI control while exposing only the bounded interface and approved customer-safe evidence required for evaluation.
 
 ---
 
@@ -142,7 +140,7 @@ The public proof pack exists to establish:
 - authorship and provenance;
 - current engineering status;
 - public-safe architecture;
-- evidence boundaries;
+- bounded evidence classes;
 - commercial distinction;
 - controlled technical-review material;
 - continuity of development.
@@ -157,12 +155,13 @@ Public materials may include:
 
 - authorship and provenance statements;
 - high-level architecture;
-- status summaries;
+- current status summaries;
 - public-safe validation descriptions;
 - bounded evidence summaries;
 - commercial evaluation framing;
 - terminology / claim boundaries;
-- non-sensitive diagrams and examples.
+- non-sensitive diagrams and examples;
+- public descriptions of Core Gold and Evolution 2 capability classes.
 
 ---
 
@@ -173,58 +172,48 @@ The following remain private, sealed or controlled:
 - Crown/Core source;
 - exact scoring / weighting implementation;
 - private thresholds and tuning;
+- protected internal prompts;
 - unrestricted internal schemas;
-- runtime ZIPs;
-- credentials / secrets;
+- private runtime ZIPs;
+- credentials / API keys / secrets;
 - internal databases;
 - private Decision Record detail beyond approved evidence extracts;
-- proprietary adapter / deployment mechanics not required for public review.
-
-This boundary protects both IP and future licensing options.
-
----
-
-## Correct public interpretation
-
-The current public interpretation is:
-
-- the selector is real and working;
-- multiple Phase-2 continuity / recall / evidence modules are implemented;
-- the Phase-2 sidecar has crossed the real Core boundary;
-- live committed reference and governed selections have been demonstrated;
-- customer-safe Decision Record projection has been demonstrated;
-- failure/replay/restart behaviour has been tested in a bounded local configuration;
-- one managed-evaluation operator workflow has been packaged;
-- the proprietary Crown implementation remains private;
-- production remote deployment and buyer-hosted packaging remain separate productisation work.
+- source trees or implementation detail sufficient to clone the commercial system;
+- private evaluator fixtures and builder-only acceptance material.
 
 ---
 
-## Claim boundary
+## What should not be inferred from public documents
 
-CAAI does not claim:
+Public proof that a feature or architecture exists does not imply:
 
+- universal improvement across arbitrary domains;
+- semantic infallibility;
+- universal hallucination prevention;
+- psychological truth;
+- regulatory certification;
+- Production high availability;
 - consciousness or sentience;
-- AGI;
-- established new physics;
-- universal emotion / deception detection;
-- calibrated real-world psychological truth;
-- general regulatory compliance;
-- universal performance or token savings;
-- perfect causal explanation of every decision.
-
-The current claim is engineering-specific:
-
-> **Relevant retained prior state can influence which permitted behaviour the CAAI selector chooses, and the resulting selection path can be evaluated against a reference condition with durable and customer-safe evidence.**
+- proof of Verrell’s Law as established physics;
+- permission to reproduce the proprietary implementation.
 
 ---
 
-## Final note
+## Current authoritative public records
 
-The project should no longer be summarised publicly as “Phase-1 current, Phase-2 future”.
+For current status use:
 
-The more accurate position is:
+- [CAAI Public Overview 2026](CAAI_PUBLIC_OVERVIEW_2026.md)
+- [Current Engineering State — 27 August 2026](CURRENT_ENGINEERING_STATE_2026-08-27.md)
+- [Canonical Public Overview](01_CANONICAL_OVERVIEW__Collapse_Aware_AI.md)
+- [Public Reader Start Here](PUBLIC_READER_START_HERE.md)
 
-> **Core Gold is the frozen selector foundation; a substantial Phase-2 continuity/evidence stack has been built around it and integrated through the live selector into a controlled managed-evaluation workflow. Broader Phase-2+ and production-deployment capabilities remain separate future work.**
+Older dated state/evidence records remain in the repository as historical checkpoints and should not override a later current-state record.
+
+---
+
+## Short disclosure statement
+
+> **CAAI publishes enough architecture, provenance and bounded engineering evidence to support technical and commercial review while keeping the proprietary selector source, scoring implementation, tuning, protected schemas and private runtime packages sealed.**
 
 © 2025–2026 Inappropriate Media Limited (t/a Collapse Aware AI). All rights reserved.
