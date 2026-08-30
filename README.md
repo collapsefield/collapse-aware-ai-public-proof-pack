@@ -1,28 +1,103 @@
-# Collapse Aware AI (CAAI) — Public Proof Pack
+# Collapse Aware AI™ (CAAI) — Public Proof Pack
 
-**Collapse Aware AI (CAAI)** is proprietary middleware for **governed retained-state behavioural selection**.
+**Canonical current public engineering, proof, evaluation and commercial record for Collapse Aware AI™.**
 
-It is designed for a problem that ordinary memory systems do not solve by themselves:
+> **Collapse Aware AI™ is retained-state middleware for governed selection: the host supplies permitted candidate actions, retained history may influence which candidate wins, and final selection remains bounded, inspectable and replayable in tested conditions.**
 
-> **When should retained history be allowed to change current behaviour — and when should the system deliberately ignore it?**
-
-CAAI separates retained-state influence from final authority. A host supplies the current situation and permitted candidate behaviours/actions; retained state may influence the decision, but it does not automatically control it.
+Core principle:
 
 > **Retained history is eligible evidence, not automatic authority.**
 
 ---
 
-## Current engineering position — 27 August 2026
+## Start Here
 
-The current CAAI programme has two distinct layers.
+For the current commercial/evaluation position, read first:
 
-### Core Gold Build
+### [Retained-State Selection — CAAI Commercial / Evaluation Index](00_RETAINED_STATE_SELECTION_COMMERCIAL_INDEX.md)
 
-The **Core Gold Build** is the frozen commercial selector foundation.
+Then:
+
+1. [Retained-State Decision Audit](RETAINED_STATE_DECISION_AUDIT.md)
+2. [CAAI Public Overview 2026](CAAI_PUBLIC_OVERVIEW_2026.md)
+3. [Current Engineering State — 27 August 2026](CURRENT_ENGINEERING_STATE_2026-08-27.md)
+4. [Retained-State Selection for Agentic AI Runtime Governance](RETAINED_STATE_SELECTION_FOR_AGENTIC_AI_RUNTIME_GOVERNANCE.md)
+5. [Retained-State Selection for Regulated Next Actions](RETAINED_STATE_SELECTION_FOR_REGULATED_NEXT_ACTIONS.md)
+6. [Local Selection Cost Measurement Protocol v0.1](LOCAL_SELECTION_COST_MEASUREMENT_PROTOCOL_v0.1.md)
+7. [Build Status and Disclosure Boundary](BUILD_STATUS_AND_DISCLOSURE_BOUNDARY.md)
+8. [Commercial Distinction and Evaluation Path](COMMERCIAL_DISTINCTION_AND_EVALUATION_PATH.md)
+9. [Why Not Just Use An LLM?](WHY_NOT_JUST_USE_AN_LLM.md)
+
+Historical files remain available for provenance. Where older wording conflicts with the current commercial index or current-state record, the later current source takes precedence.
+
+---
+
+## Public Terminology Hierarchy
+
+- **Collapse Aware AI™ / CAAI** — proprietary brand and product programme.
+- **Retained-state middleware** — commercial/product category.
+- **Retained-State Selection** — technical process/category: retained information influencing selection among presently available candidates.
+- **Governed Retained-State Selection** — CAAI engineering approach, where retained history is influence rather than automatic authority.
+- **Core Gold** — frozen current commercial selector foundation.
+- **Evolution 2** — richer continuity Engineering branch; not yet the finished Production commercial offer.
+- **Verrell’s Law** — separate proposed falsifiable retained-state selection research framework.
+
+Category / benchmark references:
+
+- [Retained-State Selection Category and Terminology Note v1.0](https://github.com/collapsefield/collapsefield-verrells-law/blob/main/RETAINED_STATE_SELECTION_CATEGORY_NOTE_v1.0.md)
+- [Retained-State Selection Benchmark v0.1](https://github.com/collapsefield/collapsefield-verrells-law/blob/main/RETAINED_STATE_SELECTION_BENCHMARK_v0.1.md)
+
+The general ideas of retained state, memory systems, stateful computing, path dependence, hysteresis, scoring and policy engines are not claimed as original.
+
+---
+
+## What a Buyer Can Purchase First
+
+A buyer does **not** need to begin with a full middleware licence.
+
+Preferred sequence:
+
+### 1. Retained-State Decision Audit
+
+Bring one bounded agent/workflow/system and identify what persists, what gets retrieved, what can influence action, how stale/corrected/contradictory history is treated, whether the final choice is bounded/replayable, and whether repeated provider/model calls occur after the permitted candidate set already exists.
+
+### 2. Bounded Core Gold Evaluation
+
+Customer input:
+
+```text
+one real or anonymised decision problem
++ a bounded set of permitted candidate actions
++ relevant retained history where required
+```
+
+The evaluation can compare reference versus governed selection, measure retained-state influence, test deterministic/repeatable local selection where applicable, replay the decision path and produce customer-safe Decision Records/evidence.
+
+### 3. Buyer-Specific Paid Pilot
+
+If the evaluation shows a credible fit, move into a scoped pilot around the buyer’s actual permitted actions, retained-state inputs and operating constraints.
+
+### 4. Integration / Larger Licence Discussion
+
+Larger licensing follows demonstrated buyer-specific value rather than preceding it.
+
+Concrete buyer question:
+
+> **When several actions are permitted, what governs which one actually wins when previous events should matter?**
+
+Concrete next action:
+
+> **Give us one anonymised decision problem and the permitted actions.**
+
+---
+
+## Core Gold — Current Commercial Foundation
+
+Core Gold is the frozen current commercial selector foundation.
 
 Public-safe accepted capabilities in the integrated lineage include:
 
-- selection among host-supplied permitted candidate behaviours/actions;
+- selection among host-supplied permitted candidate actions;
 - reference and governed retained-state conditions;
 - persistence and recall across restart;
 - deterministic replay in tested conditions;
@@ -30,188 +105,67 @@ Public-safe accepted capabilities in the integrated lineage include:
 - validation and bounded fallback behaviour;
 - durable decision identity and Decision Records;
 - customer-safe Decision Record projection;
-- restart / replay / duplicate-protection hardening;
+- restart/replay/duplicate-protection hardening;
 - guided managed evaluation;
-- customer-safe JSON / HTML / PDF evidence export.
+- customer-safe evidence export.
 
-The Core Gold commercial idea is deliberately simple:
-
-> **The host supplies permitted choices; CAAI governs whether retained history should change which permitted choice wins.**
-
-Core Gold is currently available for controlled evaluation, pilot, integration and licensing discussions.
-
-### Evolution 2
-
-**Evolution 2 (E2)** is the richer continuity engineering branch built around the same governed-selection principle.
-
-The private engineering line now includes accepted checkpoints for:
-
-- structured ContinuityFrame interpretation;
-- bounded hybrid retained-state retrieval;
-- Open Loops for unfinished matters;
-- conservative Reopen Semantics;
-- Interaction Fit between retained history and the present interaction;
-- suppression and bounded proactive controls;
-- Confidence / Clarification gates;
-- conservative Contradiction / Change Surfacing;
-- record-only Outcomes integration;
-- Agent Self-History written only from finally selected behaviour;
-- richer turn-local behavioural signals with bounded authority;
-- consent-gated Session Observation foundation;
-- a config-backed Engineering Tuning console;
-- restart-safe local Engineer Model packaging;
-- local microphone speech-to-text input for engineering use.
-
-A clean current-task/reference behaviour remains a genuine competitor to history-conditioned alternatives, and final selection remains separated from candidate generation.
-
-Evolution 2 is currently an **Engineering build rather than a finished Production release**.
-
-Read the new public-safe 2026 records:
-
-- [CAAI Public Overview 2026](CAAI_PUBLIC_OVERVIEW_2026.md)
-- [Current Engineering State — 27 August 2026](CURRENT_ENGINEERING_STATE_2026-08-27.md)
+Core Gold is available for controlled evaluation, pilot, integration and licensing discussion.
 
 ---
 
-## Why CAAI is different from ordinary AI memory
+## Evolution 2 — Engineering Branch
 
-Many memory systems ask:
+Evolution 2 is the richer continuity Engineering branch built around the same governed-selection principle.
 
-> What should be stored or retrieved?
+Public-safe accepted checkpoints include structured ContinuityFrame interpretation, bounded hybrid retained-state retrieval, Open Loops/Reopen Semantics, Interaction Fit, suppression/proactive controls, Confidence/Clarification, Contradiction/Change Surfacing, record-only Outcomes, Agent Self-History, bounded turn-local behavioural signals, Session Observation foundation and Engineering Tuning.
 
-CAAI asks:
+Evolution 2 remains an **Engineering build rather than a finished Production commercial offer**.
 
-> **How should retained prior state influence final selection among permitted behaviours, under explicit constraints and with an inspectable reference path?**
-
-| Common memory direction | CAAI direction |
-|---|---|
-| Store information | Retain state with lifecycle / revision controls |
-| Retrieve context | Judge whether state should influence the current decision |
-| Extend context | Preserve bounded continuity without letting history dominate |
-| Improve recall | Improve governed behavioural continuity |
-| Add memory to a model | Add an inspectable selection layer around a runtime |
-| Produce an answer/action | Select one permitted behaviour with evidence |
+It must not be sold as the current completed product.
 
 ---
 
-## Game / NPC and simulation relevance
+## Buyer-Facing Benchmark Pattern
 
-Games are a particularly natural fit because the host already owns structured world truth:
-
-- exact NPC / player identities;
-- quest and unresolved-matter state;
-- witnessed events;
-- world locations and current state;
-- permitted actions;
-- save / restart boundaries.
-
-The game remains authoritative for world truth and execution. CAAI can govern whether retained player/NPC history has earned the right to change which permitted behaviour wins.
-
-This supports a useful two-lane direction:
-
-- **Core Gold** for controlled selection among host-owned candidate actions;
-- **Evolution 2** for richer continuity, dialogue and longitudinal behaviour where additional interpretation is useful.
-
-CAAI is host-neutral. It is not being represented today as a finished Unity, Unreal or Godot production SDK.
-
----
-
-## Other best-fit areas
-
-CAAI is most relevant where a system already has multiple legitimate candidate behaviours/actions and history may legitimately alter the winner.
-
-Examples include:
-
-- AI and voice agents;
-- game / NPC systems;
-- simulations and training;
-- adaptive learning;
-- workflow and intervention selection;
-- compliance / audit-sensitive runtimes;
-- long-running stateful assistants;
-- controlled evaluation of existing history-sensitive systems.
-
----
-
-## Independent evaluation services — no middleware purchase required
-
-The retained-state work behind CAAI also supports a separate evaluation and analysis capability for organisations that want to understand an existing stateful or adaptive system before adopting new middleware.
-
-Current service directions include:
-
-- **History-Sensitivity / Retained-State Audit** — test whether different prior histories materially alter later behaviour under matched present conditions;
-- **Emergent Behaviour Stress Test** — perturb declared operating factors and identify reproducible departures from a reference condition;
-- **Stateful Agent / Cognitive Infrastructure Review** — map what persists, what is retrieved, what can influence action, and where hidden state can create divergence;
-- **Intervention-Sensitivity / Human-in-the-Loop Analysis** — test whether changes in operator or external intervention alter the later system trajectory.
-
-A customer can bring one bounded agent, workflow, simulator, training system, game/NPC system or other adaptive-software problem. CAAI adoption is not required for the evaluation itself.
-
-Read:
-
-- [Independent Stateful AI & Adaptive Systems Evaluation](INDEPENDENT_STATEFUL_AI_AND_ADAPTIVE_SYSTEMS_EVALUATION.md)
-
----
-
-## Public runtime shape
+A useful demonstration should make the retained-state effect measurable:
 
 ```text
-Host / application
-        ↓
-current event / state + permitted candidates
-        ↓
-retained-state continuity / lifecycle / retrieval
-        ↓
-fit / confidence / suppression / candidate construction
-        ↓
-clean current-task/reference path competes with history-conditioned alternatives
-        ↓
-governed final selection
-        ↓
-decision / outcome / evidence lineage
+same present condition
++ different retained history
+→ measurable selection difference
+→ disable retained-state influence
+→ comparison/reference result
+→ replay
+→ inspectable evidence
 ```
 
-Implementation details, private weighting functions, thresholds, Crown/Core source, protected schemas and production tuning remain proprietary.
+This is an engineering/evaluation pattern. It is not proof of a universal physical law.
 
 ---
 
-## What this repository is
+## Local Selection / Provider-Call Measurement
 
-This repository is the **canonical public-safe proof, provenance, status and commercial-orientation layer** for Collapse Aware AI.
+Where the permitted candidate set already exists, local governed selection can potentially avoid a provider/model call that would otherwise be used only to choose among those existing candidates.
 
-It is intended for:
+This is a measurable engineering benefit, not a guaranteed saving percentage.
 
-- technical reviewers;
-- AI / agent infrastructure teams;
-- simulation and game-system developers;
-- compliance / audit-oriented teams;
-- prospective evaluation and licensing partners;
-- search and AI indexing systems;
-- future technical due diligence.
+See:
 
-It provides enough information to understand what CAAI is designed to do and what has been demonstrated without exposing the sealed implementation.
+- [Local Selection Cost Measurement Protocol v0.1](LOCAL_SELECTION_COST_MEASUREMENT_PROTOCOL_v0.1.md)
 
 ---
 
-## Start here
+## Game / NPC and Simulation Relevance
 
-Recommended reading order:
+Games remain a natural fit because the host already owns structured world truth: exact identities, quests/unresolved matters, witnessed events, current world state, permitted actions and save/restart boundaries.
 
-1. [CAAI Public Overview 2026](CAAI_PUBLIC_OVERVIEW_2026.md)
-2. [Current Engineering State — 27 August 2026](CURRENT_ENGINEERING_STATE_2026-08-27.md)
-3. [Canonical Public Overview](01_CANONICAL_OVERVIEW__Collapse_Aware_AI.md)
-4. [Independent Stateful AI & Adaptive Systems Evaluation](INDEPENDENT_STATEFUL_AI_AND_ADAPTIVE_SYSTEMS_EVALUATION.md)
-5. [Public Reader Start Here](PUBLIC_READER_START_HERE.md)
-6. [Build Status and Disclosure Boundary](BUILD_STATUS_AND_DISCLOSURE_BOUNDARY.md)
-7. [Commercial Distinction and Evaluation Path](COMMERCIAL_DISTINCTION_AND_EVALUATION_PATH.md)
-8. [Why Not Just Use An LLM?](WHY_NOT_JUST_USE_AN_LLM.md)
-9. [Problem / Solution Middleware Overview](PROBLEM_SOLUTION_MIDDLEWARE_OVERVIEW.md)
-10. [CAAI Engineering Scope and Validation](CAAI_ENGINEERING_SCOPE_AND_VALIDATION.md)
+The host remains authoritative for world truth and execution. CAAI can govern whether retained player/NPC history should influence which permitted behaviour wins.
 
-Historical 7 August 2026 state/evidence records remain in the repository for provenance and should be read as earlier checkpoints rather than the current status page.
+The architecture is host-neutral. CAAI is not represented today as a finished Unity, Unreal or Godot Production SDK.
 
 ---
 
-## What CAAI is not
+## What CAAI Is Not
 
 CAAI is not:
 
@@ -220,78 +174,69 @@ CAAI is not:
 - a standard RAG pipeline;
 - long-context prompting;
 - ordinary memory storage;
-- a chatbot skin;
 - automatic reinforcement learning;
 - a universal hallucination-prevention system;
 - a claim of AGI or machine consciousness;
 - proof of new physics;
 - a public open-source release of the proprietary Crown/Core runtime.
 
-CAAI is middleware concerned with **how retained state affects final selection among permitted behaviours under explicit constraints**.
+CAAI is concerned with **how retained state is allowed to influence final selection among permitted candidates under explicit constraints**.
 
 ---
 
-## Evidence boundary
+## Relationship to Verrell’s Law
 
-The current engineering record supports bounded claims about implemented retained-state selection, continuity, persistence, replay, lifecycle controls, managed evaluation, Decision Records and the accepted Evolution 2 engineering checkpoints described in the current-state record.
-
-It does not establish:
-
-- general efficacy across arbitrary domains;
-- semantic infallibility;
-- consciousness or sentience;
-- regulatory certification;
-- production high availability;
-- universal hallucination prevention;
-- proof of a new law of nature.
-
----
-
-## Relationship to Verrell's Law
-
-Verrell’s Law and Collapse Aware AI are connected historically but remain separate evidence tracks.
+Verrell’s Law and Collapse Aware AI™ are separate evidence tracks.
 
 - **Verrell’s Law** is a proposed falsifiable retained-state selection research framework.
-- **CAAI** is the proprietary engineering implementation track.
+- **CAAI** is the proprietary engineering/commercial programme.
 
 CAAI can be evaluated entirely as software without accepting any speculative physical interpretation.
 
+Current research archive:
+
+- [Verrell’s Law Official GitHub Archive](https://github.com/collapsefield/collapsefield-verrells-law)
+
 ---
 
-## Engineering paper
+## Engineering Paper
 
 The public engineering-facing working paper is maintained separately:
 
 - [Memory-Weighted Selection repository](https://github.com/collapsefield/memory-weighted-selection)
 - [Compiled paper](https://github.com/collapsefield/memory-weighted-selection/blob/main/Memory-Weighted-Selection.pdf)
 
-The paper formalises the general middleware selection mechanism. Production kernel logic and proprietary Crown internals remain out of scope.
+The paper is a public reference formulation. Production kernel logic, private scoring functions, thresholds, tuning and protected Crown internals remain proprietary.
 
 ---
 
-## Disclosure boundary
+## Public / Proprietary Boundary
+
+Public material may explain vocabulary, category definitions, behavioural evidence, benchmark methodology and buyer-safe interface concepts.
 
 This repository does not disclose:
 
-- proprietary Crown/Core source;
+- Crown/Core source;
 - private scoring implementation;
-- exact thresholds / tuning;
+- exact thresholds/tuning;
 - credentials or secrets;
-- private runtime ZIPs;
+- private runtime ZIPs/packages;
 - unrestricted internal schemas;
-- enough implementation detail to clone the commercial system.
+- implementation detail sufficient to clone the commercial system.
+
+A production OpenAPI contract is not part of the public disclosure surface unless a buyer-safe wrapper/interface has been deliberately defined and reviewed.
 
 ---
 
-## Rights and contact
+## Rights and Contact
 
-© 2025–2026 Inappropriate Media Limited (t/a Collapse Aware AI). All rights reserved.
+© 2025–2026 Inappropriate Media Limited. Collapse Aware AI™. All proprietary implementation and commercial rights reserved.
 
-Commercial evaluation, integration, independent stateful-system analysis and licensing are available by agreement.
+For a paid Retained-State Decision Audit, bounded evaluation, pilot, integration or licensing discussion:
 
-**Contact:** collapseawareai@gmail.com
+**collapseawareai@gmail.com**
 
 ---
 
-**README status:** Current CAAI proof/evaluation position  
-**Updated:** 27 August 2026
+**README status:** Current CAAI commercial/evaluation position  
+**Updated:** 30 August 2026
