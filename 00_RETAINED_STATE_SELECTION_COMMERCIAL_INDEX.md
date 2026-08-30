@@ -67,6 +67,26 @@ No universal token-saving percentage is claimed without measurement.
 
 ---
 
+## High-Value Application Notes
+
+### Agentic AI runtime governance
+
+When policy and permissions leave several actions allowed, retained-state selection can govern which permitted action wins without handing final authority back to the model or memory layer.
+
+Read:
+
+- [Retained-State Selection for Agentic AI Runtime Governance](RETAINED_STATE_SELECTION_FOR_AGENTIC_AI_RUNTIME_GOVERNANCE.md)
+
+### Regulated next-action workflows
+
+Best-fit examples include vulnerability, collections, fraud/AML, arrears, contact-centre and other workflows where detection/risk systems identify the condition but several compliant next actions remain.
+
+Read:
+
+- [Retained-State Selection for Regulated Next Actions](RETAINED_STATE_SELECTION_FOR_REGULATED_NEXT_ACTIONS.md)
+
+---
+
 ## Public Test Method
 
 The general public evaluation ladder is maintained separately:
@@ -113,10 +133,12 @@ These systems support the importance of the problem space. They are not treated 
 1. [CAAI Public Overview 2026](CAAI_PUBLIC_OVERVIEW_2026.md)
 2. [Current Engineering State — 27 August 2026](CURRENT_ENGINEERING_STATE_2026-08-27.md)
 3. [Retained-State Decision Audit](RETAINED_STATE_DECISION_AUDIT.md)
-4. [Local Selection Cost Measurement Protocol v0.1](LOCAL_SELECTION_COST_MEASUREMENT_PROTOCOL_v0.1.md)
-5. [Commercial Distinction and Evaluation Path](COMMERCIAL_DISTINCTION_AND_EVALUATION_PATH.md)
-6. [Why Not Just Use An LLM?](WHY_NOT_JUST_USE_AN_LLM.md)
-7. [Build Status and Disclosure Boundary](BUILD_STATUS_AND_DISCLOSURE_BOUNDARY.md)
+4. [Retained-State Selection for Agentic AI Runtime Governance](RETAINED_STATE_SELECTION_FOR_AGENTIC_AI_RUNTIME_GOVERNANCE.md)
+5. [Retained-State Selection for Regulated Next Actions](RETAINED_STATE_SELECTION_FOR_REGULATED_NEXT_ACTIONS.md)
+6. [Local Selection Cost Measurement Protocol v0.1](LOCAL_SELECTION_COST_MEASUREMENT_PROTOCOL_v0.1.md)
+7. [Commercial Distinction and Evaluation Path](COMMERCIAL_DISTINCTION_AND_EVALUATION_PATH.md)
+8. [Why Not Just Use An LLM?](WHY_NOT_JUST_USE_AN_LLM.md)
+9. [Build Status and Disclosure Boundary](BUILD_STATUS_AND_DISCLOSURE_BOUNDARY.md)
 
 ---
 
