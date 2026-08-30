@@ -1,69 +1,93 @@
-# Retained-State Selection — CAAI Commercial / Evaluation Index
+# Retained-State Selection — Collapse Aware AI™ Commercial / Evaluation Index
 
 **Updated:** 30 August 2026  
-**Current product:** Core Gold — frozen commercial selector foundation  
-**Engineering branch:** Evolution 2 — active Engineering build, not final Production release
+**Current commercial foundation:** Core Gold  
+**Engineering branch:** Evolution 2 — active Engineering build, not final Production commercial offer
 
 ---
 
-## One-Sentence Position
+## Canonical Commercial Position
 
-> **Collapse Aware AI (CAAI) is proprietary middleware for governed retained-state behavioural selection: the host supplies permitted choices, retained history may influence which choice wins, and final selection remains bounded, inspectable and replayable in tested conditions.**
+> **Collapse Aware AI™ is retained-state middleware for governed selection: the host supplies permitted candidate actions, retained history may influence which candidate wins, and final selection remains bounded, inspectable and replayable in tested conditions.**
+
+Core principle:
+
+> **Retained history is eligible evidence, not automatic authority.**
 
 ---
 
-## The Category
+## Public Hierarchy
+
+Use these terms consistently:
+
+- **Collapse Aware AI™ / CAAI** — proprietary brand and product programme.
+- **Retained-state middleware** — commercial/product category.
+- **Retained-State Selection** — technical process/category: retained information influencing selection among presently available candidates.
+- **Governed Retained-State Selection** — CAAI engineering approach, where retained history is influence rather than automatic authority.
+- **Core Gold** — frozen current commercial selector foundation.
+- **Evolution 2** — richer continuity Engineering branch; not yet the finished Production commercial offer.
+- **Verrell’s Law** — separate proposed falsifiable retained-state selection research framework. It does not need to be accepted for CAAI to be evaluated as software.
 
 Public category / terminology reference:
 
 - [Retained-State Selection — Category and Terminology Note v1.0](https://github.com/collapsefield/collapsefield-verrells-law/blob/main/RETAINED_STATE_SELECTION_CATEGORY_NOTE_v1.0.md)
 
-Working definition:
+Working technical definition:
 
 > **Retained-State Selection is the controlled study or process by which information preserved from prior states is permitted to influence selection among presently available candidate outcomes.**
 
-CAAI is the governed engineering implementation track. It does not claim ownership of all stateful computing, memory systems or history-conditioned decision-making.
+CAAI does not claim ownership of all stateful computing, memory systems or history-conditioned decision-making.
 
 ---
 
 ## What a Buyer Can Purchase First
 
-A buyer does not need to begin with a full middleware licence.
+A buyer does not need to begin with a middleware licence.
 
 The preferred first step is one bounded decision problem.
 
 ### 1. Retained-State Decision Audit
 
-Bring one existing agent/workflow/system and identify:
+Bring one existing agent, workflow or system and identify:
 
 - what persists;
 - what gets retrieved;
 - what can influence action;
-- what happens with stale/corrected/contradictory history;
-- whether the final choice is bounded/replayable;
-- whether repeated provider calls are being used unnecessarily.
+- what happens with stale, corrected or contradictory history;
+- whether the final choice is bounded and replayable;
+- whether repeated provider/model calls are being used after the permitted candidate set already exists.
 
 Read: [Retained-State Decision Audit](RETAINED_STATE_DECISION_AUDIT.md)
 
-### 2. Core Gold Managed Evaluation
+### 2. Bounded Core Gold Evaluation
 
 The customer provides:
 
 ```text
-one real/anonymised decision problem
-+ permitted candidate actions
-+ relevant retained history
+one real or anonymised decision problem
++ a bounded set of permitted candidate actions
++ relevant retained history where required
 ```
 
-CAAI returns a bounded comparison including reference vs governed selection, retained-state influence and customer-safe evidence / Decision Records through the accepted managed-evaluation lineage.
+The evaluation can compare reference versus governed selection, measure retained-state influence, test deterministic/repeatable local selection where applicable, replay the decision path and produce customer-safe Decision Records/evidence.
 
-### 3. Cost / Token Measurement
+### 3. Buyer-Specific Paid Pilot
 
-Where an existing workflow uses a provider/model call after the candidate set is already known, test whether local governed selection can remove that specific call.
+Where the audit/evaluation shows a credible fit, the next step is a scoped buyer-specific pilot using the customer’s permitted action set, retained-state inputs and operational constraints.
+
+### 4. Integration / Larger Licence Discussion
+
+Larger licensing or integration should follow demonstrated buyer-specific value rather than precede it.
+
+---
+
+## Cost / Token Measurement
+
+Where a workflow uses a provider/model call after the permitted candidate set is already known, test whether local governed selection can remove that specific call.
 
 Read: [Local Selection Cost Measurement Protocol v0.1](LOCAL_SELECTION_COST_MEASUREMENT_PROTOCOL_v0.1.md)
 
-No universal token-saving percentage is claimed without measurement.
+Local governed selection can potentially avoid provider/model calls in that bounded situation. No universal token-saving percentage or guaranteed saving is claimed without measurement.
 
 ---
 
@@ -87,44 +111,37 @@ Read:
 
 ---
 
-## Public Test Method
+## Buyer-Facing Benchmark Pattern
+
+A useful bounded demonstration should make the retained-state effect visible rather than merely describe it:
+
+```text
+same present condition
++ different retained history
+→ measurable selection difference
+→ disable retained-state influence
+→ comparison/reference result
+→ replay
+→ inspectable evidence
+```
 
 The general public evaluation ladder is maintained separately:
 
 - [Retained-State Selection Benchmark v0.1](https://github.com/collapsefield/collapsefield-verrells-law/blob/main/RETAINED_STATE_SELECTION_BENCHMARK_v0.1.md)
 
-It separates:
-
-- persistence;
-- matched-state divergence;
-- directional structure;
-- held-out prediction;
-- intervention/ablation;
-- continuity integrity;
-- governance/authority;
-- replay/evidence;
-- robustness/transfer.
+It separates persistence, matched-state divergence, directional structure, held-out prediction, intervention/ablation, continuity integrity, governance/authority, replay/evidence and robustness/transfer.
 
 ---
 
 ## Independent Convergence
 
-Adjacent work now exists around history-aware action selection, runtime policy, external action authority and selective memory.
+Adjacent work exists around history-aware action selection, runtime policy, external action authority and selective memory.
 
 Current literature-positioning note:
 
 - [Independent Convergence Map — Retained-State Selection, Agent Memory and Runtime Governance](https://github.com/collapsefield/memory-weighted-selection/blob/main/research_notes/INDEPENDENT_CONVERGENCE_MAP_2026-08-30.md)
 
-The convergence note deliberately distinguishes CAAI from:
-
-- HAVE history-aware action verification;
-- Policies on Paths runtime governance;
-- Aegis trusted action-boundary governance;
-- runtime-governance primitives / bounded action vocabularies;
-- Weighted Memory Tree selective retention;
-- broad governed agent-memory architectures.
-
-These systems support the importance of the problem space. They are not treated as validation of CAAI or Verrell’s Law.
+The convergence note deliberately distinguishes CAAI from neighbouring work. Those systems support the importance of the problem space; they are not treated as validation of CAAI or Verrell’s Law.
 
 ---
 
@@ -146,11 +163,11 @@ These systems support the importance of the problem space. They are not treated 
 
 ### Core Gold
 
-Frozen commercial selector foundation. Available for controlled evaluation, pilot, integration and licensing discussion.
+Frozen current commercial selector foundation. Available for controlled evaluation, pilot, integration and licensing discussion.
 
 ### Evolution 2
 
-Richer continuity engineering branch. It remains an **Engineering build rather than a finished Production release** and should not be sold as the current completed commercial product.
+Richer continuity Engineering branch. It remains an **Engineering build rather than a finished Production commercial offer** and should not be sold as the current completed product.
 
 ---
 
@@ -162,19 +179,21 @@ The strongest buyer question is not:
 
 It is:
 
-> **When your AI or workflow has several permitted actions available, what governs which one actually wins when previous events should matter?**
+> **When several actions are permitted, what governs which one actually wins when previous events should matter?**
 
-And the follow-on question is:
+Concrete next action:
 
-> **Can you replay and evidence that choice without handing final authority to the model or memory layer?**
+> **Give us one anonymised decision problem and the permitted actions.**
 
 ---
 
 ## Public / Proprietary Boundary
 
-Public material explains the problem, category, evidence labels, evaluation method and demonstrated public-safe capability.
+Public material may explain vocabulary, category definitions, behavioural evidence, benchmark methodology and buyer-safe interface concepts.
 
-It does not disclose Crown/Core source, private scoring implementation, private thresholds/tuning, unrestricted schemas or implementation detail sufficient to clone the commercial system.
+It does not disclose Crown/Core source, private scoring implementation, exact thresholds/tuning, unrestricted schemas, protected runtime packages or deeper implementation detail sufficient to clone the commercial system.
+
+A production OpenAPI contract is not part of the public disclosure surface unless a buyer-safe wrapper/interface has been deliberately defined and reviewed.
 
 ---
 
