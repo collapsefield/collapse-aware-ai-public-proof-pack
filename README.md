@@ -21,12 +21,13 @@ Then:
 1. [Retained-State Decision Audit](RETAINED_STATE_DECISION_AUDIT.md)
 2. [CAAI Public Overview 2026](CAAI_PUBLIC_OVERVIEW_2026.md)
 3. [Current Engineering State — 27 August 2026](CURRENT_ENGINEERING_STATE_2026-08-27.md)
-4. [Retained-State Selection for Agentic AI Runtime Governance](RETAINED_STATE_SELECTION_FOR_AGENTIC_AI_RUNTIME_GOVERNANCE.md)
-5. [Retained-State Selection for Regulated Next Actions](RETAINED_STATE_SELECTION_FOR_REGULATED_NEXT_ACTIONS.md)
-6. [Local Selection Cost Measurement Protocol v0.1](LOCAL_SELECTION_COST_MEASUREMENT_PROTOCOL_v0.1.md)
-7. [Build Status and Disclosure Boundary](BUILD_STATUS_AND_DISCLOSURE_BOUNDARY.md)
-8. [Commercial Distinction and Evaluation Path](COMMERCIAL_DISTINCTION_AND_EVALUATION_PATH.md)
-9. [Why Not Just Use An LLM?](WHY_NOT_JUST_USE_AN_LLM.md)
+4. [CAAI Engineering Evidence and Priority Position — 30 August 2026](CAAI_ENGINEERING_EVIDENCE_AND_PRIORITY_POSITION_2026-08-30.md)
+5. [Retained-State Selection for Agentic AI Runtime Governance](RETAINED_STATE_SELECTION_FOR_AGENTIC_AI_RUNTIME_GOVERNANCE.md)
+6. [Retained-State Selection for Regulated Next Actions](RETAINED_STATE_SELECTION_FOR_REGULATED_NEXT_ACTIONS.md)
+7. [Local Selection Cost Measurement Protocol v0.1](LOCAL_SELECTION_COST_MEASUREMENT_PROTOCOL_v0.1.md)
+8. [Build Status and Disclosure Boundary](BUILD_STATUS_AND_DISCLOSURE_BOUNDARY.md)
+9. [Commercial Distinction and Evaluation Path](COMMERCIAL_DISTINCTION_AND_EVALUATION_PATH.md)
+10. [Why Not Just Use An LLM?](WHY_NOT_JUST_USE_AN_LLM.md)
 
 ---
 
@@ -140,6 +141,18 @@ same present condition
 ```
 
 This is an engineering/evaluation pattern. It is not proof of a universal physical law.
+
+---
+
+## Engineering Evidence and Priority Record
+
+CAAI has demonstrated, in bounded software conditions, that retained prior state can be behaviourally consequential at final selection while the candidate set remains host-bounded and the resulting decision can be compared against a retained-state-disabled reference condition and evidenced/replayed where applicable.
+
+The current evidence and originality boundary is recorded here:
+
+- [CAAI Engineering Evidence and Priority Position — 30 August 2026](CAAI_ENGINEERING_EVIDENCE_AND_PRIORITY_POSITION_2026-08-30.md)
+
+That note deliberately distinguishes the demonstrated CAAI combination from older history-dependent policy, POMDP, reinforcement-learning, action-verification and runtime-governance prior art. It records a bounded priority position for the CAAI formulation rather than claiming invention of history-conditioned decision-making generally.
 
 ---
 
