@@ -28,8 +28,6 @@ Then:
 8. [Commercial Distinction and Evaluation Path](COMMERCIAL_DISTINCTION_AND_EVALUATION_PATH.md)
 9. [Why Not Just Use An LLM?](WHY_NOT_JUST_USE_AN_LLM.md)
 
-Historical files remain available for provenance. Where older wording conflicts with the current commercial index or current-state record, the later current source takes precedence.
-
 ---
 
 ## Public Terminology Hierarchy
@@ -119,6 +117,8 @@ Evolution 2 is the richer continuity Engineering branch built around the same go
 
 Public-safe accepted checkpoints include structured ContinuityFrame interpretation, bounded hybrid retained-state retrieval, Open Loops/Reopen Semantics, Interaction Fit, suppression/proactive controls, Confidence/Clarification, Contradiction/Change Surfacing, record-only Outcomes, Agent Self-History, bounded turn-local behavioural signals, Session Observation foundation and Engineering Tuning.
 
+**Weighted Emergence Layering (WEL)** and **Active Information Weight (AIW)** remain active concepts within the CAAI/Evolution 2 model. They describe internal architectural/behavioural organisation beneath the governed retained-state selection layer; they are not abandoned terminology and they do not replace the simpler buyer-facing category language. Exact weighting mechanics, thresholds, interactions and tuning remain proprietary.
+
 Evolution 2 remains an **Engineering build rather than a finished Production commercial offer**.
 
 It must not be sold as the current completed product.
@@ -193,7 +193,7 @@ Verrell’s Law and Collapse Aware AI™ are separate evidence tracks.
 
 CAAI can be evaluated entirely as software without accepting any speculative physical interpretation.
 
-Current research archive:
+Current research repository:
 
 - [Verrell’s Law Official GitHub Archive](https://github.com/collapsefield/collapsefield-verrells-law)
 
