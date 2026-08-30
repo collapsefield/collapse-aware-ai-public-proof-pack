@@ -1,0 +1,17 @@
+Collapse Aware AI™ / CAAI — Public Notice
+
+Updated: 30 August 2026
+
+Collapse Aware AI™ and CAAI are used by Inappropriate Media Limited in connection with proprietary retained-state middleware, managed evaluation, software integration and related technical services.
+
+The ™ symbol denotes a claimed trade mark / brand identifier. No claim is made here that the mark is registered. The ® symbol must not be used unless and until registration is actually granted in the relevant jurisdiction.
+
+Public category terminology such as "retained state", "retained-state middleware", "Retained-State Selection" and "governed retained-state selection" is used descriptively to identify the technical problem space and architecture class. The project does not claim ownership of stateful computing, persistent memory, retrieval, RAG, history-conditioned systems or runtime governance in general.
+
+Preferred public product description:
+
+Collapse Aware AI™ is retained-state middleware for governed selection: the host supplies permitted candidate actions, retained history may influence which candidate wins, and final selection remains bounded, inspectable and replayable in tested conditions.
+
+Copyright © 2025–2026 Inappropriate Media Limited. File-specific licences and notices continue to govern individual repository materials. Nothing in this NOTICE expands the licence of proprietary source, private runtime components, scoring logic, thresholds, schemas or implementation detail.
+
+Commercial contact: collapseawareai@gmail.com
