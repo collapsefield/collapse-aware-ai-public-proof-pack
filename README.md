@@ -1,4 +1,4 @@
-# Collapse Aware AI™ (CAAI) — Public Proof Pack
+# Collapse Aware AI (CAAI) — Public Proof Pack
 
 **Canonical current public engineering, proof, evaluation and commercial record for Collapse Aware AI™.**
 
