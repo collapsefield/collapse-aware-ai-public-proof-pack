@@ -243,7 +243,7 @@ A production OpenAPI contract is not part of the public disclosure surface unles
 
 ## Rights and Contact
 
-© 2025–2026 Inappropriate Media Limited. Collapse Aware AI™. All proprietary implementation and commercial rights reserved.
+© 2025–2026 Inappropriate Media Limited. Collapse Aware AI. All proprietary implementation and commercial rights reserved.
 
 For a paid Retained-State Decision Audit, bounded evaluation, pilot, integration or licensing discussion:
 
