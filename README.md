@@ -2,7 +2,7 @@
 
 **Canonical current public engineering, proof, evaluation and commercial record for Collapse Aware AI™.**
 
-> **Collapse Aware AI™ is retained-state middleware for governed selection: the host supplies permitted candidate actions, retained history may influence which candidate wins, and final selection remains bounded, inspectable and replayable in tested conditions.**
+> **Collapse Aware AI is retained-state middleware for governed selection: the host supplies permitted candidate actions, retained history may influence which candidate wins, and final selection remains bounded, inspectable and replayable in tested conditions.**
 
 Core principle:
 
