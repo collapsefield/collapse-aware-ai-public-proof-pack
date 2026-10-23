@@ -46,7 +46,11 @@ Category / benchmark references:
 - [Retained-State Selection Category and Terminology Note v1.0](https://github.com/collapsefield/collapsefield-verrells-law/blob/main/RETAINED_STATE_SELECTION_CATEGORY_NOTE_v1.0.md)
 - [Retained-State Selection Benchmark v0.1](https://github.com/collapsefield/collapsefield-verrells-law/blob/main/RETAINED_STATE_SELECTION_BENCHMARK_v0.1.md)
 
-The general ideas of retained state, memory systems, stateful computing, path dependence, hysteresis, scoring and policy engines are not claimed as original.
+**CAAI's engineering contribution lies in its integrated architecture:** bringing retained-state influence, governed candidate selection, explicit constraints, reference comparisons and inspectable decision evidence together within a dedicated middleware layer.
+
+While related techniques exist across several research and engineering fields, Collapse Aware AI has been independently developed around a specific design objective: making retained history an active, measurable influence on behavioural selection without allowing that history to override governing constraints.
+
+The distinctiveness and practical value of this combination are being evaluated through reproducible research and independent engineering verification.
 
 ---
 
