@@ -102,12 +102,11 @@ This supports two complementary directions:
 - **Core Gold** for controlled selection among host-owned candidate actions;
 - **Evolution 2** for richer continuity, dialogue and longitudinal behaviour.
 
-CAAI is host-neutral. It is not currently represented as a finished Unity, Unreal or Godot production SDK.
+CAAI is host-neutral. It is not yet currently represented as a finished Unity, Unreal or Godot production SDK.
 
 ---
 
 ## Best-fit problems
-
 CAAI is most relevant where a system already has multiple legitimate candidate behaviours/actions and history may legitimately alter the winner.
 
 Examples include:
