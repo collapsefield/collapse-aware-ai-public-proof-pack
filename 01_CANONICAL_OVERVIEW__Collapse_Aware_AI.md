@@ -159,7 +159,7 @@ CAAI is not:
 
 Verrell’s Law is a separate proposed falsifiable retained-state selection research framework.
 
-CAAI is the applied proprietary engineering track and can be evaluated entirely through software behaviour without accepting speculative physical interpretation.
+CAAI is the applied proprietary engineering track and can be evaluated entirely through software behaviour without accepting uncertain physical interpretations.
 
 ---
 
