@@ -208,7 +208,7 @@ Verrell’s Law and Collapse Aware AI™ are separate evidence tracks.
 - **Verrell’s Law** is a proposed falsifiable retained-state selection research framework.
 - **CAAI** is the proprietary engineering/commercial programme.
 
-CAAI can be evaluated entirely as software without accepting any speculative physical interpretation.
+CAAI can be evaluated entirely as software without accepting any uncertain physical interpretations.
 
 Current research repository:
 
