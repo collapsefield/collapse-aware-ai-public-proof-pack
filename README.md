@@ -37,8 +37,8 @@ Then:
 - **Retained-state middleware** — commercial/product category.
 - **Retained-State Selection** — technical process/category: retained information influencing selection among presently available candidates.
 - **Governed Retained-State Selection** — CAAI engineering approach, where retained history is influence rather than automatic authority.
-- **Core Gold** — frozen current commercial selector foundation.
-- **Evolution 2** — richer continuity Engineering branch; not yet the finished Production commercial offer.
+- **Core Gold Frozen v2.0** — current frozen evaluation-generation selector baseline; independent verification is in progress.
+- **Evolution 2** — active continuity and behaviour engineering programme, with developed laboratory components and further integration underway.
 - **Verrell’s Law** — separate proposed falsifiable retained-state selection research framework.
 
 Category / benchmark references:
@@ -94,11 +94,11 @@ Concrete next action:
 
 ---
 
-## Core Gold — Current Commercial Foundation
+## Core Gold Frozen v2.0 — Current Commercial Foundation
 
-Core Gold is the frozen current commercial selector foundation.
+**Core Gold Frozen v2.0** is the current frozen evaluation-generation baseline for CAAI's governed retained-state selector. It supersedes earlier development and evaluation packages as the candidate for independent assessment; freezing a candidate fixes its identity and scope, not the outcome of the audit.
 
-Public-safe accepted capabilities in the integrated lineage include:
+The wider Core Gold engineering lineage has included work on:
 
 - selection among host-supplied permitted candidate actions;
 - reference and governed retained-state conditions;
@@ -112,27 +112,55 @@ Public-safe accepted capabilities in the integrated lineage include:
 - guided managed evaluation;
 - customer-safe evidence export.
 
-Core Gold is available for controlled evaluation, pilot, integration and licensing discussion.
+These are engineering-lineage capabilities, **not a declaration that every item has independently passed on Frozen v2.0**. The current baseline is undergoing independent verification, including decision eligibility, isolation, persistence, governed-versus-reference behaviour, error handling and evidence quality. Claims for v2.0 will be aligned to its actual audit results.
+
+Core Gold Frozen v2.0 is the basis for **scoped evaluation and paid-pilot discussions**, with delivery commitments dependent on the agreed evidence and integration fit.
 
 ---
 
-## Evolution 2 — Engineering Branch
+## Evolution 2 — Continuity and Behaviour Engineering
 
-Evolution 2 is the richer continuity Engineering branch built around the same governed-selection principle.
+**What happens when an AI does more than retrieve a previous conversation — when relevant history can influence what it actually chooses to do next?**
 
-Public-safe accepted checkpoints include structured ContinuityFrame interpretation, bounded hybrid retained-state retrieval, Open Loops/Reopen Semantics, Interaction Fit, suppression/proactive controls, Confidence/Clarification, Contradiction/Change Surfacing, record-only Outcomes, Agent Self-History, bounded turn-local behavioural signals, Session Observation foundation and Engineering Tuning.
+Evolution 2 is CAAI's active engineering programme for **governed, continuity-aware AI agents**. It builds on the Core Gold selection concept and explores structured retained history, revision, uncertainty, ongoing commitments and longer-range behavioural consistency.
 
-**Weighted Emergence Layering (WEL)** and **Active Information Weight (AIW)** remain active concepts within the CAAI/Evolution 2 model. They describe internal architectural/behavioural organisation beneath the governed retained-state selection layer; they are not abandoned terminology and they do not replace the simpler buyer-facing category language. Exact weighting mechanics, thresholds, interactions and tuning remain proprietary.
+### Engineering already undertaken
 
-Evolution 2 remains an **Engineering build rather than a finished Production commercial offer**.
+Earlier Phase-2 and Evolution 2 laboratory/integration work developed and locally assessed substantial components, including:
 
-It must not be sold as the current completed product.
+- **Weighted Moments and continuity anchors** — structured significant events, durable reference points and session-to-session continuity;
+- **ContinuityFrame and bounded memory retrieval** — compact, relevant context rather than uncontrolled transcript accumulation;
+- **Open Loops / Reopen Semantics** — preserving and revisiting unresolved commitments and tasks;
+- **Interaction Fit and bounded behavioural signals** — selecting an appropriate response posture in the current context;
+- **Confidence / Clarification and interpretation controls** — distinguishing observations, uncertainty and instructions before committing;
+- **Contradiction / Change Surfacing and corrective recall** — recognising that earlier information may have been revised or superseded;
+- **Agent Self-History, record-only Outcomes and Session Observation foundations** — evidence about what an agent did and the context in which it acted;
+- **Suppression / proactive controls, Engineering Tuning and evaluation tooling** — bounded operational control and measurable comparisons.
 
+These are **existing development-lineage assets**, not merely proposed features. Their original local acceptance and integration results do **not** automatically establish compatibility or production readiness against Core Gold Frozen v2.0. Re-integration, regression testing and latency work remain part of the programme.
+
+### Architectural direction
+
+**Weighted Emergence Layering (WEL)** and **Active Information Weight (AIW)** remain part of the CAAI/Evolution 2 research vocabulary for history-sensitive behavioural organisation. Exact weighting mechanics, thresholds and implementation details remain proprietary.
+
+The longer-term work includes outcome-sensitive reinforcement, temporal weighting, better efficiency and deeper integration across agent environments. These are active development goals, not advertised completed production functions.
+
+### The demonstration we want people to experience
+
+Imagine two game characters facing **the same situation and the same permitted actions**. One has a relevant history with the player. The other provides a reference condition.
+
+Will their final choices differ? Can that difference be measured, and can a developer inspect what contributed to it?
+
+Our proposed **Mirror Gate** NPC demonstrator is designed around that question. It would connect visible player interactions to controlled selection comparisons, inspectable decisions and repeatable evaluation — making continuity **observable in behaviour**, rather than only expressed in dialogue.
+
+The same principles have relevance to enterprise agents, training simulations, research tools and, in the longer term, embodied systems. A game-based demonstration is an intended testing and communication vehicle; it is not presented as an already completed production game.
+
+**Evolution 2 is an active engineering build, not a finished commercial release.** Its value will be judged by measurable differences in decision behaviour, continuity, reliability and response time.
 ---
 
 ## Buyer-Facing Benchmark Pattern
 
-A useful demonstration should make the retained-state effect measurable:
+A useful demonstration should make the retained-state effect measurable **where supported by the verified target runtime**:
 
 ```text
 same present condition
@@ -144,13 +172,13 @@ same present condition
 → inspectable evidence
 ```
 
-This is an engineering/evaluation pattern. It is not proof of a universal physical law.
+This is a target engineering/evaluation pattern, not a claim that every stage has been re-proven in Frozen v2.0. In particular, an observed change in internal scoring is **not** a substitute for evidence that the final eligible winner actually changed.
 
 ---
 
 ## Engineering Evidence and Priority Record
 
-CAAI has demonstrated, in bounded software conditions, that retained prior state can be behaviourally consequential at final selection while the candidate set remains host-bounded and the resulting decision can be compared against a retained-state-disabled reference condition and evidenced/replayed where applicable.
+Earlier CAAI engineering-lineage tests recorded bounded retained-state effects, reference comparisons and decision evidence. The current Frozen v2.0 assessment will determine which behaviours have been independently reproduced on the present baseline. Public claims and buyer demonstrations will follow the verified evidence, not earlier labels alone.
 
 The current evidence and originality boundary is recorded here:
 
@@ -176,7 +204,9 @@ See:
 
 Games remain a natural fit because the host already owns structured world truth: exact identities, quests/unresolved matters, witnessed events, current world state, permitted actions and save/restart boundaries.
 
-The host remains authoritative for world truth and execution. CAAI can govern whether retained player/NPC history should influence which permitted behaviour wins.
+The host remains authoritative for world truth and execution. CAAI is being developed to control how relevant player/NPC history may influence which permitted behaviour wins.
+
+A compelling demonstrator would let players **see a character respond differently because of a relevant earlier encounter**, then let evaluators compare the decision against a history-neutral condition. This is the intended *Mirror Gate* test: meaningful player interaction first, inspectable selection evidence second.
 
 The architecture is host-neutral. CAAI is not represented today as a finished Unity, Unreal or Godot Production SDK.
 
@@ -255,5 +285,5 @@ For a paid Retained-State Decision Audit, bounded evaluation, pilot, integration
 
 ---
 
-**README status:** Current CAAI commercial/evaluation position  
-**Updated:** 30 August 2026
+**README status:** Core Gold Frozen v2.0 evaluation-generation baseline; independent verification in progress. Evolution 2 active engineering programme.  
+**Updated:** 3 November 2026
