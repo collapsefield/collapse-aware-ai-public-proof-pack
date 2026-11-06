@@ -281,7 +281,9 @@ A production OpenAPI contract is not part of the public disclosure surface unles
 
 For a paid Retained-State Decision Audit, bounded evaluation, pilot, integration or licensing discussion:
 
-**collapseawareai@gmail.com**
+[hello@verrellslaw.org](mailto:hello@verrellslaw.org)
+
+**Existing correspondence and general enquiries:** [collapseawareai@gmail.com](mailto:collapseawareai@gmail.com).
 
 ---
 
