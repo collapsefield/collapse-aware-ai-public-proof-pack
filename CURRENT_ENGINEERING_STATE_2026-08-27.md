@@ -1,6 +1,6 @@
 # Collapse Aware AI — Current Engineering State
 
-> **Dated supersession note — 11 November 2026:** This file preserves what was reported on **27 August 2026**. Its references to an 'accepted selector foundation' and accepted capabilities should not be interpreted as the outcome of the ongoing external Core Gold R1 audit. The current acceptance decision must be based on independent evidence, including restart/persistence, scope isolation, candidate eligibility and failure cases. See [README.md](README.md) for the current public position. This note preserves the original technical history without asserting that every historic claim remains verified.
+> **Development progression — 11 November 2026:** This is the dated engineering state recorded on 27 August 2026. The original frozen Core Gold build completed an evaluation phase, and the resulting technical lessons informed the next iteration. **Core Gold v2** is now the frozen evaluation generation undergoing independent audit. Acceptance and scope for later customer deployment depend on the assessment results. The original August report remains available below as historical engineering provenance.
 
 **Date:** 27 August 2026  
 **Status:** Public-safe current-state record  
