@@ -1,5 +1,7 @@
 # Collapse Aware AI — Public Overview (2026)
 
+> **Status clarification — 11 November 2026:** The capability inventory and commercial wording below reflect an earlier internal engineering snapshot. The Core Gold R1 frozen build is subject to an independent audit; calling it a 'frozen commercial foundation' is not equivalent to independent technical acceptance or customer deployment readiness. Any paid evaluation or integration should be scoped to capabilities established by the audit and an agreed buyer-specific test. Evolution 2 remains a separate engineering programme.
+
 **Company:** Inappropriate Media Limited, trading as Collapse Aware AI  
 **Status:** Public-safe engineering and commercial overview  
 **Updated:** 27 August 2026
