@@ -24,7 +24,7 @@ CAAI is a **proprietary middleware engineering programme**, not a standalone gen
 | Compare retained-state influence ON/OFF and inspect the resulting decisions. | Independently accepted Core Gold behaviour must be established from the external audit and reproducible tests. |
 | Discuss integration and licensing only against a specific use case. | Production integration, performance and compatibility are not assumed before testing. |
 
-**Core Gold:** Frozen candidate for independent engineering verification; final acceptance and commercial claims depend on Mikel’s audit report and resolution of any blocking findings. **Evolution 2:** Separate continuity-agent development programme, not part of the frozen Core Gold acceptance claim.
+**Core Gold development:** The original frozen build completed its initial evaluation phase and informed the next iteration. **Core Gold v2** is the current independently audited evaluation generation; buyer-facing capability and delivery scope will follow its verified results. **Evolution 2** remains a separate continuity-agent engineering programme.
 
 **Commercial enquiries:** [collapseawareai@gmail.com](mailto:collapseawareai@gmail.com). **Related, separate scientific research:** [Verrell’s Law](https://github.com/collapsefield/collapsefield-verrells-law).
 
@@ -116,7 +116,7 @@ Concrete next action:
 
 ## Core Gold Frozen v2.0 — Current Commercial Foundation
 
-**Core Gold Frozen v2.0** is the current frozen evaluation-generation baseline for CAAI's governed retained-state selector. It supersedes earlier development and evaluation packages as the candidate for independent assessment; freezing a candidate fixes its identity and scope, not the outcome of the audit.
+The **original Core Gold freeze** established an engineering evaluation baseline and yielded results used to develop the subsequent iteration. **Core Gold Frozen v2.0** is the current evaluation-generation baseline for independent assessment. The present build has a defined scope; its independently verified capabilities will be stated against audit results.
 
 The wider Core Gold engineering lineage has included work on:
 
@@ -308,4 +308,4 @@ For a paid Retained-State Decision Audit, bounded evaluation, pilot, integration
 ---
 
 **README status:** Core Gold Frozen v2.0 evaluation-generation baseline; independent verification in progress. Evolution 2 active engineering programme.  
-**README navigation refreshed:** 11 November 2026 · Formal engineering acceptance remains subject to independent audit.
+**Programme wording refreshed:** 11 November 2026 · Original evaluation completed; Core Gold v2 independent audit underway.
