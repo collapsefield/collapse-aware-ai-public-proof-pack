@@ -1,5 +1,7 @@
 # Build Status and Disclosure Boundary
 
+> **Status clarification — 11 November 2026:** This is an **August 2026 engineering snapshot**, not the final audit verdict. References below to a 'finished', 'accepted' or evaluation-ready Core Gold foundation describe the earlier internal lineage and intended route. A frozen R1 build is undergoing external verification; independent acceptance, reproducible restart/persistence, permission boundaries and failure-path behaviour must be established from its actual audit results. No production or general integration readiness should be inferred. Proprietary source and implementation boundaries remain unchanged.
+
 **Current public-safe status:** 27 August 2026  
 **Company:** Inappropriate Media Limited, trading as Collapse Aware AI
 
