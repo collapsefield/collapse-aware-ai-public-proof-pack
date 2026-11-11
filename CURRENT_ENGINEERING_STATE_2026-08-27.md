@@ -1,5 +1,7 @@
 # Collapse Aware AI — Current Engineering State
 
+> **Dated supersession note — 11 November 2026:** This file preserves what was reported on **27 August 2026**. Its references to an 'accepted selector foundation' and accepted capabilities should not be interpreted as the outcome of the ongoing external Core Gold R1 audit. The current acceptance decision must be based on independent evidence, including restart/persistence, scope isolation, candidate eligibility and failure cases. See [README.md](README.md) for the current public position. This note preserves the original technical history without asserting that every historic claim remains verified.
+
 **Date:** 27 August 2026  
 **Status:** Public-safe current-state record  
 **Company:** Inappropriate Media Limited, trading as Collapse Aware AI
