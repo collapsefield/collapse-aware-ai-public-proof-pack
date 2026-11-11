@@ -1,12 +1,32 @@
-# Collapse Aware AI (CAAI) — Public Proof Pack
+<div align="center">
 
-**Canonical current public engineering, proof, evaluation and commercial record for Collapse Aware AI.**
+# Collapse Aware AI (CAAI)
 
-> **Collapse Aware AI is retained-state middleware for governed selection: the host supplies permitted candidate actions, retained history may influence which candidate wins, and final selection remains bounded, inspectable and replayable in tested conditions.**
+### Governed Retained-State Behavioural-Selection Middleware
 
-Core principle:
+**Retained history can influence a decision. The host and its constraints retain control.**
 
-> **Retained history is eligible evidence, not automatic authority.**
+[**Commercial evaluation route**](00_RETAINED_STATE_SELECTION_COMMERCIAL_INDEX.md) · [**Engineering evidence**](CAAI_ENGINEERING_EVIDENCE_AND_PRIORITY_POSITION_2026-08-30.md) · [**Decision Lab**](https://collapsefield.github.io/caai-decision-lab/)
+
+</div>
+
+---
+
+### What CAAI is designed to do
+
+**Host-supplied candidates → eligibility and veto controls → retained-state influence → governed selection → inspectable evidence.**
+
+CAAI is a **proprietary middleware engineering programme**, not a standalone general-purpose chatbot and not a claim about quantum collapse. It is intended to complement existing agent, simulation and interactive systems rather than replace their upstream models.
+
+| **For prospective evaluators** | **Evidence boundary** |
+| :--- | :--- |
+| Start with a bounded decision audit or scoped evaluation. | Public examples and Decision Lab fixtures are explanatory, not an execution of proprietary Crown/Core Gold. |
+| Compare retained-state influence ON/OFF and inspect the resulting decisions. | Independently accepted Core Gold behaviour must be established from the external audit and reproducible tests. |
+| Discuss integration and licensing only against a specific use case. | Production integration, performance and compatibility are not assumed before testing. |
+
+**Core Gold:** Frozen candidate for independent engineering verification; final acceptance and commercial claims depend on Mikel’s audit report and resolution of any blocking findings. **Evolution 2:** Separate continuity-agent development programme, not part of the frozen Core Gold acceptance claim.
+
+**Commercial enquiries:** [collapseawareai@gmail.com](mailto:collapseawareai@gmail.com). **Related, separate scientific research:** [Verrell’s Law](https://github.com/collapsefield/collapsefield-verrells-law).
 
 ---
 
@@ -288,4 +308,4 @@ For a paid Retained-State Decision Audit, bounded evaluation, pilot, integration
 ---
 
 **README status:** Core Gold Frozen v2.0 evaluation-generation baseline; independent verification in progress. Evolution 2 active engineering programme.  
-**Updated:** 3 November 2026
+**README navigation refreshed:** 11 November 2026 · Formal engineering acceptance remains subject to independent audit.
