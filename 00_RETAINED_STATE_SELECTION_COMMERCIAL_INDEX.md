@@ -1,5 +1,7 @@
 # Retained-State Selection — Collapse Aware AI™ Commercial / Evaluation Index
 
+> **Status clarification — 11 November 2026:** This index originated on 30 August 2026 and records the proposed commercial evaluation pathway. Core Gold is a frozen *audit candidate*, not an independently accepted or production-certified release. Its externally audited capability, reliability, restart behaviour and blocking issues remain subject to Mikel's audit and formal acceptance. Offers for evaluation, pilots or licences describe potential engagement routes, not a claim that a buyer-ready deployment has passed independent verification. For current positioning see the [public proof-pack README](README.md). Earlier wording below is retained as a dated commercial record.
+
 **Updated:** 30 August 2026  
 **Current commercial foundation:** Core Gold  
 **Engineering branch:** Evolution 2 — active Engineering build, not final Production commercial offer
