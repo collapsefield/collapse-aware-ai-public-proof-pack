@@ -1,6 +1,6 @@
 # Build Status and Disclosure Boundary
 
-> **Status clarification — 11 November 2026:** This is an **August 2026 engineering snapshot**, not the final audit verdict. References below to a 'finished', 'accepted' or evaluation-ready Core Gold foundation describe the earlier internal lineage and intended route. A frozen R1 build is undergoing external verification; independent acceptance, reproducible restart/persistence, permission boundaries and failure-path behaviour must be established from its actual audit results. No production or general integration readiness should be inferred. Proprietary source and implementation boundaries remain unchanged.
+> **Programme update — 11 November 2026:** This document records the August engineering baseline. The original frozen Core Gold build completed its planned evaluation stage, providing results and practical requirements for continued development. **Core Gold v2** is the current evaluation generation under independent audit. Its release and buyer-specific capabilities will be represented according to the audit outcome. The original technical account below is retained for continuity; proprietary implementation details are unchanged.
 
 **Current public-safe status:** 27 August 2026  
 **Company:** Inappropriate Media Limited, trading as Collapse Aware AI
